@@ -1901,7 +1901,7 @@
                 const checkBox = $(".show-actions-menu");
                 const getDown = $(".get-down");
                 const actionsMenu = $(".actions-menu");
-                const searchFrom = $(".search-form-panel");
+                const searchForm = $(".search-form-panel");
                 
                 checkBox.click(() => {
                     if(getDown.hasClass("margin-top-60")){
@@ -1920,9 +1920,9 @@
                 })
 
                 $(".btn-filter").click(()=>{
-                    searchFrom.css("display") == "block"
-                        ? searchFrom.slideUp(400)
-                        : searchFrom.slideDown(200)
+                    searchForm.css("display") == "block"
+                        ? searchForm.slideUp(400)
+                        : searchForm.slideDown(200)
                 })
             })
         </script>
