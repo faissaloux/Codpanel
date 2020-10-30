@@ -66,6 +66,15 @@
                 height: 40px;
             }
 
+            .add-new-city-modal{
+                border: none;
+            }
+            .add-new-city-modal > .modal-body{
+                border-left: 1px solid rgba(0,0,0,.2);
+                border-bottom: 1px solid rgba(0,0,0,.2);
+                border-right: 1px solid rgba(0,0,0,.2);
+            }
+
             .navbar-menu{
                 color: #FFF;
             }
@@ -644,43 +653,47 @@
                             </div>
                         </div>
                         <div class="col-4">
-                            <div>
-                                <div>
-                                    <div class="modal-content">
-                                        <div class="d-flex justify-content-center pt-2">
-                                            <h5 class="" id="showColumnsModalCenterTitle">إضافة مدينة جديدة</h5>
-                                        </div>
-                                        <div class="modal-body d-flex flex-column">
-                                            <div class="">
-                                                <div class="d-flex flex-column">
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control tx-right" name="name" placeholder="الإسم الكامل للزبون" required="">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control tx-right" name="name" placeholder="الإسم الكامل للزبون" required="">
-                                                    </div>
-                                                    <select class="form-control" name="provider">
-                                                        <option value="notselected">Aucun</option>
-                                                        <option value="Axa assurance maroc">Axa assurance maroc</option>
-                                                        <option value="Allianz">Allianz</option>
-                                                        <option value="Saham assurance">Saham assurance</option>
-                                                        <option value="Sanad">Sanad</option>
-                                                        <option value="Mamda">Mamda</option>
-                                                        <option value="Mcma">Mcma</option>
-                                                        <option value="Matu">Matu</option>
-                                                        <option value="Cat">Cat</option>
-                                                        <option value="Atlanta">Atlanta</option>
-                                                        <option value="wafa assurence">wafa assurence</option>
-                                                        <option value="JUDICIARE">JUDICIARE</option>
-                                                        <option value="CAE">CAE</option>
-                                                    </select>
-                                                </div>
-                                                <div class="d-flex justify-content-center mt-4">
-                                                    <p class="row col p-0">
-                                                        <button type="submit" class="btn btn-success btn-block">إضافة مدينة جديدة</button>
-                                                    </p>
-                                                </div>
+                            <div class="modal-content add-new-city-modal">
+                                <div class="d-flex justify-content-center bg-primary pt-2">
+                                    <h5 class="text-white" id="showColumnsModalCenterTitle">إضافة مدينة جديدة</h5>
+                                </div>
+                                <div class="modal-body d-flex flex-column">
+                                    <div class="">
+                                        <div class="d-flex flex-column">
+                                            <div class="form-group">
+                                                <input  type="text"
+                                                        class="form-control tx-right"
+                                                        name="name"
+                                                        placeholder="الإسم الكامل للزبون"
+                                                        required="">
                                             </div>
+                                            <div class="form-group">
+                                                <input  type="text"
+                                                        class="form-control tx-right"
+                                                        name="name"
+                                                        placeholder="الإسم الكامل للزبون"
+                                                        required="">
+                                            </div>
+                                            <select class="form-control" name="provider">
+                                                <option value="notselected">Aucun</option>
+                                                <option value="Axa assurance maroc">Axa assurance maroc</option>
+                                                <option value="Allianz">Allianz</option>
+                                                <option value="Saham assurance">Saham assurance</option>
+                                                <option value="Sanad">Sanad</option>
+                                                <option value="Mamda">Mamda</option>
+                                                <option value="Mcma">Mcma</option>
+                                                <option value="Matu">Matu</option>
+                                                <option value="Cat">Cat</option>
+                                                <option value="Atlanta">Atlanta</option>
+                                                <option value="wafa assurence">wafa assurence</option>
+                                                <option value="JUDICIARE">JUDICIARE</option>
+                                                <option value="CAE">CAE</option>
+                                            </select>
+                                        </div>
+                                        <div class="d-flex justify-content-center mt-4">
+                                            <p class="row col p-0">
+                                                <button type="submit" class="btn btn-success btn-block">إضافة مدينة جديدة</button>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
