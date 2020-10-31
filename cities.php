@@ -136,65 +136,7 @@
         <![endif]-->
     </head>
     <body>
-        <div class="actions-menu">
-            <div class="pl-5 pt-3">
-                <div class="d-flex">
-                    <div class="d-flex col-2 justify-content-center align-items-center">
-                        <div>
-                            <span class="col-8">Number of actions:</span>
-                            <span class="col-2 actions-number">1</span>
-                        </div>
-                    </div>
-                    <div class="d-flex col-9 justify-content-center align-items-center">
-                        <div class="col-6">
-                            <div class="d-flex justify-content-around">
-                                <span class="action d-flex align-items-center">
-                                    <div class="d-flex">
-                                        <i class="mdi mdi-file-excel mr-2"></i>
-                                        <span>Download Excel</span>
-                                    </div>
-                                </span>
-                                <span class="action d-flex align-items-center">
-                                    <div class="d-flex">
-                                        <i class="mdi mdi-clipboard-check mr-2"></i>
-                                        <span>assign</span>
-                                    </div>
-                                </span>
-                                <span class="dropdown action d-flex align-items-center">
-                                    <span   class="dropdown-toggle d-flex align-items-center"
-                                            id="dropdownMenuButton"
-                                            data-toggle="dropdown"
-                                            aria-haspopup="true"
-                                            aria-expanded="false">
-                                        <i class="mdi mdi-backup-restore mr-2"></i>
-                                        <span type="button"> Restore </span>
-                                    </span>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">
-                                            <i class="mdi mdi-content-duplicate mr-2"></i>
-                                            Restore from duplicate
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <i class="mdi mdi-delete-variant mr-2"></i>
-                                            Restore from trash
-                                        </a>
-                                    </div>
-                                </span>
-                                <span class="action action-delete d-flex align-items-center">
-                                    <div class="d-flex">
-                                        <i class="mdi mdi-delete mr-2"></i>
-                                        <span>Delete</span>
-                                    </div>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex col-1 justify-content-center align-items-center">
-                        <i class="mdi mdi-close close-actions-menu"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php require_once 'inc/actions.php'; ?>
         <!--================================-->
         <!-- Page Container Start -->
         <!--================================-->
@@ -449,69 +391,7 @@
         <!--/ Scroll To Top End -->
         <!--================================-->
 
-        <!--================================-->
-        <!-- Add new city modal Start -->
-        <!--================================-->
-        <div    class="modal fade"
-                id="addCityModalCenter"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="addCityModalCenterTitle"
-                aria-hidden="true">
-            <div    class="modal-dialog modal-dialog-centered"
-                    role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="addCityModalCenterTitle">إضافة مدينة جديدة</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                    <div class="modal-content add-new-city-modal">
-                        <div class="modal-body d-flex flex-column">
-                            <div class="">
-                                <div class="d-flex flex-column">
-                                    <div class="form-group">
-                                        <input  type="text"
-                                                class="form-control tx-right"
-                                                name="name"
-                                                placeholder="الإسم الكامل للزبون">
-                                    </div>
-                                    <div class="form-group">
-                                        <input  type="text"
-                                                class="form-control tx-right"
-                                                name="name"
-                                                placeholder="الإسم الكامل للزبون">
-                                    </div>
-                                    <select class="form-control" name="provider">
-                                        <option value="notselected">Aucun</option>
-                                        <option value="Axa assurance maroc">Axa assurance maroc</option>
-                                        <option value="Allianz">Allianz</option>
-                                        <option value="Saham assurance">Saham assurance</option>
-                                        <option value="Sanad">Sanad</option>
-                                        <option value="Mamda">Mamda</option>
-                                        <option value="Mcma">Mcma</option>
-                                        <option value="Matu">Matu</option>
-                                        <option value="Cat">Cat</option>
-                                        <option value="Atlanta">Atlanta</option>
-                                        <option value="wafa assurence">wafa assurence</option>
-                                        <option value="JUDICIARE">JUDICIARE</option>
-                                        <option value="CAE">CAE</option>
-                                    </select>
-                                </div>
-                                <div class="d-flex justify-content-center mt-4">
-                                    <p class="row col p-0">
-                                        <button type="submit" class="btn btn-success btn-block">إضافة مدينة جديدة</button>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--/ Add new city modal End -->
-
+        <?php require_once 'inc/modals.php'; ?>
 
         <!--================================-->
         <!-- Footer Script -->
