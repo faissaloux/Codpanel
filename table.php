@@ -500,7 +500,7 @@
                                                 </div>
                                             </div>
                                             <div class="d-flex align-items-center btn-container show-columns-container mr-2">
-                                                    <button class="btn btn-secondary show-columns-container d-flex align-items-center"
+                                                <button class="btn btn-secondary show-columns-container d-flex align-items-center"
                                                         type="button"
                                                         id="dropdownMenuButton"
                                                         data-toggle="dropdown"
