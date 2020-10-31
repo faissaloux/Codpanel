@@ -16,8 +16,8 @@
       <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
       <style>
-         .header-right .user-profile-area {
-            height: 40px;
+         .header-right .user-profile-area{
+            height: 75px;
          }
       </style>
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

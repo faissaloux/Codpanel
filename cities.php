@@ -63,7 +63,7 @@
             }
 
             .header-right .user-profile-area{
-                height: 40px;
+                height: 75px;
             }
 
             .add-new-city-text{

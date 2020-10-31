@@ -29,7 +29,11 @@
                         alt="">
                     </a>
                     <div class="dropdown-menu dropdown-menu-right dropdown-profile">
-                        <div class="user-profile-area d-flex">
+                        <div class="user-profile-area d-flex flex-column">
+                            <a href="pages-profile.html" class="dropdown-item m-auto">
+                                <i data-feather="settings" class="wd-16 mr-2"></i>
+                                إعدادات حسابي
+                            </a>
                             <a href="aut-logign-register.html" class="dropdown-item m-auto">
                                 <i data-feather="power" class="wd-16 mr-2"></i>
                                 تسجيل الخروج
