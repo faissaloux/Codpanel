@@ -27,11 +27,6 @@
             select{
                 cursor: pointer;
             }
-            
-            .btn-top > a{
-                font-size: 16px;
-                width: 160px;
-            }
 
             .actions-menu{
                 position: fixed;
@@ -71,16 +66,26 @@
                 height: 40px;
             }
 
-            .add-new-product-text{
+            .add-new-city-text{
                 margin-left: 35px;
+                font-size: 16px;
             }
-            .add-new-product-icon{
+            .add-new-city-icon{
                 width: 40px;
                 background-color: rgba(0,0,0,.15);;
                 position: absolute;
                 left: 0;
                 top: 0;
                 bottom: 0;
+            }
+              
+            .add-new-city-modal{
+                border: none;
+            }
+            .add-new-city-modal > .modal-body{
+                border-left: 1px solid rgba(0,0,0,.2);
+                border-bottom: 1px solid rgba(0,0,0,.2);
+                border-right: 1px solid rgba(0,0,0,.2);
             }
 
             .navbar-menu{
@@ -197,85 +202,7 @@
             <!--================================-->
             <!-- Page Sidebar Start -->
             <!--================================-->
-            <div class="page-sidebar get-down">
-                <div class="logo">
-                    <a class="logo-img" href="index.html">		
-                    <img class="desktop-logo" src="assets/images/logo.png" alt="">
-                    <img class="small-logo" src="assets/images/small-logo.png" alt="">
-                    </a>			
-                    <a id="sidebar-toggle-button-close"><i class="wd-20" data-feather="x"></i> </a>
-                </div>
-                <!--================================-->
-                <!-- Sidebar Menu Start -->
-                <!--================================-->
-                <div class="page-sidebar-inner">
-                    <div class="page-sidebar-menu">
-                        <ul class="accordion-menu">
-                            <li>
-                                <a href="#"><i data-feather="package"></i>
-                                <span>الطلبات الجديدة</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><i data-feather="headphones"></i>
-                                <span>مندوب الإتصال</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><i data-feather="truck"></i>
-                                <span>مندوب التوصيل</span></a>
-                            </li>
-                            <li>
-                                <a href="users.html" class="d-flex justify-content-between">
-                                    <span>
-                                        <i data-feather="users"></i>
-                                        <span>المستخدمين</span>
-                                    </span>
-                                    <span class="d-flex align-items-center mr-2 quantity">141</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="cities.html"><i data-feather="flag"></i>
-                                <span>المدن</span></a>
-                            </li>
-                            <li>
-                                <a href="products.html"><i data-feather="shopping-bag"></i>
-                                <span>المنتجات</span></a>
-                            </li>
-                            <li>
-                                <a href="#" class="d-flex justify-content-between">
-                                    <span>
-                                        <i data-feather="archive"></i>
-                                        <span>المخزون</span>
-                                    </span>
-                                    <span class="d-flex align-items-center mr-2 quantity">26</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="cash.html"><i data-feather="dollar-sign"></i>
-                                <span>التكاليف</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!--/ Sidebar Menu End -->
-                <!--================================-->
-                <!-- Sidebar Footer Start -->
-                <!--================================-->
-                <div class="sidebar-footer">									
-                <div class="d-flex justify-content-around">
-                <a  class="pull-left"
-                    href="pages-profile.html"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    data-original-title="Profile">
-                <i data-feather="user" class="wd-16"></i></a>
-                <a  class="pull-left"
-                    href="aut-signin.html"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    data-original-title="Sing Out">
-                <i data-feather="log-out" class="wd-16"></i></a>
-                </div>
-            </div>
+            <?php require_once 'inc/sidebar.php'; ?>
             <!--/ Sidebar Footer End -->
             </div>
             <!--/ Page Sidebar End -->
@@ -459,14 +386,16 @@
                 <!-- Page Inner Start -->
                 <!--================================-->
                 <div class="d-flex justify-content-between p-2 bg-white p-4">
-                    <h3>المنتجات</h3>
+                    <h3>المدن والموزعين المكلفين بهم</h3>
                     <div class="btn-group btn-top" role="group">
                         <a href="#" class="btn btn-primary d-flex border-none">
-                            <span class="d-flex justify-content-center add-new-product-icon">
+                            <span class="d-flex justify-content-center add-new-city-icon">
                                 <i class="mdi mdi-plus d-flex align-items-center text-white"></i>
                             </span>
-                            <span class="add-new-product-text">
-                                إضافة منتج جديد
+                            <span   class="add-new-city-text"
+                                    data-toggle="modal"
+                                    data-target="#addCityModalCenter">
+                                إضافة مدينة جديدة
                             </span>
                         </a>
                     </div>
@@ -479,23 +408,41 @@
                                     <thead>
                                         <tr>
                                             <th scope="col"><input type="checkbox" class="show-actions-menu"/></th>
-                                            <th scope="col" data-type="reference">Reference</th>
-                                            <th scope="col" data-type="product">اسم المنتوج</th>
-                                            <th scope="col" data-type="price">سعر الجملة</th>
+                                            <th scope="col" data-type="city">المدينة</th>
+                                            <th scope="col" data-type="symbol">الرمز</th>
+                                            <th scope="col" data-type="provider">الموزع</th>
                                             <th scope="col">تعديل</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="reference">
-                                                <p>SN62</p>
+                                            <td data-type="city">
+                                                <p>Agadir</p>
                                             </td>
-                                            <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                            <td data-type="symbol">
+                                                <p>Aga</p>
                                             </td>
-                                            <td data-type="price">
-                                                <p>100DH</p>
+                                            <td data-type="provider">
+                                                <p>dealer</p>
+                                            </td>
+                                            <td>
+                                                <a type="button"
+                                                        class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="city">
+                                                <p>Marrakech</p>
+                                            </td>
+                                            <td  data-type="symbol">
+                                                <p>Kech</p>
+                                            </td>
+                                            <td data-type="provider">
+                                                <p>dealer</p>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -506,32 +453,14 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="reference">
-                                                <p>SN62</p>
+                                            <td data-type="city">
+                                                <p>Casablanca</p>
                                             </td>
-                                            <td  data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                            <td data-type="symbol">
+                                                <p>Casa</p>
                                             </td>
-                                            <td data-type="price">
-                                                <p>100DH</p>
-                                            </td>
-                                            <td>
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
-                                                    تعديل
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="reference">
-                                                <p>SN62</p>
-                                            </td>
-                                            <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
-                                            </td>
-                                            <td data-type="price">
-                                                <p>100DH</p>
+                                            <td data-type="provider">
+                                                <p>dealer</p>
                                             </td>
                                             <td>
                                                 <a type="button" 
@@ -542,14 +471,68 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="reference">
-                                                <p>SN62</p>
+                                            <td data-type="city">
+                                                <p>Rabat</p>
                                             </td>
-                                            <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                            <td data-type="symbol">
+                                                Rab
                                             </td>
-                                            <td data-type="price">
-                                                <p>100DH</p>
+                                            <td data-type="provider">
+                                                <p>dealer</p>
+                                            </td>
+                                            <td>
+                                                <a type="button"
+                                                        class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="city">
+                                                <p>Tangier</p>
+                                            </td>
+                                            <td data-type="symbol">
+                                                <p>Tan</p>
+                                            </td>
+                                            <td data-type="provider">
+                                                <p>dealer</p>
+                                            </td>
+                                            <td>
+                                                <a type="button"
+                                                        class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="city">
+                                                <p>Agadir</p>
+                                            </td>
+                                            <td data-type="symbol">
+                                                <p>Aga</p>
+                                            </td>
+                                            <td data-type="provider">
+                                                <p>dealer</p>
+                                            </td>
+                                            <td>
+                                                <a type="button"
+                                                        class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="city">
+                                                <p>Marrakech</p>
+                                            </td>
+                                            <td  data-type="symbol">
+                                                <p>Kech</p>
+                                            </td>
+                                            <td data-type="provider">
+                                                <p>dealer</p>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -560,17 +543,17 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="reference">
-                                                <p>SN62</p>
+                                            <td data-type="city">
+                                                <p>Casablanca</p>
                                             </td>
-                                            <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                            <td data-type="symbol">
+                                                <p>Casa</p>
                                             </td>
-                                            <td data-type="price">
-                                                <p>100DH</p>
+                                            <td data-type="provider">
+                                                <p>dealer</p>
                                             </td>
                                             <td>
-                                                <a  type="button"
+                                                <a type="button" 
                                                     class="btn btn-primary btn-lg border-none loadactions rounded edit">
                                                     تعديل
                                                 </a>
@@ -578,90 +561,36 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="reference">
-                                                <p>SN62</p>
+                                            <td data-type="city">
+                                                <p>Rabat</p>
                                             </td>
-                                            <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                            <td data-type="symbol">
+                                                Rab
                                             </td>
-                                            <td data-type="price">
-                                                <p>100DH</p>
+                                            <td data-type="provider">
+                                                <p>dealer</p>
                                             </td>
                                             <td>
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                <a type="button"
+                                                        class="btn btn-primary btn-lg border-none loadactions rounded edit">
                                                     تعديل
                                                 </a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="reference">
-                                                <p>SN62</p>
+                                            <td data-type="city">
+                                                <p>Tangier</p>
                                             </td>
-                                            <td  data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                            <td data-type="symbol">
+                                                <p>Tan</p>
                                             </td>
-                                            <td data-type="price">
-                                                <p>100DH</p>
-                                            </td>
-                                            <td>
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
-                                                    تعديل
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="reference">
-                                                <p>SN62</p>
-                                            </td>
-                                            <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
-                                            </td>
-                                            <td data-type="price">
-                                                <p>100DH</p>
+                                            <td data-type="provider">
+                                                <p>dealer</p>
                                             </td>
                                             <td>
-                                                <a  type="button" 
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
-                                                    تعديل
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="reference">
-                                                <p>SN62</p>
-                                            </td>
-                                            <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
-                                            </td>
-                                            <td data-type="price">
-                                                <p>100DH</p>
-                                            </td>
-                                            <td>
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
-                                                    تعديل
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="reference">
-                                                <p>SN62</p>
-                                            </td>
-                                            <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
-                                            </td>
-                                            <td data-type="price">
-                                                <p>100DH</p>
-                                            </td>
-                                            <td>
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                <a type="button"
+                                                        class="btn btn-primary btn-lg border-none loadactions rounded edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -686,6 +615,69 @@
         <a href="#" data-click="scroll-top" class="btn-scroll-top fade"><i class="fa fa-arrow-up"></i></a>
         <!--/ Scroll To Top End -->
         <!--================================-->
+
+        <!--================================-->
+        <!-- Add new city modal Start -->
+        <!--================================-->
+        <div    class="modal fade"
+                id="addCityModalCenter"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="addCityModalCenterTitle"
+                aria-hidden="true">
+            <div    class="modal-dialog modal-dialog-centered"
+                    role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="addCityModalCenterTitle">إضافة مدينة جديدة</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-content add-new-city-modal">
+                        <div class="modal-body d-flex flex-column">
+                            <div class="">
+                                <div class="d-flex flex-column">
+                                    <div class="form-group">
+                                        <input  type="text"
+                                                class="form-control tx-right"
+                                                name="name"
+                                                placeholder="الإسم الكامل للزبون">
+                                    </div>
+                                    <div class="form-group">
+                                        <input  type="text"
+                                                class="form-control tx-right"
+                                                name="name"
+                                                placeholder="الإسم الكامل للزبون">
+                                    </div>
+                                    <select class="form-control" name="provider">
+                                        <option value="notselected">Aucun</option>
+                                        <option value="Axa assurance maroc">Axa assurance maroc</option>
+                                        <option value="Allianz">Allianz</option>
+                                        <option value="Saham assurance">Saham assurance</option>
+                                        <option value="Sanad">Sanad</option>
+                                        <option value="Mamda">Mamda</option>
+                                        <option value="Mcma">Mcma</option>
+                                        <option value="Matu">Matu</option>
+                                        <option value="Cat">Cat</option>
+                                        <option value="Atlanta">Atlanta</option>
+                                        <option value="wafa assurence">wafa assurence</option>
+                                        <option value="JUDICIARE">JUDICIARE</option>
+                                        <option value="CAE">CAE</option>
+                                    </select>
+                                </div>
+                                <div class="d-flex justify-content-center mt-4">
+                                    <p class="row col p-0">
+                                        <button type="submit" class="btn btn-success btn-block">إضافة مدينة جديدة</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ Add new city modal End -->
 
 
         <!--================================-->

@@ -27,28 +27,10 @@
             select{
                 cursor: pointer;
             }
-
-            .btn-top{
-                width: 49.8%;
-            }
-            .btn-top.b-primary{
-                border: 1px #007bff solid;
-            }
-
-            .bg-grey{
-                background-color: #FCFCFC;
-            }
-            .bt1{
-                border-top: 1px #DDD solid;
-            }
-            .bb1{
-                border-bottom: 1px #DDD solid;
-            }
-
-            .dropdown-provider > button{
-                background: transparent;
-                border: none;
-                cursor: pointer;
+            
+            .btn-top > a{
+                font-size: 16px;
+                width: 160px;
             }
 
             .actions-menu{
@@ -89,6 +71,18 @@
                 height: 40px;
             }
 
+            .add-new-product-text{
+                margin-left: 35px;
+            }
+            .add-new-product-icon{
+                width: 40px;
+                background-color: rgba(0,0,0,.15);;
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+            }
+
             .navbar-menu{
                 color: #FFF;
             }
@@ -106,16 +100,6 @@
                 color: #FFF;
             }
 
-            .search-btn{
-                width: 20px;
-                height: 40px;
-            }
-            .search-icon{
-                position: absolute;
-                left: 25px;
-                top: 32px;
-            }
-
             .table-primary thead tr th{
                 font-size: 18px;
             }
@@ -131,10 +115,7 @@
                 border: none;
             }
 
-            .details{
-                background: linear-gradient(to right, #8f94fb, #4e54c8);
-            }
-            .received{
+            .edit{
                 background: linear-gradient(to right, #4f93b2, #66cfb5);
             }
             .mdi{
@@ -216,85 +197,7 @@
             <!--================================-->
             <!-- Page Sidebar Start -->
             <!--================================-->
-            <div class="page-sidebar get-down">
-                <div class="logo">
-                    <a class="logo-img" href="index.html">		
-                    <img class="desktop-logo" src="assets/images/logo.png" alt="">
-                    <img class="small-logo" src="assets/images/small-logo.png" alt="">
-                    </a>			
-                    <a id="sidebar-toggle-button-close"><i class="wd-20" data-feather="x"></i> </a>
-                </div>
-                <!--================================-->
-                <!-- Sidebar Menu Start -->
-                <!--================================-->
-                <div class="page-sidebar-inner">
-                    <div class="page-sidebar-menu">
-                        <ul class="accordion-menu">
-                            <li>
-                                <a href="#"><i data-feather="package"></i>
-                                <span>الطلبات الجديدة</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><i data-feather="headphones"></i>
-                                <span>مندوب الإتصال</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><i data-feather="truck"></i>
-                                <span>مندوب التوصيل</span></a>
-                            </li>
-                            <li>
-                                <a href="users.html" class="d-flex justify-content-between">
-                                    <span>
-                                        <i data-feather="users"></i>
-                                        <span>المستخدمين</span>
-                                    </span>
-                                    <span class="d-flex align-items-center mr-2 quantity">141</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="cities.html"><i data-feather="flag"></i>
-                                <span>المدن</span></a>
-                            </li>
-                            <li>
-                                <a href="products.html"><i data-feather="shopping-bag"></i>
-                                <span>المنتجات</span></a>
-                            </li>
-                            <li>
-                                <a href="#" class="d-flex justify-content-between">
-                                    <span>
-                                        <i data-feather="archive"></i>
-                                        <span>المخزون</span>
-                                    </span>
-                                    <span class="d-flex align-items-center mr-2 quantity">26</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="cash.html"><i data-feather="dollar-sign"></i>
-                                <span>التكاليف</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!--/ Sidebar Menu End -->
-                <!--================================-->
-                <!-- Sidebar Footer Start -->
-                <!--================================-->
-                <div class="sidebar-footer">									
-                <div class="d-flex justify-content-around">
-                <a  class="pull-left"
-                    href="pages-profile.html"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    data-original-title="Profile">
-                <i data-feather="user" class="wd-16"></i></a>
-                <a  class="pull-left"
-                    href="aut-signin.html"
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    data-original-title="Sing Out">
-                <i data-feather="log-out" class="wd-16"></i></a>
-                </div>
-            </div>
+            <?php require_once 'inc/sidebar.php'; ?>
             <!--/ Sidebar Footer End -->
             </div>
             <!--/ Page Sidebar End -->
@@ -477,384 +380,211 @@
                 <!--================================-->
                 <!-- Page Inner Start -->
                 <!--================================-->
-                <div class="d-flex flex-column bg-white pt-4">
-                    <div class="d-flex justify-content-between align-items-center pr-4 pl-4">
-                        <div class="d-flex">
-                            <h3>الحساب اليومي</h3>
-                        </div>
-                        <div class="heading-elements stastsForm">
-                            <form class="heading-form d-flex" id="form-stats-From-To" autocomplete="off" method="GET" action="">
-                                <div class="col-md-5">
-                                    <div class="form-group">
-                                        <label for="">التاريخ من</label>
-                                        <input  type="text"
-                                                name="from"
-                                                placeholder="التاريخ من"
-                                                class="form-control tx-right"
-                                                id="datepickerFrom">
-                                    </div>
-                                </div>
-                        
-                                <div class="col-md-5">
-                                    <div class="form-group">
-                                        <label for="">التاريخ إلى</label>
-                                        <input  type="text"
-                                                name="to"
-                                                placeholder="التاريخ الى"
-                                                class="form-control tx-right"
-                                                id="datepickerTo">
-                                    </div>
-                                </div>
-                                <div class="col-md-1">
-                                    <div class="form-group">
-                                        <button class="btn btn-success mt-4 search-btn" type="submit">
-                                            <i data-feather="search" class="search-icon"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="d-flex justify-content-end bg-grey bt1 bb1 p-2">
-                        <div class="dropdown dropdown-provider">
-                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              حسب الموزع
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="#">Foo</a>
-                              <a class="dropdown-item" href="#">Boo</a>
-                              <a class="dropdown-item" href="#">Foo Boo</a>
-                            </div>
-                          </div>
+                <div class="d-flex justify-content-between p-2 bg-white p-4">
+                    <h3>المنتجات</h3>
+                    <div class="btn-group btn-top" role="group">
+                        <a href="#" class="btn btn-primary d-flex border-none">
+                            <span class="d-flex justify-content-center add-new-product-icon">
+                                <i class="mdi mdi-plus d-flex align-items-center text-white"></i>
+                            </span>
+                            <span class="add-new-product-text">
+                                إضافة منتج جديد
+                            </span>
+                        </a>
                     </div>
                 </div>
-                <div class="page-inner">
-                    <div class="d-flex flex-column">
-                        <div class="col-12">
-                            <div class="d-flex justify-content-between mb-4">
-                                <a href="" class="btn-top p-2 tx-center bg-primary text-white">انتظار الاستلام</a>
-                                <a href="" class="btn-top b-primary p-2 tx-center bg-white text-primary">تم الدفع</a>
-                            </div>
-                        </div>
+                <div class="page-inner mt-4">
+                    <div class="d-flex">
                         <div class="col-12">
                             <div class="card-body pd-0">
                                 <table class="table table-primary">
                                     <thead>
                                         <tr>
                                             <th scope="col"><input type="checkbox" class="show-actions-menu"/></th>
-                                            <th scope="col" data-type="date">اليوم</th>
-                                            <th scope="col" data-type="requestsNum">عدد الطلبات</th>
-                                            <th scope="col" data-type="totalSells">مجموع المبيعات</th>
-                                            <th scope="col" data-type="deliveryPrice">سعر التوصيل</th>
-                                            <th scope="col" data-type="net">الصافي</th>
-                                            <th scope="col" data-type="details">رؤية التفاصيل</th>
-                                            <th scope="col" data-type="received">استلام الدفع</th>
+                                            <th scope="col" data-type="reference">Reference</th>
+                                            <th scope="col" data-type="product">اسم المنتوج</th>
+                                            <th scope="col" data-type="price">سعر الجملة</th>
+                                            <th scope="col">تعديل</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td colspan="8">
-                                                Foo
-                                            </td>
-                                        </tr>
-                                        <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
+                                            <td data-type="reference">
+                                                <p>SN62</p>
                                             </td>
-                                            <td data-type="requestsNum">
-                                                <p>2</p>
+                                            <td data-type="product">
+                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
                                             </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
+                                            <td data-type="price">
+                                                <p>100DH</p>
                                             </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
+                                            <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
                                                 </a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
+                                            <td data-type="reference">
+                                                <p>SN62</p>
                                             </td>
-                                            <td data-type="requestsNum">
-                                                <p>4</p>
+                                            <td  data-type="product">
+                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
                                             </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
+                                            <td data-type="price">
+                                                <p>100DH</p>
                                             </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
+                                            <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
                                                 </a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
+                                            <td data-type="reference">
+                                                <p>SN62</p>
                                             </td>
-                                            <td data-type="requestsNum">
-                                                <p>8</p>
+                                            <td data-type="product">
+                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
                                             </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
+                                            <td data-type="price">
+                                                <p>100DH</p>
                                             </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
+                                            <td>
+                                                <a type="button" 
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
+                                                </a>
                                             </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="reference">
+                                                <p>SN62</p>
                                             </td>
-                                            <td data-type="details">
+                                            <td data-type="product">
+                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                            </td>
+                                            <td data-type="price">
+                                                <p>100DH</p>
+                                            </td>
+                                            <td>
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="reference">
+                                                <p>SN62</p>
+                                            </td>
+                                            <td data-type="product">
+                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                            </td>
+                                            <td data-type="price">
+                                                <p>100DH</p>
+                                            </td>
+                                            <td>
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="reference">
+                                                <p>SN62</p>
+                                            </td>
+                                            <td data-type="product">
+                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                            </td>
+                                            <td data-type="price">
+                                                <p>100DH</p>
+                                            </td>
+                                            <td>
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="reference">
+                                                <p>SN62</p>
+                                            </td>
+                                            <td  data-type="product">
+                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                            </td>
+                                            <td data-type="price">
+                                                <p>100DH</p>
+                                            </td>
+                                            <td>
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="reference">
+                                                <p>SN62</p>
+                                            </td>
+                                            <td data-type="product">
+                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                            </td>
+                                            <td data-type="price">
+                                                <p>100DH</p>
+                                            </td>
+                                            <td>
                                                 <a  type="button" 
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
                                                 </a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
+                                            <td data-type="reference">
+                                                <p>SN62</p>
                                             </td>
-                                            <td data-type="requestsNum">
-                                                <p>22</p>
+                                            <td data-type="product">
+                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
                                             </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
+                                            <td data-type="price">
+                                                <p>100DH</p>
                                             </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
+                                            <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
                                                 </a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
+                                            <td data-type="reference">
+                                                <p>SN62</p>
                                             </td>
-                                            <td data-type="requestsNum">
-                                                <p>21</p>
+                                            <td data-type="product">
+                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
                                             </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
+                                            <td data-type="price">
+                                                <p>100DH</p>
                                             </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
+                                            <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
-                                            </td>
-                                            <td data-type="requestsNum">
-                                                <p>10</p>
-                                            </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
-                                            </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
-                                            </td>
-                                            <td data-type="requestsNum">
-                                                <p>4</p>
-                                            </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
-                                            </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
-                                            </td>
-                                            <td data-type="requestsNum">
-                                                <p>7</p>
-                                            </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
-                                            </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
-                                                <a  type="button" 
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
-                                            </td>
-                                            <td data-type="requestsNum">
-                                                <p>12</p>
-                                            </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
-                                            </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
-                                            </td>
-                                            <td data-type="requestsNum">
-                                                <p>4</p>
-                                            </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
-                                            </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    تعديل
                                                 </a>
                                             </td>
                                         </tr>
