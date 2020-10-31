@@ -82,12 +82,6 @@
                 padding: 12px;
             }
 
-            .img-cont{
-                width: 50px;
-                height: 50px;
-                overflow: hidden;
-            }
-
             .navbar-menu{
                 color: #FFF;
             }
@@ -698,7 +692,6 @@
                                     <thead>
                                         <tr>
                                             <th scope="col"><input type="checkbox" class="show-actions-menu"/></th>
-                                            <th scope="col" data-type="image"></th>
                                             <th scope="col" data-type="requestInfo">معلومات الطلب</th>
                                             <th scope="col" data-type="nameAndPhone">الإسم و رقم الهاتف</th>
                                             <th scope="col" data-type="products">المنتوجات</th>
@@ -711,12 +704,6 @@
                                     <tbody>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="image">
-                                                <div class="img-cont">
-                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
-                                                            alt="product1">
-                                                </div>
-                                            </td>
                                             <td data-type="requestInfo">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
@@ -813,12 +800,6 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="image">
-                                                <div class="img-cont">
-                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
-                                                            alt="product2">
-                                                </div>
-                                            </td>
                                             <td data-type="requestInfo">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
@@ -915,12 +896,6 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="image">
-                                                <div class="img-cont">
-                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
-                                                            alt="product3">
-                                                </div>
-                                            </td>
                                             <td data-type="requestInfo">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
@@ -983,7 +958,7 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                <a type="button"
+                                                <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded details"
                                                     data-toggle="modal"
                                                     data-target="#detailsModalCenter">
@@ -1017,12 +992,6 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="image">
-                                                <div class="img-cont">
-                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
-                                                            alt="product4">
-                                                </div>
-                                            </td>
                                             <td data-type="requestInfo">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
@@ -1085,7 +1054,7 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                <a type="button"
+                                                <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded details"
                                                     data-toggle="modal"
                                                     data-target="#detailsModalCenter">
@@ -1119,12 +1088,6 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="image">
-                                                <div class="img-cont">
-                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
-                                                            alt="product5">
-                                                </div>
-                                            </td>
                                             <td data-type="requestInfo">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
@@ -1187,10 +1150,10 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                <a type="button"
-                                                        class="btn btn-primary btn-lg border-none loadactions rounded details"
-                                                        data-toggle="modal"
-                                                        data-target="#detailsModalCenter">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded details"
+                                                    data-toggle="modal"
+                                                    data-target="#detailsModalCenter">
                                                     التفاصيل
                                                 </a>
                                                 <a  type="button"

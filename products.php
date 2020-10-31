@@ -33,6 +33,12 @@
                 width: 160px;
             }
 
+            .img-cont{
+                width: 50px;
+                height: 50px;
+                overflow: hidden;
+            }
+
             .actions-menu{
                 position: fixed;
                 display: none;
@@ -176,6 +182,7 @@
                                     <thead>
                                         <tr>
                                             <th scope="col"><input type="checkbox" class="show-actions-menu"/></th>
+                                            <th scope="col" data-type="image"></th>
                                             <th scope="col" data-type="reference">Reference</th>
                                             <th scope="col" data-type="product">اسم المنتوج</th>
                                             <th scope="col" data-type="price">سعر الجملة</th>
@@ -185,6 +192,12 @@
                                     <tbody>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="image">
+                                                <div class="img-cont">
+                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
+                                                            alt="product1">
+                                                </div>
+                                            </td>
                                             <td data-type="reference">
                                                 <p>SN62</p>
                                             </td>
@@ -203,6 +216,12 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="image">
+                                                <div class="img-cont">
+                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
+                                                            alt="product1">
+                                                </div>
+                                            </td>
                                             <td data-type="reference">
                                                 <p>SN62</p>
                                             </td>
@@ -221,6 +240,12 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="image">
+                                                <div class="img-cont">
+                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
+                                                            alt="product1">
+                                                </div>
+                                            </td>
                                             <td data-type="reference">
                                                 <p>SN62</p>
                                             </td>
@@ -239,6 +264,12 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="image">
+                                                <div class="img-cont">
+                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
+                                                            alt="product1">
+                                                </div>
+                                            </td>
                                             <td data-type="reference">
                                                 <p>SN62</p>
                                             </td>
@@ -257,6 +288,12 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="image">
+                                                <div class="img-cont">
+                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
+                                                            alt="product1">
+                                                </div>
+                                            </td>
                                             <td data-type="reference">
                                                 <p>SN62</p>
                                             </td>
@@ -275,6 +312,12 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="image">
+                                                <div class="img-cont">
+                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
+                                                            alt="product1">
+                                                </div>
+                                            </td>
                                             <td data-type="reference">
                                                 <p>SN62</p>
                                             </td>
@@ -293,6 +336,12 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="image">
+                                                <div class="img-cont">
+                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
+                                                            alt="product1">
+                                                </div>
+                                            </td>
                                             <td data-type="reference">
                                                 <p>SN62</p>
                                             </td>
@@ -311,6 +360,12 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="image">
+                                                <div class="img-cont">
+                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
+                                                            alt="product1">
+                                                </div>
+                                            </td>
                                             <td data-type="reference">
                                                 <p>SN62</p>
                                             </td>
@@ -329,6 +384,12 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="image">
+                                                <div class="img-cont">
+                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
+                                                            alt="product1">
+                                                </div>
+                                            </td>
                                             <td data-type="reference">
                                                 <p>SN62</p>
                                             </td>
@@ -347,6 +408,12 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="image">
+                                                <div class="img-cont">
+                                                    <img    src="assets/images/products/pexels-karolina-grabowska-4040567.jpg"
+                                                            alt="product1">
+                                                </div>
+                                            </td>
                                             <td data-type="reference">
                                                 <p>SN62</p>
                                             </td>
