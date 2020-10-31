@@ -64,16 +64,16 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>الثمن</th>
-                                        <th>الكمية</th>
                                         <th>المنتوج</th>
+                                        <th>الكمية</th>
+                                        <th>الثمن</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>199.99</td>
-                                        <td>1</td>
                                         <td>Kit Voiture X6</td>
+                                        <td>1</td>
+                                        <td>199.99</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -94,6 +94,75 @@
     </div>
 </div>
 <!--/ Details modal End -->
+
+<!--================================-->
+<!-- History modal Start -->
+<!--================================-->
+<div    class="modal fade"
+        id="historyModalCenter"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="historyModalCenterTitle"
+        aria-hidden="true">
+    <div    class="modal-dialog modal-dialog-centered"
+            role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="historyModalCenterTitle">تاريخ الأحداث</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body d-flex flex-column">
+                <div class="d-flex align-items-center float-right">
+                    <div class="col-md-12 col-lg-12 text-right">
+                        <div class="card mg-b-30">
+                            <div class="card-body pd-0">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>تاريخ</th>
+                                            <th>العملية</th>
+                                            <th>من طرف</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>2020-10-28 18:53:30</td>
+                                            <td>تم تعيين ك ملغى</td>
+                                            <td>Soumia</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-10-28 18:53:30</td>
+                                            <td>تم تعيين ك ملغى</td>
+                                            <td>Soumia</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-10-28 18:53:30</td>
+                                            <td>تم تعيين ك ملغى</td>
+                                            <td>Soumia</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-10-28 18:53:30</td>
+                                            <td>تم تعيين ك ملغى</td>
+                                            <td>Soumia</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-10-28 18:53:30</td>
+                                            <td>تم تعيين ك ملغى</td>
+                                            <td>Soumia</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/ History modal End -->
 
 <!--================================-->
 <!-- Add new order modal Start -->

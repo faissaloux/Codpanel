@@ -785,8 +785,10 @@
                                                     data-target="#detailsModalCenter">
                                                     التفاصيل
                                                 </a>
-                                                <a type="button"
-                                                        class="btn btn-primary btn-lg border-none loadactions rounded history">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded history"
+                                                    data-toggle="modal"
+                                                    data-target="#historyModalCenter">
                                                     الأحداث
                                                 </a>
                                                 <a type="button"
@@ -885,8 +887,10 @@
                                                     data-target="#detailsModalCenter">
                                                     التفاصيل
                                                 </a>
-                                                <a type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded history">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded history"
+                                                    data-toggle="modal"
+                                                    data-target="#historyModalCenter">
                                                     الأحداث
                                                 </a>
                                                 <a  type="button"
@@ -985,8 +989,10 @@
                                                     data-target="#detailsModalCenter">
                                                     التفاصيل
                                                 </a>
-                                                <a type="button" 
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded history">
+                                                <a  type="button" 
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded history"
+                                                    data-toggle="modal"
+                                                    data-target="#historyModalCenter">
                                                     الأحداث
                                                 </a>
                                                 <a type="button" 
@@ -1080,13 +1086,15 @@
                                             </td>
                                             <td>
                                                 <a type="button"
-                                                        class="btn btn-primary btn-lg border-none loadactions rounded details"
-                                                        data-toggle="modal"
-                                                        data-target="#detailsModalCenter">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded details"
+                                                    data-toggle="modal"
+                                                    data-target="#detailsModalCenter">
                                                     التفاصيل
                                                 </a>
-                                                <a type="button"
-                                                        class="btn btn-primary btn-lg border-none loadactions rounded history">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded history"
+                                                    data-toggle="modal"
+                                                    data-target="#historyModalCenter">
                                                     الأحداث
                                                 </a>
                                                 <a type="button"
@@ -1185,8 +1193,10 @@
                                                         data-target="#detailsModalCenter">
                                                     التفاصيل
                                                 </a>
-                                                <a type="button"
-                                                        class="btn btn-primary btn-lg border-none loadactions rounded history">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded history"
+                                                    data-toggle="modal"
+                                                    data-target="#historyModalCenter">
                                                     الأحداث
                                                 </a>
                                                 <a type="button"
