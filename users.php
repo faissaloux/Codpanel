@@ -150,7 +150,7 @@
                 <!--================================-->
                 <!-- Page Header Start -->
                 <!--================================-->
-                <?php require_once 'inc/header.php'; ?>
+                <?php require_once 'inc/nav.php'; ?>
                 <!--/ Page Header End -->
                 <!--================================-->
                 <!-- Page Inner Start -->
