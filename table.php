@@ -141,16 +141,8 @@
                 height: 36px;
             }
             .btn-container{
-                position: relative;
                 padding-left: 0;
                 cursor: pointer;
-            }
-            .btn-new-order{
-                position: absolute;
-                background-color: #221ECC;
-                text-indent: 60px;
-                color: #FFF !important;
-                padding: 10px;
             }
             .limit-container-right, .order-container-right, .show-columns-container{
                 background-color: #2D54EE;
@@ -166,18 +158,17 @@
                 color: #FFF;
                 cursor: pointer;
             }
-            .btn-upload{
-                position: absolute;
-                background-color: #2D54EE;
-                text-indent: 60px;
+            .btn-add-order{
+                background-color: #221ECC;
                 color: #FFF !important;
-                padding: 10px;
+                padding: 0 10px;
+                height: 36px;
             }
-            .table-top-btn ~ .table-top-btn-icon{
-                position: absolute;
-                left: 26px;
-                top: 7px;
-                color: #FFF;
+            .btn-import{
+                background-color: #2D54EE;
+                color: #FFF !important;
+                padding: 0 10px;
+                height: 36px;
             }
 
             .table-primary thead tr th{
@@ -500,7 +491,7 @@
                                                 </div>
                                             </div>
                                             <div class="d-flex align-items-center btn-container show-columns-container mr-2">
-                                                <button class="btn btn-secondary show-columns-container d-flex align-items-center"
+                                                <button class="btn btn-secondary show-columns-container d-flex align-items-center border-none"
                                                         type="button"
                                                         id="dropdownMenuButton"
                                                         data-toggle="dropdown"
@@ -581,17 +572,19 @@
                                     </div>
                                     <div class="col-6 pr-0">
                                         <div class="d-flex justify-content-end">
-                                            <div class="btn-container col-3">
-                                                <a class="btn-upload table-top-btn col">Import</a>
-                                                <i class="mdi mdi-download table-top-btn-icon"></i>
+                                            <div class="btn-container">
+                                                <a class="btn-import table-top-btn d-flex align-items-center">
+                                                    <i class="mdi mdi-download"></i>
+                                                    <span class="ml-2">Import</span>
+                                                </a>
                                             </div>
-                                            <div class="btn-container col-4 ml-2">
-                                                <a  class="btn-new-order table-top-btn col"
+                                            <div class="btn-container ml-2">
+                                                <a  class="btn-add-order table-top-btn d-flex align-items-center"
                                                     data-toggle="modal"
                                                     data-target="#addOrderModalCenter">
-                                                    Add order
+                                                    <i class="mdi mdi-plus"></i>
+                                                    <span class="ml-2">Add order</span>
                                                 </a>
-                                                <i class="mdi mdi-plus table-top-btn-icon"></i>
                                             </div>
                                         </div>
                                     </div>
