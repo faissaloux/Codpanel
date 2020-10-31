@@ -905,21 +905,6 @@
                         <div class="ui-datepicker-row-break"></div>
                     </div>
                 </div>
-                <div class="form-group col-12">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck30">
-                        <label class="custom-control-label" for="customCheck30">Compare to previous dates</label>
-                        </div>
-                </div>
-                <div class="form-group col-12">
-                    <label for="date">
-                        <b>Compare to</b>
-                    </label>
-                    <select class="custom-select">
-                        <option value="Previous period">Previous period</option>
-                        <option value="Previous year">Previous year</option>
-                    </select>
-                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">
