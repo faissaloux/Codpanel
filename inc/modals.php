@@ -660,7 +660,7 @@
     <div    class="modal-dialog modal-dialog-centered modal-large"
             role="document">
         <div class="modal-content">
-            <div class="pb-2">
+            <div class="pb-2 pt-4">
                 <div class="form-group col-12">
                     <label for="date">
                         <b>Date range</b>
