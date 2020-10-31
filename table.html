@@ -127,6 +127,10 @@
                 font-size: 14px;
             }
 
+            .modal-large {
+                max-width: 650px;
+            }
+
             .nav-link{
                 background-color: #FFF !important;
             }
@@ -238,7 +242,10 @@
                                 <span class="action d-flex align-items-center">
                                     <div class="d-flex">
                                         <i class="mdi mdi-upload mr-2"></i>
-                                        <span>Export</span>
+                                        <a  class="table-top-btn col"
+                                                    style="color: white"
+                                                    data-toggle="modal"
+                                                    data-target="#exportModalCenter">Export</a>
                                     </div>
                                 </span>
                                 <span class="action d-flex align-items-center">
@@ -2082,6 +2089,125 @@
             </div>
         </div>
         <!--/ Show columns modal End -->
+
+        <!--================================-->
+        <!-- Export modal Start -->
+        <!--================================-->
+        <div    class="modal fade"
+                id="exportModalCenter"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exportModalCenterTitle"
+                aria-hidden="true">
+            <div    class="modal-dialog modal-dialog-centered modal-large"
+                    role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exportModalCenterTitle">Export products</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body d-flex flex-column">
+                        <div class="float-right">
+                            <div class="d-flex flex-column p-2">
+                                <p>
+                                    This CSV file can update all product information except for inventory quantities. To update inventory quantities at multiple locations, use the CSV file for inventory or the bulk editor.
+                                </p>
+                                <div class="d-flex flex-column mb-3">
+                                    <p class="row mb-2">
+                                        <span class="col">Export</span>
+                                    </p>
+                                    <ul class="polaris-list pl-0 mb-0">
+                                        <li>
+                                            <label class="Polaris-Choice_j5gzq d-flex" for="PolarisRadioButton67">
+                                                <span class="Polaris-Choice__Control_1u8vs">
+                                                    <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                        <input id="PolarisRadioButton67" name="PolarisChoiceList8" type="radio" class="Polaris-RadioButton__Input_30ock" value="title asc" checked="">
+                                                        <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
+                                                    </span>
+                                                </span>
+                                                <span class="Polaris-Choice__Label_2vd36">Current page</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="Polaris-Choice_j5gzq d-flex" for="PolarisRadioButton68">
+                                                <span class="Polaris-Choice__Control_1u8vs">
+                                                    <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                        <input id="PolarisRadioButton68" name="PolarisChoiceList8" type="radio" class="Polaris-RadioButton__Input_30ock" value="title desc">
+                                                        <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
+                                                    </span>
+                                                </span>
+                                                <span class="Polaris-Choice__Label_2vd36">All products</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="Polaris-Choice_j5gzq d-flex" for="PolarisRadioButton69">
+                                                <span class="Polaris-Choice__Control_1u8vs">
+                                                    <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                        <input id="PolarisRadioButton69" name="PolarisChoiceList8" type="radio" class="Polaris-RadioButton__Input_30ock" value="created_at asc">
+                                                        <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
+                                                    </span>
+                                                </span>
+                                                <span class="Polaris-Choice__Label_2vd36">Selected: 0 products</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="Polaris-Choice_j5gzq d-flex" for="PolarisRadioButton70">
+                                                <span class="Polaris-Choice__Control_1u8vs">
+                                                    <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                        <input id="PolarisRadioButton70" name="PolarisChoiceList8" type="radio" class="Polaris-RadioButton__Input_30ock" value="created_at desc">
+                                                        <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
+                                                    </span>
+                                                </span>
+                                                <span class="Polaris-Choice__Label_2vd36">18 products matching your search</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <p class="row mb-2">
+                                        <span class="col">Export as</span>
+                                    </p>
+                                    <ul class="polaris-list pl-0 mb-0">
+                                        <li>
+                                            <label class="Polaris-Choice_j5gzq d-flex" for="PolarisRadioButton67">
+                                                <span class="Polaris-Choice__Control_1u8vs">
+                                                    <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                        <input id="PolarisRadioButton67" name="PolarisChoiceList7" type="radio" class="Polaris-RadioButton__Input_30ock" value="title asc" checked="">
+                                                        <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
+                                                    </span>
+                                                </span>
+                                                <span class="Polaris-Choice__Label_2vd36">CSV for Excel, Numbers, or other spreadsheet programs</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="Polaris-Choice_j5gzq d-flex" for="PolarisRadioButton68">
+                                                <span class="Polaris-Choice__Control_1u8vs">
+                                                    <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                        <input id="PolarisRadioButton68" name="PolarisChoiceList7" type="radio" class="Polaris-RadioButton__Input_30ock" value="title desc">
+                                                        <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
+                                                    </span>
+                                                </span>
+                                                <span class="Polaris-Choice__Label_2vd36">Plain CSV file</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-start">
+                        <span>Learn more about <a href="">exporting products</a>.</span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-default">Cancel</button>
+                        <button type="submit" class="btn btn-success">Export products</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ Export modal End -->
 
 
         <!--================================-->
