@@ -339,7 +339,7 @@
                                             </div>
                                             <div class="limit-container-right mr-2">
                                                 <span class="m-2">Limit:</span>
-                                                <select name="" id="" class="p-2 pagination-select">
+                                                <select name="" id="" class="p-0 pagination-select">
                                                     <option value="25">25</option>
                                                     <option value="50">50</option>
                                                     <option value="100">100</option>
@@ -500,10 +500,73 @@
                                                 </div>
                                             </div>
                                             <div class="d-flex align-items-center btn-container show-columns-container mr-2">
-                                                <a  class="table-top-btn col"
-                                                    style="color: white"
-                                                    data-toggle="modal"
-                                                    data-target="#showColumnsModalCenter">Show columns</a>
+                                                    <button class="btn btn-secondary show-columns-container d-flex align-items-center"
+                                                        type="button"
+                                                        id="dropdownMenuButton"
+                                                        data-toggle="dropdown"
+                                                        aria-haspopup="true"
+                                                        aria-expanded="false">
+                                                    <i class="mdi mdi-sort text-white"></i>
+                                                    <span class="ml-2">Show columns</span>
+                                                </button>
+                                                <div    class="dropdown-menu show-columns-dropdown mt-2"
+                                                        aria-labelledby="dropdownMenuButton">
+                                                    <div class="polaris-header pl-3 pb-2">
+                                                        <span>Show columns:</span>
+                                                    </div>
+                                                    <ul class="Polaris-ChoiceList__Choices_15o76 polaris-list pl-3 mb-0">
+                                                        <li>
+                                                            <label class="Polaris-Choice_j5gzq" for="PolarisRadioButton67">
+                                                                <span class="Polaris-Choice__Control_1u8vs">
+                                                                    <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                        <input type="checkbox"/>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="Polaris-Choice__Label_2vd36">معلومات الطلب</span>
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="Polaris-Choice_j5gzq" for="PolarisRadioButton68">
+                                                                <span class="Polaris-Choice__Control_1u8vs">
+                                                                    <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                        <input type="checkbox"/>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="Polaris-Choice__Label_2vd36">الإسم و رقم الهاتف</span>
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="Polaris-Choice_j5gzq" for="PolarisRadioButton69">
+                                                                <span class="Polaris-Choice__Control_1u8vs">
+                                                                    <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                        <input type="checkbox"/>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="Polaris-Choice__Label_2vd36">المنتوجات</span>
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="Polaris-Choice_j5gzq" for="PolarisRadioButton70">
+                                                                <span class="Polaris-Choice__Control_1u8vs">
+                                                                    <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                        <input type="checkbox"/>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="Polaris-Choice__Label_2vd36">الموظفة و الموزع</span>
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="Polaris-Choice_j5gzq" for="PolarisRadioButton71">
+                                                                <span class="Polaris-Choice__Control_1u8vs">
+                                                                    <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                        <input type="checkbox"/>
+                                                                    </span>
+                                                                </span>
+                                                                <span class="Polaris-Choice__Label_2vd36">محاولات الإتصال</span>
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                             <div class="dropdown mr-2">
                                                 <a  class="table-top-btn col btn btn-secondary sort-container d-flex align-items-center"

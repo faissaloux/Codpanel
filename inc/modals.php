@@ -545,60 +545,6 @@
 <!--/ Add new order modal End -->
 
 <!--================================-->
-<!-- Show columns modal Start -->
-<!--================================-->
-<div    class="modal fade"
-        id="showColumnsModalCenter"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="showColumnsModalCenterTitle"
-        aria-hidden="true">
-    <div    class="modal-dialog modal-dialog-centered"
-            role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="showColumnsModalCenterTitle">Show columns</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body d-flex flex-column">
-                <div class="float-right">
-                    <div class="mr-4 d-flex flex-column">
-                        <p class="row">
-                            <span class="col text-right">معلومات الطلب</span>
-                            <span class="col-1 text-right"><input type="checkbox"/></span>
-                        </p>
-                        <p class="row">
-                            <span class="col text-right">الإسم و رقم الهاتف</span>
-                            <span class="col-1 text-right"><input type="checkbox"/></span>
-                        </p>
-                        <p class="row">
-                            <span class="col text-right">المنتوجات</span>
-                            <span class="col-1 text-right"><input type="checkbox"/></span>
-                        </p>
-                        <p class="row">
-                            <span class="col text-right">الموظفة و الموزع</span>
-                            <span class="col-1 text-right"><input type="checkbox"/></span>
-                        </p>
-                        <p class="row">
-                            <span class="col text-right">محاولات الإتصال</span>
-                            <span class="col-1 text-right"><input type="checkbox"/></span>
-                        </p>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <p class="row col">
-                            <button type="submit" class="btn btn-success btn-block">Show columns</button>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--/ Show columns modal End -->
-
-<!--================================-->
 <!-- Export modal Start -->
 <!--================================-->
 <div    class="modal fade"
