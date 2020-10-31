@@ -77,6 +77,7 @@
                 height: 40px;
             }
             .search-form-panel{
+                display: none;
                 border: 1px #BBB solid;
                 background-color: #FFF;
                 padding: 12px;
