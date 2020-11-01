@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
    
-<head>
+   <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,6 +19,13 @@
          .header-right .user-profile-area{
             height: 75px;
          }
+         .quantity{
+            color: #FFF;
+            background: #666;
+            padding: 0 8px;
+            border-radius: 6px;
+            font-size: 12px;
+         }
       </style>
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
@@ -27,7 +34,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
    </head>
-   <body>
+   <body dir="rtl">
       <!--================================-->
       <!-- Page Container Start -->
       <!--================================-->
