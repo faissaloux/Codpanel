@@ -576,12 +576,12 @@
         <!--/ Scroll To Top End -->
         <!--================================-->
 
+        <?php require_once 'inc/modals.php'; ?>
 
         <!--================================-->
         <!-- Footer Script -->
         <!--================================-->
         <?php require_once 'inc/scripts.php'; ?>
-        <?php require_once 'inc/modals.php'; ?>
 
     </body>
 

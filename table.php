@@ -1295,12 +1295,12 @@
         <!--================================-->
 
         
+        <?php require_once 'inc/modals.php'; ?>
 
         <!--================================-->
         <!-- Footer Script -->
         <!--================================-->
         <?php require_once 'inc/scripts.php'; ?>
-        <?php require_once 'inc/modals.php'; ?>
         <script>
             $(() => {
                 const searchForm = $(".search-form-panel");
