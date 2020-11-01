@@ -130,7 +130,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body dir="rtl">
         <?php require_once 'inc/actions.php'; ?>
         <!--================================-->
         <!-- Page Container Start -->
@@ -171,7 +171,7 @@
                 <div class="page-inner mt-4">
                     <div class="d-flex">
                         <div class="col-12">
-                            <div class="card-body pd-0">
+                            <div class="card-body pd-0 tx-right">
                                 <table class="table table-primary">
                                     <thead>
                                         <tr>
