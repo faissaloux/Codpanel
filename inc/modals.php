@@ -703,152 +703,13 @@
                         <label for="date">
                             <b>Starting</b>
                         </label>
-                        <input type="text" class="form-control" placeholder="Start at">
+                        <input type="text" id="dateFrom" class="form-control" placeholder="From">
                     </div>
                     <div class="form-group col">
                         <label for="date">
                             <b>Ending</b>
                         </label>
-                        <input type="text" class="form-control" placeholder="End at">
-                    </div>
-                </div>
-                <div class="form-group col-12">
-                    <div    id="ui-datepicker-div"
-                            class="d-flex ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all ui-datepicker-multi-2 ui-datepicker-multi d-flex justify-content-center"
-                            style="width: 34em; display: block;">
-                        <div class="ui-datepicker-group ui-datepicker-group-first">
-                            <div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-left">
-                                <a class="ui-datepicker-prev ui-corner-all" data-handler="prev" data-event="click" title="Prev"><span class="ui-icon ui-icon-circle-triangle-w">Prev</span></a>
-                                <div class="ui-datepicker-title"><span class="ui-datepicker-month">October</span>&nbsp;<span class="ui-datepicker-year">2020</span></div>
-                            </div>
-                            <table class="ui-datepicker-calendar">
-                                <thead>
-                                    <tr>
-                                    <th scope="col" class="ui-datepicker-week-end"><span title="Sunday">Su</span></th>
-                                    <th scope="col"><span title="Monday">Mo</span></th>
-                                    <th scope="col"><span title="Tuesday">Tu</span></th>
-                                    <th scope="col"><span title="Wednesday">We</span></th>
-                                    <th scope="col"><span title="Thursday">Th</span></th>
-                                    <th scope="col"><span title="Friday">Fr</span></th>
-                                    <th scope="col" class="ui-datepicker-week-end"><span title="Saturday">Sa</span></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                    <td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td>
-                                    <td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td>
-                                    <td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td>
-                                    <td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">1</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">2</a></td>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">3</a></td>
-                                    </tr>
-                                    <tr>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">4</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">5</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">6</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">7</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">8</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">9</a></td>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">10</a></td>
-                                    </tr>
-                                    <tr>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">11</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">12</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">13</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">14</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">15</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">16</a></td>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">17</a></td>
-                                    </tr>
-                                    <tr>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">18</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">19</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">20</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">21</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">22</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">23</a></td>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">24</a></td>
-                                    </tr>
-                                    <tr>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">25</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">26</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">27</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">28</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">29</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default" href="#">30</a></td>
-                                    <td class=" ui-datepicker-week-end ui-datepicker-days-cell-over  ui-datepicker-today" data-handler="selectDay" data-event="click" data-month="9" data-year="2020"><a class="ui-state-default ui-state-highlight ui-state-hover" href="#">31</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="ui-datepicker-group ui-datepicker-group-last">
-                            <div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-right">
-                                <a class="ui-datepicker-next ui-corner-all" data-handler="next" data-event="click" title="Next"><span class="ui-icon ui-icon-circle-triangle-e">Next</span></a>
-                                <div class="ui-datepicker-title"><span class="ui-datepicker-month">November</span>&nbsp;<span class="ui-datepicker-year">2020</span></div>
-                            </div>
-                            <table class="ui-datepicker-calendar">
-                                <thead>
-                                    <tr>
-                                    <th scope="col" class="ui-datepicker-week-end"><span title="Sunday">Su</span></th>
-                                    <th scope="col"><span title="Monday">Mo</span></th>
-                                    <th scope="col"><span title="Tuesday">Tu</span></th>
-                                    <th scope="col"><span title="Wednesday">We</span></th>
-                                    <th scope="col"><span title="Thursday">Th</span></th>
-                                    <th scope="col"><span title="Friday">Fr</span></th>
-                                    <th scope="col" class="ui-datepicker-week-end"><span title="Saturday">Sa</span></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">1</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">2</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">3</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">4</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">5</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">6</a></td>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">7</a></td>
-                                    </tr>
-                                    <tr>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">8</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">9</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">10</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">11</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">12</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">13</a></td>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">14</a></td>
-                                    </tr>
-                                    <tr>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">15</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">16</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">17</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">18</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">19</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">20</a></td>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">21</a></td>
-                                    </tr>
-                                    <tr>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">22</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">23</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">24</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">25</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">26</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">27</a></td>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">28</a></td>
-                                    </tr>
-                                    <tr>
-                                    <td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">29</a></td>
-                                    <td class=" " data-handler="selectDay" data-event="click" data-month="10" data-year="2020"><a class="ui-state-default" href="#">30</a></td>
-                                    <td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td>
-                                    <td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td>
-                                    <td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td>
-                                    <td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td>
-                                    <td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="ui-datepicker-row-break"></div>
+                        <input type="text" id="dateTo" class="form-control" placeholder="To">
                     </div>
                 </div>
             </div>
@@ -861,6 +722,7 @@
         </div>
     </div>
 </div>
+
 <!--/ Today modal End -->
 
 <!--================================-->
@@ -925,3 +787,38 @@
     </div>
 </div>
 <!--/ Add new city modal End -->
+
+<!-- Important script for Today Moday datepicker -->
+<script>
+    $(function(){
+    'use strict'
+    
+    var dateFormat = 'mm/dd/yy',
+    from = $('#dateFrom')
+    .datepicker({
+        defaultDate: '+1w',
+        numberOfMonths: 2
+    })
+    .on('change', function() {
+        to.datepicker('option','minDate', getDate( this ) );
+    }),
+    to = $('#dateTo').datepicker({
+        defaultDate: '+1w',
+        numberOfMonths: 2
+    })
+    .on('change', function() {
+        from.datepicker('option','maxDate', getDate( this ) );
+    });
+    
+    function getDate( element ) {
+        var date;
+        try {
+        date = $.datepicker.parseDate( dateFormat, element.value );
+        } catch( error ) {
+        date = null;
+        }
+    
+        return date;
+    }
+    });
+</script>

@@ -203,6 +203,10 @@
             .mdi{
                 font-size: 18px;
             }
+
+            .ui-datepicker{
+                z-index: 2000 !important;
+            }
         </style>
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -1290,13 +1294,13 @@
         <!--/ Scroll To Top End -->
         <!--================================-->
 
-        <?php require_once 'inc/modals.php'; ?>
+        
 
         <!--================================-->
         <!-- Footer Script -->
         <!--================================-->
         <?php require_once 'inc/scripts.php'; ?>
-
+        <?php require_once 'inc/modals.php'; ?>
         <script>
             $(() => {
                 const searchForm = $(".search-form-panel");
