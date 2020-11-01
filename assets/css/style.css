@@ -958,7 +958,8 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv {
   width: calc(100% - 60px); }
 
 .page-sidebar-fixed .page-content {
-  margin-left: 250px; }
+  /* margin-left: 250px; */
+  margin-right: 250px }
 
 .page-sidebar-fixed.page-sidebar-collapsed .page-content {
   margin-left: 60px; }
