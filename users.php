@@ -171,7 +171,7 @@
                 <div class="page-inner mt-4">
                     <div class="d-flex">
                         <div class="col-12">
-                            <div class="card-body pd-0 tx-right">
+                            <div class="card-body pd-0 tx-center">
                                 <table class="table table-primary">
                                     <thead>
                                         <tr>

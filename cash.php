@@ -229,7 +229,7 @@
                             </button>
                             <div    class="dropdown-menu by-vendor-dropdown tx-right"
                                     aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="#">قوو</a>
+                              <a class="dropdown-item" href="#">فوو</a>
                               <a class="dropdown-item" href="#">بوو</a>
                               <a class="dropdown-item" href="#">فوو بوو</a>
                             </div>
@@ -245,7 +245,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <div class="card-body pd-0 tx-right">
+                            <div class="card-body pd-0 tx-center">
                                 <table class="table table-primary">
                                     <thead>
                                         <tr>
@@ -261,7 +261,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td colspan="8">
+                                            <td colspan="8" class="tx-right">
                                                 فوو
                                             </td>
                                         </tr>

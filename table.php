@@ -758,7 +758,7 @@
                                 </div>
                             </center>
                                 
-                            <div class="card-body pd-0 tx-right">
+                            <div class="card-body pd-0 tx-center">
                                 <table class="table table-primary">
                                     <thead>
                                         <tr>

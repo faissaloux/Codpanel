@@ -381,7 +381,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <div class="card-body pd-0 tx-right">
+                            <div class="card-body pd-0 tx-center">
                                 <table class="table table-primary">
                                     <thead>
                                         <tr>
