@@ -250,7 +250,7 @@
                                 aria-controls="all"
                                 aria-selected="true">
                                 <i class="mdi mdi-home"></i>
-                                <span class="col">All</span>
+                                <span class="col">الكل</span>
                                 <span class="quantity col">42</span>
                             </a>
                         </li>
@@ -263,7 +263,7 @@
                                 aria-controls="new"
                                 aria-selected="false">
                                 <i class="mdi mdi-hanger"></i>
-                                <span class="col">New</span>
+                                <span class="col">جديد</span>
                                 <span class="quantity col">22</span>
                             </a>
                         </li>
@@ -276,7 +276,7 @@
                                 aria-controls="canceled"
                                 aria-selected="false">
                                 <i class="mdi mdi-close"></i>
-                                <span class="col">Canceled</span>
+                                <span class="col">ألغيت</span>
                                 <span class="quantity col">3</span>
                             </a>
                         </li>
@@ -289,7 +289,7 @@
                                 aria-controls="unanswered"
                                 aria-selected="false">
                                 <i class="mdi mdi-phone-hangup"></i>
-                                <span class="col">unanswered</span>
+                                <span class="col">دون إجابة</span>
                                 <span class="quantity col">6</span>
                             </a>
                         </li>
@@ -302,7 +302,7 @@
                                 aria-controls="confirmation"
                                 aria-selected="false">
                                 <i class="mdi mdi-check"></i>
-                                <span class="col">Confirmation</span>
+                                <span class="col">التأكيد</span>
                                 <span class="quantity col">10</span>
                             </a>
                         </li>
@@ -315,7 +315,7 @@
                                 aria-controls="recall"
                                 aria-selected="false">
                                 <i class="mdi mdi-phone-in-talk"></i>
-                                <span class="col">Recall</span>
+                                <span class="col">اعد الاتصال</span>
                                 <span class="quantity col">8</span>
                             </a>
                         </li>
