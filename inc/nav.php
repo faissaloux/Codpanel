@@ -19,7 +19,7 @@
         <div class="header-right pull-right">
             <ul class="list-inline justify-content-end">
                 <li class="list-inline-item dropdown">
-                    <a   href="#"
+                    <a  href="#"
                         role="button"
                         data-toggle="dropdown"
                         aria-haspopup="true"
@@ -29,7 +29,7 @@
                         alt="">
                     </a>
                     <div class="dropdown-menu dropdown-menu-right dropdown-profile">
-                        <div class="user-profile-area d-flex flex-column">
+                        <div class="user-profile-area d-flex flex-column tx-right">
                             <a href="pages-profile.html" class="dropdown-item m-auto">
                                 <i data-feather="settings" class="wd-16 mr-2"></i>
                                 إعدادات حسابي
