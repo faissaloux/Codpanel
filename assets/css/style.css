@@ -729,8 +729,8 @@ _:future,
   border-left: 1px solid #007bff; }
 
 /* rtl */
-[dir="rtl"]  .header-right .user-profile-area .dropdown-item:hover {
-    border-right: 1px solid #007bff;
+[dir="rtl"] .header-right .user-profile-area .dropdown-item:hover {
+  border-right: 1px solid #007bff;
 }
 
 .header-right .user-profile-area .profile-thumbnail {
