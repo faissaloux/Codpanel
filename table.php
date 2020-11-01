@@ -355,10 +355,10 @@
                                                 </button>
                                                 <div    class="dropdown-menu sort-dropdown mt-2"
                                                         aria-labelledby="dropdownMenuButton">
-                                                    <div class="polaris-header pl-3 pb-2">
-                                                        <span>Sort by:</span>
+                                                    <div class="polaris-header tx-right pr-3 pb-2">
+                                                        <span>فرز عن طريق</span>
                                                     </div>
-                                                    <ul class="Polaris-ChoiceList__Choices_15o76 polaris-list pl-3 mb-0">
+                                                    <ul class="Polaris-ChoiceList__Choices_15o76 polaris-list tx-right pr-3 mb-0">
                                                         <li>
                                                             <label class="Polaris-Choice_j5gzq" for="PolarisRadioButton67">
                                                                 <span class="Polaris-Choice__Control_1u8vs">
@@ -367,7 +367,7 @@
                                                                         <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                                                     </span>
                                                                 </span>
-                                                                <span class="Polaris-Choice__Label_2vd36">Product title A–Z</span>
+                                                                <span class="Polaris-Choice__Label_2vd36">إسم المنتج أ-ي</span>
                                                             </label>
                                                         </li>
                                                         <li>
@@ -378,7 +378,7 @@
                                                                         <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                                                     </span>
                                                                 </span>
-                                                                <span class="Polaris-Choice__Label_2vd36">Product title Z–A</span>
+                                                                <span class="Polaris-Choice__Label_2vd36">إسم المنتج ي-أ</span>
                                                             </label>
                                                         </li>
                                                         <li>
@@ -389,7 +389,7 @@
                                                                         <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                                                     </span>
                                                                 </span>
-                                                                <span class="Polaris-Choice__Label_2vd36">Created (oldest first)</span>
+                                                                <span class="Polaris-Choice__Label_2vd36">تم الإنشاء (الأقدم أولاً)</span>
                                                             </label>
                                                         </li>
                                                         <li>
@@ -400,7 +400,7 @@
                                                                         <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                                                     </span>
                                                                 </span>
-                                                                <span class="Polaris-Choice__Label_2vd36">Created (newest first)</span>
+                                                                <span class="Polaris-Choice__Label_2vd36">تم الإنشاء (الأحدث أولاً)</span>
                                                             </label>
                                                         </li>
                                                         <li>
@@ -411,7 +411,7 @@
                                                                         <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                                                     </span>
                                                                 </span>
-                                                                <span class="Polaris-Choice__Label_2vd36">Updated (oldest first)</span>
+                                                                <span class="Polaris-Choice__Label_2vd36">تم التحديث (الأقدم أولاً)</span>
                                                             </label>
                                                         </li>
                                                         <li>
@@ -422,7 +422,7 @@
                                                                         <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                                                     </span>
                                                                 </span>
-                                                                <span class="Polaris-Choice__Label_2vd36">Updated (newest first)</span>
+                                                                <span class="Polaris-Choice__Label_2vd36">تم التحديث (الأحدث أولاً)</span>
                                                             </label>
                                                         </li>
                                                         <li>
@@ -433,7 +433,7 @@
                                                                         <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                                                     </span>
                                                                 </span>
-                                                                <span class="Polaris-Choice__Label_2vd36">Low inventory</span>
+                                                                <span class="Polaris-Choice__Label_2vd36">المخزون المنخفض</span>
                                                             </label>
                                                         </li>
                                                         <li>
@@ -444,7 +444,7 @@
                                                                         <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                                                     </span>
                                                                 </span>
-                                                                <span class="Polaris-Choice__Label_2vd36">High inventory</span>
+                                                                <span class="Polaris-Choice__Label_2vd36">مخزون مرتفع</span>
                                                             </label>
                                                         </li>
                                                         <li>
@@ -455,7 +455,7 @@
                                                                         <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                                                     </span>
                                                                 </span>
-                                                                <span class="Polaris-Choice__Label_2vd36">Product type A–Z</span>
+                                                                <span class="Polaris-Choice__Label_2vd36">نوع المنتج أ-ي</span>
                                                             </label>
                                                         </li>
                                                         <li>
@@ -466,7 +466,7 @@
                                                                         <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                                                     </span>
                                                                 </span>
-                                                                <span class="Polaris-Choice__Label_2vd36">Product type Z–A</span>
+                                                                <span class="Polaris-Choice__Label_2vd36">نوع المنتج ي-أ</span>
                                                             </label>
                                                         </li>
                                                         <li>
@@ -477,7 +477,7 @@
                                                                         <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                                                     </span>
                                                                 </span>
-                                                                <span class="Polaris-Choice__Label_2vd36">Vendor A–Z</span>
+                                                                <span class="Polaris-Choice__Label_2vd36">البائع أ-ي</span>
                                                             </label>
                                                         </li>
                                                         <li>
@@ -488,7 +488,7 @@
                                                                         <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                                                     </span>
                                                                 </span>
-                                                                <span class="Polaris-Choice__Label_2vd36">Vendor Z–A</span>
+                                                                <span class="Polaris-Choice__Label_2vd36">البائع ي-أ</span>
                                                             </label>
                                                         </li>
                                                     </ul>
@@ -506,10 +506,10 @@
                                                 </button>
                                                 <div    class="dropdown-menu show-columns-dropdown mt-2"
                                                         aria-labelledby="dropdownMenuButton">
-                                                    <div class="polaris-header pl-3 pb-2">
+                                                    <div class="polaris-header tx-right pr-3 pb-2">
                                                         <span>عرض الأعمدة:</span>
                                                     </div>
-                                                    <ul class="Polaris-ChoiceList__Choices_15o76 polaris-list pl-3 mb-0">
+                                                    <ul class="Polaris-ChoiceList__Choices_15o76 polaris-list tx-right pr-3 mb-0">
                                                         <li>
                                                             <label class="Polaris-Choice_j5gzq" for="PolarisRadioButton67">
                                                                 <span class="Polaris-Choice__Control_1u8vs">
