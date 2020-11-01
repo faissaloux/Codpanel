@@ -12,7 +12,7 @@
         <div class="modal-content">
         <div class="modal-header">
             <h5 class="modal-title" id="detailsModalCenterTitle">معلومات العميل</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <button type="button" class="close ml-0" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">×</span>
             </button>
         </div>
@@ -20,40 +20,40 @@
             <div class="modal-cont modal-top mb-3 float-right">
                 <div class="d-flex flex-column">
                     <p class="row">
-                        <span class="col text-right">Name</span>
                         <span class="col-3 text-right">اسم العميل</span>
+                        <span class="col text-right">Name</span>
                     </p>
                     <p class="row">
-                        <span class="col text-right">+212652145896</span>
                         <span class="col-3 text-right">رقم الهاتف</span>
+                        <span class="col text-right">+212652145896</span>
                     </p>
                     <p class="row">
-                        <span class="col text-right">Agadir Bay</span>
                         <span class="col-3 text-right">العنوان</span>
+                        <span class="col text-right">Agadir Bay</span>
                     </p>
                     <p class="row">
-                        <span class="col text-right">Agadir</span>
                         <span class="col-3 text-right">المدينة</span>
+                        <span class="col text-right">Agadir</span>
                     </p>
                     <p class="row">
-                        <span class="col text-right">Store</span>
                         <span class="col-3 text-right">المصدر</span>
+                        <span class="col text-right">Store</span>
                     </p>
                     <p class="row">
-                        <span class="col text-right">Kit Voiture X6</span>
                         <span class="col-3 text-right">المنتوج</span>
+                        <span class="col text-right">Kit Voiture X6</span>
                     </p>
                     <p class="row">
-                        <span class="col text-right">1</span>
                         <span class="col-3 text-right">الكمية</span>
+                        <span class="col text-right">1</span>
                     </p>
                     <p class="row">
-                        <span class="col text-right">199.99 درهم</span>
                         <span class="col-3 text-right">الثمن</span>
+                        <span class="col text-right">199.99 درهم</span>
                     </p>
                     <p class="row">
-                        <span class="col"></span>
                         <span class="col text-right">الملاحظة</span>
+                        <span class="col"></span>
                     </p>
                 </div>
             </div>
@@ -109,7 +109,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="historyModalCenterTitle">تاريخ الأحداث</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close ml-0" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
@@ -177,8 +177,8 @@
             role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="addOrderModalCenterTitle">Add new product</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <h5 class="modal-title" id="addOrderModalCenterTitle">إضافة طلب جديد</h5>
+                <button type="button" class="close ml-0" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
@@ -557,31 +557,34 @@
             role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exportModalCenterTitle">Export products</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <h5 class="modal-title" id="exportModalCenterTitle">تصدير منتجات</h5>
+                <button type="button" class="close ml-0" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
             <div class="modal-body d-flex flex-column">
                 <div class="float-right">
                     <div class="d-flex flex-column p-2">
-                        <p>
-                            This CSV file can update all product information except for inventory quantities. To update inventory quantities at multiple locations, use the CSV file for inventory or the bulk editor.
-                        </p>
+                        <p class="tx-right">
+                        يمكن لملف CSV هذا تحديث جميع معلومات المنتج باستثناء كميات المخزون. لتحديث كميات المخزون في مواقع متعددة ، استخدم ملف CSV للمخزون أو محرر المجموعة.                        </p>
                         <div class="d-flex flex-column mb-3">
                             <p class="row mb-2">
-                                <span class="col">Export</span>
+                                <span class="col tx-right">تصدير</span>
                             </p>
                             <ul class="polaris-list pl-0 mb-0">
                                 <li>
                                     <label class="Polaris-Choice_j5gzq d-flex" for="PolarisRadioButton67">
                                         <span class="Polaris-Choice__Control_1u8vs">
                                             <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
-                                                <input id="PolarisRadioButton67" name="PolarisChoiceList8" type="radio" class="Polaris-RadioButton__Input_30ock" value="title asc" checked="">
+                                                <input  id="PolarisRadioButton67"
+                                                        name="PolarisChoiceList8"
+                                                        type="radio"
+                                                        class="Polaris-RadioButton__Input_30ock"
+                                                        value="title asc">
                                                 <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                             </span>
                                         </span>
-                                        <span class="Polaris-Choice__Label_2vd36">Current page</span>
+                                        <span class="Polaris-Choice__Label_2vd36">الصفحة الحالية</span>
                                     </label>
                                 </li>
                                 <li>
@@ -592,7 +595,7 @@
                                                 <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                             </span>
                                         </span>
-                                        <span class="Polaris-Choice__Label_2vd36">All products</span>
+                                        <span class="Polaris-Choice__Label_2vd36">جميع المنتجات</span>
                                     </label>
                                 </li>
                                 <li>
@@ -603,7 +606,7 @@
                                                 <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                             </span>
                                         </span>
-                                        <span class="Polaris-Choice__Label_2vd36">Selected: 0 products</span>
+                                        <span class="Polaris-Choice__Label_2vd36">المحدد: 0 منتجات</span>
                                     </label>
                                 </li>
                                 <li>
@@ -614,14 +617,14 @@
                                                 <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                             </span>
                                         </span>
-                                        <span class="Polaris-Choice__Label_2vd36">18 products matching your search</span>
+                                        <span class="Polaris-Choice__Label_2vd36">18 منتج مطابق لبحثك</span>
                                     </label>
                                 </li>
                             </ul>
                         </div>
                         <div class="d-flex flex-column">
                             <p class="row mb-2">
-                                <span class="col">Export as</span>
+                                <span class="col tx-right">تصدير ك</span>
                             </p>
                             <ul class="polaris-list pl-0 mb-0">
                                 <li>
@@ -632,7 +635,7 @@
                                                 <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                             </span>
                                         </span>
-                                        <span class="Polaris-Choice__Label_2vd36">CSV for Excel, Numbers, or other spreadsheet programs</span>
+                                        <span class="Polaris-Choice__Label_2vd36">CSV لـ Excel أو Numbers أو برامج جداول البيانات الأخرى</span>
                                     </label>
                                 </li>
                                 <li>
@@ -643,7 +646,7 @@
                                                 <span class="Polaris-RadioButton__Backdrop_1x2i2"></span>
                                             </span>
                                         </span>
-                                        <span class="Polaris-Choice__Label_2vd36">Plain CSV file</span>
+                                        <span class="Polaris-Choice__Label_2vd36">ملف CSV عادي</span>
                                     </label>
                                 </li>
                             </ul>
@@ -652,11 +655,12 @@
                 </div>
             </div>
             <div class="modal-footer justify-content-start">
-                <span>Learn more about <a href="">exporting products</a>.</span>
+                <span>تعرف على المزيد حول <a href="">تصدير المنتجات</a>.</span>
+                
             </div>
-            <div class="modal-footer">
-                <button type="submit" class="btn btn-default">Cancel</button>
-                <button type="submit" class="btn btn-success">Export products</button>
+            <div class="modal-footer justify-content-start">
+                <button type="submit" class="btn btn-success">تصدير المنتجات</button>
+                <button type="submit" class="btn btn-default mr-2">إلغاء</button>
             </div>
         </div>
     </div>
@@ -677,8 +681,8 @@
         <div class="modal-content">
             <div class="pb-2 pt-4">
                 <div class="form-group col-12">
-                    <label for="date">
-                        <b>Date range</b>
+                    <label for="date" class="float-right">
+                        <b>نطاق التاريخ</b>
                     </label>
                     <select class="custom-select">
                         <option value="Today">Today</option>
@@ -700,24 +704,24 @@
                 </div>
                 <div class="form-group d-flex">
                     <div class="form-group col">
-                        <label for="date">
-                            <b>Starting</b>
+                        <label for="date" class="float-right">
+                            <b>بدءا</b>
                         </label>
-                        <input type="text" id="dateFrom" class="form-control" placeholder="From">
+                        <input type="text" id="dateFrom" class="form-control" placeholder="من">
                     </div>
                     <div class="form-group col">
-                        <label for="date">
-                            <b>Ending</b>
+                        <label for="date" class="float-right">
+                            <b>انتهاء</b>
                         </label>
-                        <input type="text" id="dateTo" class="form-control" placeholder="To">
+                        <input type="text" id="dateTo" class="form-control" placeholder="إلى">
                     </div>
                 </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">Cancel</span>
+            <div class="modal-footer justify-content-start">
+                <button type="submit" class="btn btn-success">تطبيق</button>
+                <button type="button" class="btn btn-default mr-2" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">إلغاء</span>
                 </button>
-                <button type="submit" class="btn btn-success">Apply</button>
             </div>
         </div>
     </div>
@@ -739,7 +743,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="addCityModalCenterTitle">إضافة مدينة جديدة</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close ml-0" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
             </div>

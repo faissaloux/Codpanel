@@ -116,7 +116,7 @@
                 width: 18px;
                 height: 18px;
                 cursor: pointer;
-                margin-right: .8rem;
+                margin-left: .8rem;
             }
             .Polaris-Choice__Label_2vd36{
                 font-size: 14px;
