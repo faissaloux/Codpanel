@@ -101,9 +101,13 @@
                 border-radius: 0;
             }
             .sort-dropdown{
+                left: -117px !important;
                 height: 200px;
-                width: 230px;
+                width: 200px;
                 overflow-y: scroll;
+            }
+            .show-columns-dropdown{
+                left: -34px !important;
             }
             .polaris-header > span{
                 font-size: 14px;
