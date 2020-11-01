@@ -51,6 +51,10 @@
                 cursor: pointer;
             }
 
+            .by-vendor-dropdown{
+                left: -76px !important;
+            }
+
             .actions-menu{
                 position: fixed;
                 display: none;
@@ -112,7 +116,7 @@
             }
             .search-icon{
                 position: absolute;
-                left: 25px;
+                left: -9px;
                 top: 32px;
             }
 
@@ -149,7 +153,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body dir="rtl">
         <?php require_once 'inc/actions.php'; ?>
         <!--================================-->
         <!-- Page Container Start -->
@@ -213,15 +217,21 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="d-flex justify-content-end bg-grey bt1 bb1 p-2">
+                    <div class="d-flex justify-content-start bg-grey bt1 bb1 p-2">
                         <div class="dropdown dropdown-provider">
-                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class="dropdown-toggle"
+                                    type="button"
+                                    id="dropdownMenuButton"
+                                    data-toggle="dropdown" 
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
                               حسب الموزع
                             </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="#">Foo</a>
-                              <a class="dropdown-item" href="#">Boo</a>
-                              <a class="dropdown-item" href="#">Foo Boo</a>
+                            <div    class="dropdown-menu by-vendor-dropdown tx-right"
+                                    aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">قوو</a>
+                              <a class="dropdown-item" href="#">بوو</a>
+                              <a class="dropdown-item" href="#">فوو بوو</a>
                             </div>
                           </div>
                     </div>
@@ -235,7 +245,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <div class="card-body pd-0">
+                            <div class="card-body pd-0 tx-right">
                                 <table class="table table-primary">
                                     <thead>
                                         <tr>
@@ -252,7 +262,7 @@
                                     <tbody>
                                         <tr>
                                             <td colspan="8">
-                                                Foo
+                                                فوو
                                             </td>
                                         </tr>
                                         <tr>
