@@ -333,7 +333,7 @@
                                                 <i class="mdi mdi-filter-variant"></i>
                                             </div>
                                             <div class="limit-container-right mr-2">
-                                                <span class="m-2">Limit:</span>
+                                                <span class="m-2">حد:</span>
                                                 <select name="" id="" class="p-0 pagination-select">
                                                     <option value="25">25</option>
                                                     <option value="50">50</option>
@@ -351,7 +351,7 @@
                                                         aria-haspopup="true"
                                                         aria-expanded="false">
                                                     <i class="mdi mdi-sort text-white"></i>
-                                                    <span class="ml-2">Sort</span>
+                                                    <span class="mr-2">فرز</span>
                                                 </button>
                                                 <div    class="dropdown-menu sort-dropdown mt-2"
                                                         aria-labelledby="dropdownMenuButton">
@@ -502,12 +502,12 @@
                                                         aria-haspopup="true"
                                                         aria-expanded="false">
                                                     <i class="mdi mdi-sort text-white"></i>
-                                                    <span class="ml-2">Show columns</span>
+                                                    <span class="mr-2">عرض الأعمدة</span>
                                                 </button>
                                                 <div    class="dropdown-menu show-columns-dropdown mt-2"
                                                         aria-labelledby="dropdownMenuButton">
                                                     <div class="polaris-header pl-3 pb-2">
-                                                        <span>Show columns:</span>
+                                                        <span>عرض الأعمدة:</span>
                                                     </div>
                                                     <ul class="Polaris-ChoiceList__Choices_15o76 polaris-list pl-3 mb-0">
                                                         <li>
@@ -569,25 +569,25 @@
                                                     data-toggle="modal"
                                                     data-target="#todayModalCenter">
                                                     <i class="mdi mdi-calendar-today"></i>
-                                                    <span class="ml-2">Today</span>
+                                                    <span class="mr-2">اليوم</span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-6 pr-0">
                                         <div class="d-flex justify-content-end">
-                                            <div class="btn-container">
+                                            <div class="btn-container ml-2">
                                                 <a class="btn-import table-top-btn d-flex align-items-center">
                                                     <i class="mdi mdi-download"></i>
-                                                    <span class="ml-2">Import</span>
+                                                    <span class="mr-2">استيراد</span>
                                                 </a>
                                             </div>
-                                            <div class="btn-container ml-2">
+                                            <div class="btn-container">
                                                 <a  class="btn-add-order table-top-btn d-flex align-items-center"
                                                     data-toggle="modal"
                                                     data-target="#addOrderModalCenter">
                                                     <i class="mdi mdi-plus"></i>
-                                                    <span class="ml-2">Add order</span>
+                                                    <span class="mr-2">أضف طلب</span>
                                                 </a>
                                             </div>
                                         </div>
@@ -754,7 +754,7 @@
                                 </div>
                             </center>
                                 
-                            <div class="card-body pd-0">
+                            <div class="card-body pd-0 tx-right">
                                 <table class="table table-primary">
                                     <thead>
                                         <tr>
@@ -1256,13 +1256,13 @@
                             <nav aria-label="Page navigation example">
                                 <ul class="pagination justify-content-center">
                                   <li class="page-item disabled">
-                                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                    <a class="page-link" href="#" tabindex="-1">السابق</a>
                                   </li>
                                   <li class="page-item"><a class="page-link" href="#">1</a></li>
                                   <li class="page-item"><a class="page-link" href="#">2</a></li>
                                   <li class="page-item"><a class="page-link" href="#">3</a></li>
                                   <li class="page-item">
-                                    <a class="page-link" href="#">Next</a>
+                                    <a class="page-link" href="#">التالي</a>
                                   </li>
                                 </ul>
                             </nav>
