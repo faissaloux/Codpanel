@@ -606,35 +606,35 @@
                                                             <input  type="text"
                                                                     class="form-control"
                                                                     name="q"
-                                                                    placeholder="Name or phone or address">
+                                                                    placeholder="إسم أو هاتف أو عنوان">
                                                         </div>
                                                         <div class="form-group col-md-2">
                                                             <button type="submit" class="btn btn-success btn-block">
-                                                                <b>Search</b>&nbsp;&nbsp;<i data-feather="search"></i>
+                                                                <b>بحث</b>&nbsp;&nbsp;<i data-feather="search"></i>
                                                             </button>
                                                         </div>
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-md-4">
                                                             <div class="form-group ">
-                                                                <label for="date">
-                                                                    <b>City</b>
+                                                                <label for="city_selector" class="float-right">
+                                                                    <b>المدينة</b>
                                                                 </label>
                                                                 <select class="form-control" name="city_selector">
-                                                                    <option value="notselected">Aucun</option>
-                                                                    <option value="agadir">Agadir</option>
-                                                                    <option value="Marrakech">Marrakech</option>
-                                                                    <option value="rabat">Rabat</option>
+                                                                    <option></option>
+                                                                    <option value="agadir">أكادير</option>
+                                                                    <option value="Marrakech">مراكش</option>
+                                                                    <option value="rabat">الرباط</option>
                                                                 </select>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="form-group ">
-                                                                <label >
-                                                                    <b>Employee</b>
+                                                                <label for="employee_selector" class="float-right" >
+                                                                    <b>العامل</b>
                                                                 </label>
                                                                 <select class="form-control" name="employee_selector">
-                                                                    <option value="notselected">Aucun</option>
+                                                                    <option></option>
                                                                     <option value="139">bassiri soulaiman</option>
                                                                     <option value="141">abdelilah</option>
                                                                     <option value="143">soulaimane</option>
@@ -649,8 +649,10 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
-                                                            <div class="form-group ">
-                                                                <label><b>Provider</b></label>
+                                                            <div class="form-group">
+                                                                <label for="provider" class="float-right">
+                                                                    <b>المزود</b>
+                                                                </label>
                                                                 <select class="form-control" name="provider">
                                                                     <option></option>
                                                                     <option value="Axa assurance maroc">Axa assurance maroc</option>
@@ -672,7 +674,9 @@
                                                     <div class="row">
                                                         <div class="col-md-6">
                                                             <div class="form-group">
-                                                                <label for="date"><b>Product</b></label>
+                                                                <label for="product" class="float-right">
+                                                                    <b>المنتج</b>
+                                                                </label>
                                                                 <select class="form-control" name="product">
                                                                     <option></option>
                                                                     <option value="Axa assurance maroc">Axa assurance maroc</option>
@@ -692,7 +696,9 @@
                                                         </div>
                                                         <div class="col-md-6">
                                                             <div class="form-group">
-                                                                <label for="date"><b>Status</b></label>
+                                                                <label for="status" class="float-right">
+                                                                    <b>الحالة</b>
+                                                                </label>
                                                                 <select class="form-control" name="status">
                                                                     <option></option>
                                                                     <option value="Axa assurance maroc">Axa assurance maroc</option>
@@ -714,19 +720,19 @@
                                                     <div class="row">
                                                         <div class="col-md-6">
                                                             <div class="form-group ">
-                                                                <label for="date">
-                                                                    <b>From</b>
+                                                                <label for="from" class="float-right">
+                                                                    <b>من</b>
                                                                 </label>
                                                                 <input  type="date" 
                                                                         class="form-control" 
                                                                         name="from"  
-                                                                        placeholder="From" />
+                                                                        placeholder="From"/>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <div class="form-group ">
-                                                                <label for="date">
-                                                                    <b>To</b>
+                                                            <div class="form-group">
+                                                                <label for="to" class="float-right">
+                                                                    <b>إلى</b>
                                                                 </label>
                                                                 <input  type="date" 
                                                                         class="form-control" 
