@@ -35,10 +35,10 @@
                             </li>
                             <li>
                                 <a href="users.php" class="d-flex justify-content-between tx-right">
-                                    <span>
+                                    <i>
                                         <i data-feather="users"></i>
                                         <span>المستخدمين</span>
-                                    </span>
+                                    </i>
                                     <span class="d-flex align-items-center mr-2 quantity">141</span>
                                 </a>
                             </li>
@@ -56,10 +56,10 @@
                             </li>
                             <li>
                                 <a href="#" class="d-flex justify-content-between tx-right">
-                                    <span>
+                                    <i>
                                         <i data-feather="archive"></i>
                                         <span>المخزون</span>
-                                    </span>
+                                    </i>
                                     <span class="d-flex align-items-center mr-2 quantity">26</span>
                                 </a>
                             </li>

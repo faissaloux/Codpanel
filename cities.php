@@ -24,6 +24,9 @@
             a{
                 font-weight: 400;
             }
+            i > span{
+                font-style: normal;
+            }
             select{
                 cursor: pointer;
             }

@@ -33,6 +33,10 @@
                 width: 160px;
             }
 
+            i > span{
+                font-style: normal;
+            }
+
             .actions-menu{
                 position: fixed;
                 display: none;

@@ -19,6 +19,9 @@
          .header-right .user-profile-area{
             height: 75px;
          }
+         i > span{
+                font-style: normal;
+            }
          .quantity{
             color: #FFF;
             background: #666;
