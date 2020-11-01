@@ -116,7 +116,7 @@
             }
             .search-icon{
                 position: absolute;
-                left: -9px;
+                left: -2px;
                 top: 32px;
             }
 
@@ -187,7 +187,7 @@
                             <form class="heading-form d-flex" id="form-stats-From-To" autocomplete="off" method="GET" action="">
                                 <div class="col-md-5">
                                     <div class="form-group">
-                                        <label for="">التاريخ من</label>
+                                        <label for="from" class="float-right">التاريخ من</label>
                                         <input  type="text"
                                                 name="from"
                                                 placeholder="التاريخ من"
@@ -198,7 +198,7 @@
                         
                                 <div class="col-md-5">
                                     <div class="form-group">
-                                        <label for="">التاريخ إلى</label>
+                                        <label for="to" class="float-right">التاريخ إلى</label>
                                         <input  type="text"
                                                 name="to"
                                                 placeholder="التاريخ الى"

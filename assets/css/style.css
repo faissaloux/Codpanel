@@ -970,7 +970,8 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv {
   margin-right: 250px; /* rtl */ }
 
 .page-sidebar-fixed.page-sidebar-collapsed .page-content {
-  margin-left: 60px; }
+  /* margin-left: 60px; */
+  margin-right: 60px; /* rtl */}
 
 .page-sidebar-collapsed .accordion-menu .sub-menu {
   padding-bottom: 0;
@@ -4795,7 +4796,8 @@ Header Search CSS
 
   .page-sidebar-fixed .page-content,
   .page-sidebar-fixed.page-sidebar-collapsed .page-content {
-    margin-left: 0; }
+    /* margin-left: 0; */
+    margin-right: 0; /* rtl */}
 
   .page-header,
   .page-header .navbar-default .container-fluid,
