@@ -55,13 +55,12 @@
                 cursor: pointer;
             }
             td.city{
-                height: 60px;
                 background-color: #3689ff;
                 color: #FFF;
             }
             .by-city-dropdown,
             .by-product-dropdown{
-                height: 200px;
+                max-height: 200px;
                 overflow-y: scroll;
             }
             .by-city-dropdown{
@@ -269,21 +268,21 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
+                                        <tr height="50">
                                             <td colspan="10" class="city">
                                                 Rabat
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN27</p>
+                                                <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <p>المفرمة الكهربائية صنع الماني</p>
+                                                <span>المفرمة الكهربائية صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
-                                                <p>0</p>
+                                                <span>0</span>
                                             </td>
                                             <td data-type="received">
                                                 <span>6</span>
@@ -304,16 +303,16 @@
                                                 <span>0</span>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN27</p>
+                                                <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <p>المفرمة الكهربائية صنع الماني</p>
+                                                <span>المفرمة الكهربائية صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
-                                                <p>0</p>
+                                                <span>0</span>
                                             </td>
                                             <td data-type="received">
                                                 <span>6</span>
@@ -334,16 +333,16 @@
                                                 <span>0</span>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN27</p>
+                                                <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <p>المفرمة الكهربائية صنع الماني</p>
+                                                <span>المفرمة الكهربائية صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
-                                                <p>0</p>
+                                                <span>0</span>
                                             </td>
                                             <td data-type="received">
                                                 <span>6</span>
@@ -364,16 +363,16 @@
                                                 <span>0</span>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN27</p>
+                                                <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <p>المفرمة الكهربائية صنع الماني</p>
+                                                <span>المفرمة الكهربائية صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
-                                                <p>0</p>
+                                                <span>0</span>
                                             </td>
                                             <td data-type="received">
                                                 <span>6</span>
@@ -394,16 +393,16 @@
                                                 <span>0</span>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN27</p>
+                                                <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <p>المفرمة الكهربائية صنع الماني</p>
+                                                <span>المفرمة الكهربائية صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
-                                                <p>0</p>
+                                                <span>0</span>
                                             </td>
                                             <td data-type="received">
                                                 <span>6</span>
@@ -424,16 +423,16 @@
                                                 <span>0</span>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN27</p>
+                                                <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <p>المفرمة الكهربائية صنع الماني</p>
+                                                <span>المفرمة الكهربائية صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
-                                                <p>0</p>
+                                                <span>0</span>
                                             </td>
                                             <td data-type="received">
                                                 <span>6</span>
@@ -454,16 +453,16 @@
                                                 <span>0</span>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN27</p>
+                                                <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <p>المفرمة الكهربائية صنع الماني</p>
+                                                <span>المفرمة الكهربائية صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
-                                                <p>0</p>
+                                                <span>0</span>
                                             </td>
                                             <td data-type="received">
                                                 <span>6</span>
@@ -484,16 +483,16 @@
                                                 <span>0</span>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN27</p>
+                                                <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <p>المفرمة الكهربائية صنع الماني</p>
+                                                <span>المفرمة الكهربائية صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
-                                                <p>0</p>
+                                                <span>0</span>
                                             </td>
                                             <td data-type="received">
                                                 <span>6</span>
@@ -514,16 +513,16 @@
                                                 <span>0</span>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN27</p>
+                                                <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <p>المفرمة الكهربائية صنع الماني</p>
+                                                <span>المفرمة الكهربائية صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
-                                                <p>0</p>
+                                                <span>0</span>
                                             </td>
                                             <td data-type="received">
                                                 <span>6</span>
@@ -544,16 +543,16 @@
                                                 <span>0</span>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN27</p>
+                                                <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <p>المفرمة الكهربائية صنع الماني</p>
+                                                <span>المفرمة الكهربائية صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
-                                                <p>0</p>
+                                                <span>0</span>
                                             </td>
                                             <td data-type="received">
                                                 <span>6</span>

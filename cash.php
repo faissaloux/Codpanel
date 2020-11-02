@@ -53,6 +53,10 @@
                 border: none;
                 cursor: pointer;
             }
+            td.provider{
+                background-color: #3689ff;
+                color: #FFF;
+            }
 
             .by-vendor-dropdown{
                 left: -76px !important;
@@ -263,21 +267,21 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td colspan="8" class="tx-right">
+                                        <tr height="50">
+                                            <td colspan="8" class="tx-right provider">
                                                 فوو
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="date">
-                                                <p>2020-10-28</p>
+                                                <span>2020-10-28</span>
                                             </td>
                                             <td data-type="requestsNum">
-                                                <p>2</p>
+                                                <span>2</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <p>498 درهم</p>
+                                                <span>498 درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
                                                 <span>50 درهم</span>
@@ -298,16 +302,16 @@
                                                 </a>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="date">
-                                                <p>2020-10-28</p>
+                                                <span>2020-10-28</span>
                                             </td>
                                             <td data-type="requestsNum">
-                                                <p>4</p>
+                                                <span>4</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <p>498 درهم</p>
+                                                <span>498 درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
                                                 <span>50 درهم</span>
@@ -328,166 +332,16 @@
                                                 </a>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="date">
-                                                <p>2020-10-28</p>
+                                                <span>2020-10-28</span>
                                             </td>
                                             <td data-type="requestsNum">
-                                                <p>8</p>
+                                                <span>8</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <p>498 درهم</p>
-                                            </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
-                                                <a  type="button" 
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
-                                            </td>
-                                            <td data-type="requestsNum">
-                                                <p>22</p>
-                                            </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
-                                            </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
-                                            </td>
-                                            <td data-type="requestsNum">
-                                                <p>21</p>
-                                            </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
-                                            </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
-                                            </td>
-                                            <td data-type="requestsNum">
-                                                <p>10</p>
-                                            </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
-                                            </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
-                                            </td>
-                                            <td data-type="requestsNum">
-                                                <p>4</p>
-                                            </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
-                                            </td>
-                                            <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
-                                            </td>
-                                            <td data-type="net">
-                                                <span>448 درهم</span>
-                                            </td>
-                                            <td data-type="details">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
-                                                    رؤية التفاصيل
-                                                </a>
-                                            </td>
-                                            <td data-type="received">
-                                                <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
-                                                    تم استلام المبلغ
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="date">
-                                                <p>2020-10-28</p>
-                                            </td>
-                                            <td data-type="requestsNum">
-                                                <p>7</p>
-                                            </td>
-                                            <td data-type="totalSells">
-                                                <p>498 درهم</p>
+                                                <span>498 درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
                                                 <span>50 درهم</span>
@@ -508,16 +362,16 @@
                                                 </a>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="date">
-                                                <p>2020-10-28</p>
+                                                <span>2020-10-28</span>
                                             </td>
                                             <td data-type="requestsNum">
-                                                <p>12</p>
+                                                <span>22</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <p>498 درهم</p>
+                                                <span>498 درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
                                                 <span>50 درهم</span>
@@ -538,16 +392,166 @@
                                                 </a>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr height="50">
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="date">
-                                                <p>2020-10-28</p>
+                                                <span>2020-10-28</span>
                                             </td>
                                             <td data-type="requestsNum">
-                                                <p>4</p>
+                                                <span>21</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <p>498 درهم</p>
+                                                <span>498 درهم</span>
+                                            </td>
+                                            <td data-type="deliveryPrice">
+                                                <span>50 درهم</span>
+                                            </td>
+                                            <td data-type="net">
+                                                <span>448 درهم</span>
+                                            </td>
+                                            <td data-type="details">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    رؤية التفاصيل
+                                                </a>
+                                            </td>
+                                            <td data-type="received">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    تم استلام المبلغ
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr height="50">
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="date">
+                                                <span>2020-10-28</span>
+                                            </td>
+                                            <td data-type="requestsNum">
+                                                <span>10</span>
+                                            </td>
+                                            <td data-type="totalSells">
+                                                <span>498 درهم</span>
+                                            </td>
+                                            <td data-type="deliveryPrice">
+                                                <span>50 درهم</span>
+                                            </td>
+                                            <td data-type="net">
+                                                <span>448 درهم</span>
+                                            </td>
+                                            <td data-type="details">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    رؤية التفاصيل
+                                                </a>
+                                            </td>
+                                            <td data-type="received">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    تم استلام المبلغ
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr height="50">
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="date">
+                                                <span>2020-10-28</span>
+                                            </td>
+                                            <td data-type="requestsNum">
+                                                <span>4</span>
+                                            </td>
+                                            <td data-type="totalSells">
+                                                <span>498 درهم</span>
+                                            </td>
+                                            <td data-type="deliveryPrice">
+                                                <span>50 درهم</span>
+                                            </td>
+                                            <td data-type="net">
+                                                <span>448 درهم</span>
+                                            </td>
+                                            <td data-type="details">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    رؤية التفاصيل
+                                                </a>
+                                            </td>
+                                            <td data-type="received">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    تم استلام المبلغ
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr height="50">
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="date">
+                                                <span>2020-10-28</span>
+                                            </td>
+                                            <td data-type="requestsNum">
+                                                <span>7</span>
+                                            </td>
+                                            <td data-type="totalSells">
+                                                <span>498 درهم</span>
+                                            </td>
+                                            <td data-type="deliveryPrice">
+                                                <span>50 درهم</span>
+                                            </td>
+                                            <td data-type="net">
+                                                <span>448 درهم</span>
+                                            </td>
+                                            <td data-type="details">
+                                                <a  type="button" 
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    رؤية التفاصيل
+                                                </a>
+                                            </td>
+                                            <td data-type="received">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    تم استلام المبلغ
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr height="50">
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="date">
+                                                <span>2020-10-28</span>
+                                            </td>
+                                            <td data-type="requestsNum">
+                                                <span>12</span>
+                                            </td>
+                                            <td data-type="totalSells">
+                                                <span>498 درهم</span>
+                                            </td>
+                                            <td data-type="deliveryPrice">
+                                                <span>50 درهم</span>
+                                            </td>
+                                            <td data-type="net">
+                                                <span>448 درهم</span>
+                                            </td>
+                                            <td data-type="details">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    رؤية التفاصيل
+                                                </a>
+                                            </td>
+                                            <td data-type="received">
+                                                <a  type="button"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    تم استلام المبلغ
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr height="50">
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="date">
+                                                <span>2020-10-28</span>
+                                            </td>
+                                            <td data-type="requestsNum">
+                                                <span>4</span>
+                                            </td>
+                                            <td data-type="totalSells">
+                                                <span>498 درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
                                                 <span>50 درهم</span>

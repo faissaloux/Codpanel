@@ -778,7 +778,7 @@
                                     <tbody>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="requestInfo">
+                                            <td data-type="requestInfo" class="tx-right">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
                                                 <i class="mdi mdi-tag"></i>قيد المعالجة<br/>
@@ -874,7 +874,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="requestInfo">
+                                            <td data-type="requestInfo" class="tx-right">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
                                                 <i class="mdi mdi-tag"></i>قيد المعالجة<br/>
@@ -970,7 +970,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="requestInfo">
+                                            <td data-type="requestInfo" class="tx-right">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
                                                 <i class="mdi mdi-tag"></i>قيد المعالجة<br/>
@@ -1066,7 +1066,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="requestInfo">
+                                            <td data-type="requestInfo" class="tx-right">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
                                                 <i class="mdi mdi-tag"></i>قيد المعالجة<br/>
@@ -1162,7 +1162,7 @@
                                         </tr>
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
-                                            <td data-type="requestInfo">
+                                            <td data-type="requestInfo" class="tx-right">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
                                                 <i class="mdi mdi-tag"></i>قيد المعالجة<br/>

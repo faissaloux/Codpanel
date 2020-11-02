@@ -417,13 +417,13 @@
                                                 </div>
                                             </td>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                                <span>آلة لتحضير الفشار بدون زيت صحية</span>
                                             </td>
                                             <td data-type="price">
-                                                <p>100DH</p>
+                                                <span>100DH</span>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -441,13 +441,13 @@
                                                 </div>
                                             </td>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td  data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                                <span>آلة لتحضير الفشار بدون زيت صحية</span>
                                             </td>
                                             <td data-type="price">
-                                                <p>100DH</p>
+                                                <span>100DH</span>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -465,13 +465,13 @@
                                                 </div>
                                             </td>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                                <span>آلة لتحضير الفشار بدون زيت صحية</span>
                                             </td>
                                             <td data-type="price">
-                                                <p>100DH</p>
+                                                <span>100DH</span>
                                             </td>
                                             <td>
                                                 <a type="button" 
@@ -489,13 +489,13 @@
                                                 </div>
                                             </td>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                                <span>آلة لتحضير الفشار بدون زيت صحية</span>
                                             </td>
                                             <td data-type="price">
-                                                <p>100DH</p>
+                                                <span>100DH</span>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -513,13 +513,13 @@
                                                 </div>
                                             </td>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                                <span>آلة لتحضير الفشار بدون زيت صحية</span>
                                             </td>
                                             <td data-type="price">
-                                                <p>100DH</p>
+                                                <span>100DH</span>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -537,13 +537,13 @@
                                                 </div>
                                             </td>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                                <span>آلة لتحضير الفشار بدون زيت صحية</span>
                                             </td>
                                             <td data-type="price">
-                                                <p>100DH</p>
+                                                <span>100DH</span>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -561,13 +561,13 @@
                                                 </div>
                                             </td>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td  data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                                <span>آلة لتحضير الفشار بدون زيت صحية</span>
                                             </td>
                                             <td data-type="price">
-                                                <p>100DH</p>
+                                                <span>100DH</span>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -585,13 +585,13 @@
                                                 </div>
                                             </td>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                                <span>آلة لتحضير الفشار بدون زيت صحية</span>
                                             </td>
                                             <td data-type="price">
-                                                <p>100DH</p>
+                                                <span>100DH</span>
                                             </td>
                                             <td>
                                                 <a  type="button" 
@@ -609,13 +609,13 @@
                                                 </div>
                                             </td>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                                <span>آلة لتحضير الفشار بدون زيت صحية</span>
                                             </td>
                                             <td data-type="price">
-                                                <p>100DH</p>
+                                                <span>100DH</span>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -633,13 +633,13 @@
                                                 </div>
                                             </td>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="product">
-                                                <p>آلة لتحضير الفشار بدون زيت صحية</p>
+                                                <span>آلة لتحضير الفشار بدون زيت صحية</span>
                                             </td>
                                             <td data-type="price">
-                                                <p>100DH</p>
+                                                <span>100DH</span>
                                             </td>
                                             <td>
                                                 <a  type="button"

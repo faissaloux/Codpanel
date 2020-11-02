@@ -192,13 +192,13 @@
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <p>example@email.com</p>
+                                                <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <p>منذ أسبوعين</p>
+                                                <span>منذ أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-success text-white p-1">موظفة</span>
@@ -216,13 +216,13 @@
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <p>example@email.com</p>
+                                                <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <p>منذ أسبوعين</p>
+                                                <span>منذ أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-success text-white p-1">موظفة</span>
@@ -240,13 +240,13 @@
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <p>example@email.com</p>
+                                                <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <p>منذ أسبوعين</p>
+                                                <span>منذ أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-success text-white p-1">موظفة</span>
@@ -264,13 +264,13 @@
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <p>example@email.com</p>
+                                                <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <p>منذ أسبوعين</p>
+                                                <span>منذ أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-primary text-white p-1">موزع</span>
@@ -288,13 +288,13 @@
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <p>example@email.com</p>
+                                                <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <p>منذ أسبوعين</p>
+                                                <span>منذ أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-danger text-white p-1">مضيف بيانات</span>
@@ -312,13 +312,13 @@
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <p>example@email.com</p>
+                                                <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <p>منذ أسبوعين</p>
+                                                <span>منذ أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-warning text-white p-1">لجنة المتابعة</span>
@@ -336,13 +336,13 @@
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <p>example@email.com</p>
+                                                <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <p>منذ أسبوعين</p>
+                                                <span>منذ أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-primary text-white p-1">موزع</span>
@@ -360,13 +360,13 @@
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <p>example@email.com</p>
+                                                <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <p>منذ أسبوعين</p>
+                                                <span>منذ أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-primary text-white p-1">موزع</span>
@@ -384,13 +384,13 @@
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <p>example@email.com</p>
+                                                <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <p>منذ أسبوعين</p>
+                                                <span>منذ أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-danger text-white p-1">مضيف بيانات</span>
@@ -408,13 +408,13 @@
                                         <tr>
                                             <th scope="row"><input type="checkbox"/></th>
                                             <td data-type="reference">
-                                                <p>SN62</p>
+                                                <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <p>example@email.com</p>
+                                                <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <p>منذ أسبوعين</p>
+                                                <span>منذ أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-danger text-white p-1">مضيف بيانات</span>
