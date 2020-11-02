@@ -402,7 +402,7 @@
                                 </div>
                             </div>
 
-                            <div class="search-form-panel mb-4">
+                            <div class="search-form-panel pt-4 mb-4">
                                 <form action="/sinistres/search" id='sinistres-search' method="GET">
                                     <div class="panel">
                                         <div class="panel-body">

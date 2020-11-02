@@ -450,7 +450,6 @@ td.date{
 .btn-top.b-primary{
     border: 1px #007bff solid;
 }
-
 .bg-grey{
     background-color: #FCFCFC;
 }
@@ -478,8 +477,9 @@ td.provider{
 }
 .search-icon{
     position: absolute;
-    left: -2px;
-    top: 32px;
+    left: 25px;
+    top: 33px;
+    color: #FFF;
 }
 .details{
     background: linear-gradient(to right, #8f94fb, #4e54c8);

@@ -10,7 +10,7 @@
         <meta name="author"  content=""/>
         <!-- Page Title -->
         <title>Google Chart | Avesta - Multipurpose Admin Dashboard Template</title>
-        <!-- Main CSS -->	  
+        <!-- Main CSS -->
         <link type="text/css" rel="stylesheet" href="assets/css/all.css"/>
         <link type="text/css" rel="stylesheet" href="assets/css/custom.css"/>
         <!-- Favicon -->	
@@ -49,13 +49,13 @@
                 <!-- Page Inner Start -->
                 <!--================================-->
                 <div class="d-flex flex-column bg-white pt-4">
-                    <div class="d-flex justify-content-between align-items-center pr-4 pl-4">
-                        <div class="d-flex">
-                            <h3>الحساب اليومي</h3>
+                    <div class="row align-items-center pr-4 pl-4">
+                        <div class="col-md-6 col-sm-12 mb-md-0 mb-sm-5">
+                            <h3 class="tx-right">الحساب اليومي</h3>
                         </div>
-                        <div class="heading-elements stastsForm">
+                        <div class="heading-elements stastsForm col-md-6 col-sm-12">
                             <form class="heading-form d-flex" id="form-stats-From-To" autocomplete="off" method="GET" action="">
-                                <div class="col-md-5">
+                                <div class="col-5">
                                     <div class="form-group">
                                         <label for="from" class="float-right">التاريخ من</label>
                                         <input  type="text"
@@ -66,7 +66,7 @@
                                     </div>
                                 </div>
                         
-                                <div class="col-md-5">
+                                <div class="col-5">
                                     <div class="form-group">
                                         <label for="to" class="float-right">التاريخ إلى</label>
                                         <input  type="text"
@@ -76,11 +76,11 @@
                                                 id="datepickerTo">
                                     </div>
                                 </div>
-                                <div class="col-md-1">
+                                <div class="col">
                                     <div class="form-group">
                                         <button class="btn btn-success mt-4 search-btn" type="submit">
-                                            <i data-feather="search" class="search-icon"></i>
                                         </button>
+                                            <i data-feather="search" class="search-icon"></i>
                                     </div>
                                 </div>
                             </form>
