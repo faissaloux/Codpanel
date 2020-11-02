@@ -4815,10 +4815,12 @@ Header Search CSS
     padding: 0 !important; }
 
   .page-sidebar-visible .page-sidebar {
-    left: 0; }
+    /* left: 0; */
+    right: 0; /* rtl */ }
 
   #sidebar-toggle-button-close {
-    margin-left: auto;
+    /* margin-left: auto; */
+    margin-right: auto; /* rtl */
     float: right;
     height: 40px;
     font-size: 25px;

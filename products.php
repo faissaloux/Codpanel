@@ -20,6 +20,7 @@
         <style>
             body{
                 background-color: #F5F5F5;
+                overflow-x: hidden;
             }
             a{
                 font-weight: 400;
