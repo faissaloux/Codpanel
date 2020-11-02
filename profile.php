@@ -10,134 +10,16 @@
         <meta name="author"  content=""/>
         <!-- Page Title -->
         <title>Google Chart | Avesta - Multipurpose Admin Dashboard Template</title>
+        <!-- Bootstrap link -->
+        <link   rel="stylesheet"
+                href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+                integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+                crossorigin="anonymous">
         <!-- Main CSS -->	  
-        <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+        <link type="text/css" rel="stylesheet" href="assets/css/all.css"/>
+        <link type="text/css" rel="stylesheet" href="assets/css/custom.css"/>
         <!-- Favicon -->	
         <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-        <!-- MDI -->
-        <link type="text/css" rel="stylesheet" href="assets/plugins/mdi/css/materialdesignicons.min.css">
-
-        <style>
-            body{
-                background-color: #F5F5F5;
-            }
-            a{
-                font-weight: 400;
-            }
-            select{
-                cursor: pointer;
-            }
-
-            .btn-top > a{
-                font-size: 16px;
-                width: 160px;
-            }
-
-            i > span{
-                font-style: normal;
-            }
-
-            .form{
-                border: 1px #BBB solid;
-                background-color: #FFF;
-                padding: 12px;
-            }
-
-            .actions-menu{
-                position: fixed;
-                display: none;
-                width: 100%;
-                z-index: 999;
-                height: 60px;
-                background-color: #201F2B;
-                color: #FFF;
-            }
-            .actions-number{
-                background-color: #3C3B4C;
-                border-radius: 20px;
-                padding: 4px 12px;
-            }
-            .action{
-                background-color: #3C3B4C;
-                padding: 6px 12px;
-                border-radius: 20px;
-                cursor: pointer;
-                line-height: 22px;
-            }
-            .action-delete{
-                background-color: #EC3751;
-            }
-            .close-actions-menu{
-                cursor: pointer;
-            }
-            @media(max-width: 600px){
-                .sm-hide{
-                    display: none;
-                }
-            }
-            
-            .margin-top-60{
-                margin-top: 60px;;
-            }
-            input[type="checkbox"]{
-                cursor: pointer;
-            }
-
-            .header-right .user-profile-area{
-                height: 75px;
-            }
-
-            .add-new-user-text{
-                margin-left: 35px;
-            }
-            .add-new-user-icon{
-                width: 40px;
-                background-color: rgba(0,0,0,.15);;
-                position: absolute;
-                left: 0;
-                top: 0;
-                bottom: 0;
-            }
-
-            .navbar-menu{
-                color: #FFF;
-            }
-            .quantity{
-                color: #FFF;
-                background: #666;
-                padding: 0 8px;
-                border-radius: 6px;
-                font-size: 12px;
-            }
-            .table-top-btn ~ .table-top-btn-icon{
-                position: absolute;
-                left: 26px;
-                top: 7px;
-                color: #FFF;
-            }
-
-            .table-primary thead tr th{
-                font-size: 18px;
-            }
-            .rounded{
-                color: white !important;
-                border-radius: 50px !important;
-            }
-            .custom-control-label{
-                cursor: pointer;
-            }
-            
-            .border-none{
-                border: none;
-            }
-
-            .edit{
-                background: linear-gradient(to right, #4f93b2, #66cfb5);
-            }
-            .mdi{
-                font-size: 18px;
-            }
-        </style>
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
@@ -272,7 +154,7 @@
         <!--================================-->
         <!-- Footer Script -->
         <!--================================-->
-        <?php require_once 'inc/scripts.php'; ?>
+        <script src="assets/js/all.js"></script>
         
     </body>
 

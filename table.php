@@ -10,218 +10,17 @@
         <meta name="author"  content=""/>
         <!-- Page Title -->
         <title>Google Chart | Avesta - Multipurpose Admin Dashboard Template</title>
-        <!-- Main CSS -->	  
-        <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+        <!-- Bootstrap link -->
+        <link   rel="stylesheet"
+                href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+                integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+                crossorigin="anonymous">
+        <!-- Main CSS -->
+        <link type="text/css" rel="stylesheet" href="assets/css/all.css"/>
+        <link type="text/css" rel="stylesheet" href="assets/css/custom.css"/>
         <!-- Favicon -->	
         <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-        <!-- MDI -->
-        <link type="text/css" rel="stylesheet" href="assets/plugins/mdi/css/materialdesignicons.min.css">
-
-        <style>
-            body{
-                background-color: #F5F5F5;
-            }
-            a{
-                font-weight: 400;
-            }
-            i > span{
-                font-style: normal;
-            }
-            select{
-                cursor: pointer;
-            }
-
-            .actions-menu{
-                position: fixed;
-                display: none;
-                width: 100%;
-                z-index: 999;
-                height: 60px;
-                background-color: #201F2B;
-                color: #FFF;
-            }
-            .actions-number{
-                background-color: #3C3B4C;
-                border-radius: 20px;
-                padding: 4px 12px;
-            }
-            .action{
-                background-color: #3C3B4C;
-                padding: 6px 12px;
-                border-radius: 20px;
-                cursor: pointer;
-                line-height: 22px;
-            }
-            .action-delete{
-                background-color: #EC3751;
-            }
-            .close-actions-menu{
-                cursor: pointer;
-            }
-            @media(max-width: 600px){
-                .sm-hide{
-                    display: none;
-                }
-            }
-
-            .margin-top-60{
-                margin-top: 60px;;
-            }
-            input[type="checkbox"]{
-                cursor: pointer;
-            }
-
-            label{
-                margin-bottom: 2px;
-            }
-            label > b {
-                font-size: 12px;
-            }
-            .feather-search{
-                width: 20px;
-                height: 20px;
-            }
-
-            .header-right .user-profile-area{
-                height: 75px;
-            }
-            .search-form-panel{
-                display: none;
-                border: 1px #BBB solid;
-                background-color: #FFF;
-                padding: 12px;
-            }
-
-            .navbar-menu{
-                color: #FFF;
-            }
-            .quantity{
-                color: #FFF;
-                background: #666;
-                padding: 0 8px;
-                border-radius: 6px;
-                font-size: 12px;
-            }
             
-            .sort-container{
-                background-color: #2D54EE;
-                height: 36px;
-                border: none;
-                border-radius: 0;
-            }
-            .sort-dropdown{
-                left: -117px !important;
-                height: 200px;
-                width: 200px;
-                overflow-y: scroll;
-            }
-            .show-columns-dropdown{
-                left: -34px !important;
-            }
-            .polaris-header > span{
-                font-size: 14px;
-                color: #6D7175;
-            }
-            .polaris-list{
-                list-style: none;
-            }
-            .Polaris-RadioButton__Input_30ock{
-                width: 18px;
-                height: 18px;
-                cursor: pointer;
-                margin-left: .8rem;
-            }
-            .Polaris-Choice__Label_2vd36{
-                font-size: 14px;
-            }
-
-            .modal-large {
-                max-width: 650px;
-            }
-
-            .nav-link{
-                background-color: #FFF !important;
-            }
-
-            .nav-link.active{
-                background-color: #F5F5F5 !important;
-            }
-            .pagination-select{
-                background-color: #2D54EE;
-                color: #FFF;
-                border: none;
-                outline: none;
-                height: 36px;
-            }
-            .btn-container{
-                padding-left: 0;
-                cursor: pointer;
-            }
-            .limit-container-right, .order-container-right, .show-columns-container{
-                background-color: #2D54EE;
-                height: 36px;
-            }
-            .limit-container-right, .order-container-right > span{
-                color: #FFF;
-            }
-            .btn-filter, .btn-reload{
-                padding: 5px 8px;
-                height: 36px;
-                background-color: #2D54EE;
-                color: #FFF;
-                cursor: pointer;
-            }
-            .btn-add-order{
-                background-color: #221ECC;
-                color: #FFF !important;
-                padding: 0 10px;
-                height: 36px;
-            }
-            .btn-import{
-                background-color: #2D54EE;
-                color: #FFF !important;
-                padding: 0 10px;
-                height: 36px;
-            }
-
-            .table-primary thead tr th{
-                font-size: 18px;
-            }
-            .rounded{
-                color: white !important;
-                border-radius: 50px !important;
-            }
-            .custom-control-label{
-                cursor: pointer;
-            }
-            
-            .border-none{
-                border: none;
-            }
-
-            .details{
-                background: linear-gradient(to right, #8f94fb, #4e54c8);
-            }
-
-            .history{
-                background: linear-gradient(to right, #ff5e62, #ff9966);
-            }
-
-            .edit{
-                background: linear-gradient(to right, #4f93b2, #66cfb5);
-            }
-            .modal-top{
-                padding: 10px;
-            }
-            .mdi{
-                font-size: 18px;
-            }
-
-            .ui-datepicker{
-                z-index: 2000 !important;
-            }
-        </style>
-
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -1319,18 +1118,9 @@
         <!--================================-->
         <!-- Footer Script -->
         <!--================================-->
-        <?php require_once 'inc/scripts.php'; ?>
-        <script>
-            $(() => {
-                const searchForm = $(".search-form-panel");
-
-                $(".btn-filter").click(()=>{
-                    searchForm.css("display") == "block"
-                        ? searchForm.slideUp(400)
-                        : searchForm.slideDown(200)
-                })
-            })
-        </script>
+        <script src="assets/js/all.js"></script>
+        <script src="assets/js/custom.js"></script>
+        
     </body>
 
 </html>

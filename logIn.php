@@ -10,8 +10,14 @@
       <meta name="author"  content=""/>
       <!-- Page Title -->
       <title>Signin | Avesta - Multipurpose Admin Dashboard Template</title>
+        <!-- Bootstrap link -->
+        <link   rel="stylesheet"
+                href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+                integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+                crossorigin="anonymous">
       <!-- Main CSS -->	  
-      <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+      <link type="text/css" rel="stylesheet" href="assets/css/all.css"/>
+      <link type="text/css" rel="stylesheet" href="assets/css/custom.css"/>
       <!-- Favicon -->	
       <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -57,14 +63,11 @@
          </div>
       </div>
       <!--/ Page Content End -->
-      <!-- jQuery  -->
-      <script src="assets/plugins/jquery/jquery.min.js"></script>
-      <script src="assets/plugins/bootstrap/bootstrap.bundle.min.html"></script>
-      <script src="assets/plugins/feather-icon/feather.min.html"></script>
-      <script src="assets/plugins/metisMenu/metisMenu.min.html"></script>
-      <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>	  
-      <!-- App JS -->
-      <script src="assets/js/app.js"></script>
+      
+      <!--================================-->
+        <!-- Footer Script -->
+        <!--================================-->
+        <script src="assets/js/all.js"></script>
    </body>
 
 </html>
