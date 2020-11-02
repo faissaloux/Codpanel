@@ -471,6 +471,16 @@ td.provider{
 .by-vendor-dropdown{
     left: -76px !important;
 }
+@media(max-width: 1198px){
+    .by-vendor-dropdown{
+        left: -75px !important;
+    }
+}
+@media(max-width: 988px){
+    .by-vendor-dropdown{
+        left: -22px !important;
+    }
+}
 .search-btn{
     width: 20px;
     height: 40px;
