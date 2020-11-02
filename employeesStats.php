@@ -136,7 +136,6 @@
                 font-size: 18px;
             }
             .rounded{
-                color: white !important;
                 border-radius: 50px !important;
             }
             .custom-control-label{
@@ -281,25 +280,31 @@
                                                 <span>ghizlane</span>
                                             </td>
                                             <td data-type="distributed">
-                                                <span>2</span>
+                                                <span class="badge badge-primary">25.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">2</span>
                                             </td>
                                             <td data-type="reconnect">
-                                                <span>1</span>
+                                                <span class="badge badge-primary">9.38%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">6</span>
                                             </td>
                                             <td data-type="doesntAnswer">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">26.56%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">17</span>
                                             </td>
                                             <td data-type="canceled">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">10.94%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">7</span>
                                             </td>
                                             <td data-type="processing">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">100.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">3</span>
                                             </td>
                                             <td data-type="requestAccepted">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">53.13%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">34</span>
                                             </td>
                                             <td data-type="requestsTotal">
-                                                <span>16</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">64</span>
                                             </td>
                                         </tr>
                                         <tr height="50">
@@ -308,25 +313,31 @@
                                                 <span>ghizlane</span>
                                             </td>
                                             <td data-type="distributed">
-                                                <span>4</span>
+                                                <span class="badge badge-primary">25.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">2</span>
                                             </td>
                                             <td data-type="reconnect">
-                                                <span>1</span>
+                                                <span class="badge badge-primary">9.38%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">6</span>
                                             </td>
                                             <td data-type="doesntAnswer">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">26.56%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">17</span>
                                             </td>
                                             <td data-type="canceled">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">10.94%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">7</span>
                                             </td>
                                             <td data-type="processing">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">100.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">3</span>
                                             </td>
                                             <td data-type="requestAccepted">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">53.13%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">34</span>
                                             </td>
                                             <td data-type="requestsTotal">
-                                                <span>16</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">64</span>
                                             </td>
                                         </tr>
                                         <tr height="50">
@@ -335,25 +346,31 @@
                                                 <span>ghizlane</span>
                                             </td>
                                             <td data-type="distributed">
-                                                <span>8</span>
+                                                <span class="badge badge-primary">25.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">2</span>
                                             </td>
                                             <td data-type="reconnect">
-                                                <span>1</span>
+                                                <span class="badge badge-primary">9.38%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">6</span>
                                             </td>
                                             <td data-type="doesntAnswer">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">26.56%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">17</span>
                                             </td>
                                             <td data-type="canceled">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">10.94%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">7</span>
                                             </td>
                                             <td data-type="processing">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">100.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">3</span>
                                             </td>
                                             <td data-type="requestAccepted">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">53.13%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">34</span>
                                             </td>
                                             <td data-type="requestsTotal">
-                                                <span>16</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">64</span>
                                             </td>
                                         </tr>
                                         <tr height="50">
@@ -362,25 +379,31 @@
                                                 <span>ghizlane</span>
                                             </td>
                                             <td data-type="distributed">
-                                                <span>22</span>
+                                                <span class="badge badge-primary">25.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">2</span>
                                             </td>
                                             <td data-type="reconnect">
-                                                <span>1</span>
+                                                <span class="badge badge-primary">9.38%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">6</span>
                                             </td>
                                             <td data-type="doesntAnswer">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">26.56%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">17</span>
                                             </td>
                                             <td data-type="canceled">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">10.94%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">7</span>
                                             </td>
                                             <td data-type="processing">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">100.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">3</span>
                                             </td>
                                             <td data-type="requestAccepted">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">53.13%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">34</span>
                                             </td>
                                             <td data-type="requestsTotal">
-                                                <span>16</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">64</span>
                                             </td>
                                         </tr>
                                         <tr height="50">
@@ -389,25 +412,31 @@
                                                 <span>ghizlane</span>
                                             </td>
                                             <td data-type="distributed">
-                                                <span>21</span>
+                                                <span class="badge badge-primary">25.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">2</span>
                                             </td>
                                             <td data-type="reconnect">
-                                                <span>1</span>
+                                                <span class="badge badge-primary">9.38%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">6</span>
                                             </td>
                                             <td data-type="doesntAnswer">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">26.56%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">17</span>
                                             </td>
                                             <td data-type="canceled">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">10.94%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">7</span>
                                             </td>
                                             <td data-type="processing">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">100.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">3</span>
                                             </td>
                                             <td data-type="requestAccepted">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">53.13%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">34</span>
                                             </td>
                                             <td data-type="requestsTotal">
-                                                <span>16</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">64</span>
                                             </td>
                                         </tr>
                                         <tr height="50">
@@ -416,25 +445,31 @@
                                                 <span>ghizlane</span>
                                             </td>
                                             <td data-type="distributed">
-                                                <span>10</span>
+                                                <span class="badge badge-primary">25.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">2</span>
                                             </td>
                                             <td data-type="reconnect">
-                                                <span>1</span>
+                                                <span class="badge badge-primary">9.38%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">6</span>
                                             </td>
                                             <td data-type="doesntAnswer">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">26.56%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">17</span>
                                             </td>
                                             <td data-type="canceled">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">10.94%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">7</span>
                                             </td>
                                             <td data-type="processing">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">100.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">3</span>
                                             </td>
                                             <td data-type="requestAccepted">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">53.13%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">34</span>
                                             </td>
                                             <td data-type="requestsTotal">
-                                                <span>16</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">64</span>
                                             </td>
                                         </tr>
                                         <tr height="50">
@@ -443,25 +478,31 @@
                                                 <span>ghizlane</span>
                                             </td>
                                             <td data-type="distributed">
-                                                <span>4</span>
+                                                <span class="badge badge-primary">25.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">2</span>
                                             </td>
                                             <td data-type="reconnect">
-                                                <span>1</span>
+                                                <span class="badge badge-primary">9.38%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">6</span>
                                             </td>
                                             <td data-type="doesntAnswer">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">26.56%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">17</span>
                                             </td>
                                             <td data-type="canceled">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">10.94%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">7</span>
                                             </td>
                                             <td data-type="processing">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">100.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">3</span>
                                             </td>
                                             <td data-type="requestAccepted">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">53.13%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">34</span>
                                             </td>
                                             <td data-type="requestsTotal">
-                                                <span>16</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">64</span>
                                             </td>
                                         </tr>
                                         <tr height="50">
@@ -470,25 +511,31 @@
                                                 <span>ghizlane</span>
                                             </td>
                                             <td data-type="distributed">
-                                                <span>7</span>
+                                                <span class="badge badge-primary">25.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">2</span>
                                             </td>
                                             <td data-type="reconnect">
-                                                <span>1</span>
+                                                <span class="badge badge-primary">9.38%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">6</span>
                                             </td>
                                             <td data-type="doesntAnswer">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">26.56%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">17</span>
                                             </td>
                                             <td data-type="canceled">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">10.94%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">7</span>
                                             </td>
                                             <td data-type="processing">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">100.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">3</span>
                                             </td>
                                             <td data-type="requestAccepted">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">53.13%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">34</span>
                                             </td>
                                             <td data-type="requestsTotal">
-                                                <span>16</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">64</span>
                                             </td>
                                         </tr>
                                         <tr height="50">
@@ -497,25 +544,31 @@
                                                 <span>ghizlane</span>
                                             </td>
                                             <td data-type="distributed">
-                                                <span>12</span>
+                                                <span class="badge badge-primary">25.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">2</span>
                                             </td>
                                             <td data-type="reconnect">
-                                                <span>1</span>
+                                                <span class="badge badge-primary">9.38%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">6</span>
                                             </td>
                                             <td data-type="doesntAnswer">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">26.56%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">17</span>
                                             </td>
                                             <td data-type="canceled">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">10.94%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">7</span>
                                             </td>
                                             <td data-type="processing">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">100.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">3</span>
                                             </td>
                                             <td data-type="requestAccepted">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">53.13%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">34</span>
                                             </td>
                                             <td data-type="requestsTotal">
-                                                <span>16</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">64</span>
                                             </td>
                                         </tr>
                                         <tr height="50">
@@ -524,25 +577,64 @@
                                                 <span>ghizlane</span>
                                             </td>
                                             <td data-type="distributed">
-                                                <span>4</span>
+                                                <span class="badge badge-primary">25.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">2</span>
                                             </td>
                                             <td data-type="reconnect">
-                                                <span>1</span>
+                                                <span class="badge badge-primary">9.38%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">6</span>
                                             </td>
                                             <td data-type="doesntAnswer">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">26.56%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">17</span>
                                             </td>
                                             <td data-type="canceled">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">10.94%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">7</span>
                                             </td>
                                             <td data-type="processing">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">100.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">3</span>
                                             </td>
                                             <td data-type="requestAccepted">
-                                                <span>0</span>
+                                                <span class="badge badge-primary">53.13%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">34</span>
                                             </td>
                                             <td data-type="requestsTotal">
-                                                <span>16</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">64</span>
+                                            </td>
+                                        </tr>
+                                        <tr height="50">
+                                            <th scope="row"><input type="checkbox"/></th>
+                                            <td data-type="employee">
+                                                <span>ghizlane</span>
+                                            </td>
+                                            <td data-type="distributed">
+                                                <span class="badge badge-primary">25.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">2</span>
+                                            </td>
+                                            <td data-type="reconnect">
+                                                <span class="badge badge-primary">9.38%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">6</span>
+                                            </td>
+                                            <td data-type="doesntAnswer">
+                                                <span class="badge badge-primary">26.56%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">17</span>
+                                            </td>
+                                            <td data-type="canceled">
+                                                <span class="badge badge-primary">10.94%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">7</span>
+                                            </td>
+                                            <td data-type="processing">
+                                                <span class="badge badge-primary">100.00%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">3</span>
+                                            </td>
+                                            <td data-type="requestAccepted">
+                                                <span class="badge badge-primary">53.13%</span>
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">34</span>
+                                            </td>
+                                            <td data-type="requestsTotal">
+                                                <span class="badge badge-flat border border-danger rounded tx-danger font-weight-bold"">64</span>
                                             </td>
                                         </tr>
                                     </tbody>
