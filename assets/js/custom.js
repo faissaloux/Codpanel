@@ -1,16 +1,18 @@
 $(() => {
     const searchForm = $(".search-form-panel");
+    const deepSearch = $(".deep-search");
 
     $(".btn-filter").click(()=>{
+        deepSearch.slideUp(200);
         searchForm.css("display") == "block"
             ? searchForm.slideUp(400)
             : searchForm.slideDown(200)
     })
 
     $(".show-deep-search").click(()=>{
-        $(".deep-search").css("display") == "none"
-            ? $(".deep-search").slideDown(400)
-            : $(".deep-search").slideUp(200)
+        deepSearch.css("display") == "none"
+            ? deepSearch.slideDown(400)
+            : deepSearch.slideUp(200)
     })
 
     const checkBox = $(".show-actions-menu");
