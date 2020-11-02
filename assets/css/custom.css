@@ -93,10 +93,13 @@ label > b {
     display: none;
 }
 .btn-show-deep-search{
-    background-color: #2D54EE;
+    background-color: #02bc77;
     padding: 7px 8px;
     color: #FFF;
     cursor: pointer;
+}
+textarea.notes{
+    height: 100px;
 }
 
 .navbar-menu{

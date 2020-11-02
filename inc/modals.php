@@ -173,7 +173,7 @@
         role="dialog"
         aria-labelledby="addOrderModalCenterTitle"
         aria-hidden="true">
-    <div    class="modal-dialog modal-dialog-centered"
+    <div    class="modal-dialog modal-lg modal-dialog-centered"
             role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -386,7 +386,21 @@
                                                         
                                                     <div class="col-md-6 p-0"  >
                                                         <div class="form-group col-md-12">
-                                                            <input type="number"  class="form-control frequired" name="prix_de_laivraison" id="prix_de_laivraison" placeholder="ثمن الإرسال بالدرهم - أرقام فقط" required="">
+                                                            <input  type="number"
+                                                                    class="form-control frequired"
+                                                                    name="prix_de_laivraison"
+                                                                    id="prix_de_laivraison"
+                                                                    placeholder="ثمن الإرسال بالدرهم - أرقام فقط">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12 p-0"  >
+                                                        <div class="form-group col-md-12 m-0">
+                                                            <label for="notes" class="float-right">ملاحظات</label>
+                                                            <textarea   class="form-control frequired notes"
+                                                                        name="notes"
+                                                                        placeholder="ملاحظات">
+                                                            </textarea>
                                                         </div>
                                                     </div>
                                                 
