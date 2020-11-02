@@ -1,13 +1,22 @@
+<style>
+    @media(max-width: 600px){
+        .sm-hide{
+            display: none;
+        }
+    }
+
+</style>
+
 <div class="actions-menu">
     <div class="pt-3">
         <div class="d-flex">
-            <div class="d-flex col-2 justify-content-center align-items-center p-0">
+            <div class="d-flex col-sm-2 justify-content-center align-items-center p-0">
                 <div>
                     <span class="col-8 px-0">عدد العمليات:</span>
                     <span class="col-2 actions-number">1</span>
                 </div>
             </div>
-            <div class="d-flex col-9 justify-content-center align-items-center">
+            <div class="d-flex col-8 justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="d-flex justify-content-around">
                         <span class="action d-flex align-items-center">
@@ -15,14 +24,14 @@
                                 style="color: white"
                                 data-toggle="modal"
                                 data-target="#exportModalCenter">
-                                <i class="mdi mdi-upload ml-2"></i>
-                                <span>تصدير</span>
+                                <i class="mdi mdi-upload"></i>
+                                <span class="sm-hide mr-2">تصدير</span>
                             </a>
                         </span>
                         <span class="action d-flex align-items-center">
                             <a>
-                                <i class="mdi mdi-clipboard-check ml-2"></i>
-                                <span>تعيين</span>
+                                <i class="mdi mdi-clipboard-check"></i>
+                                <span class="sm-hide mr-2">تعيين</span>
                             </a>
                         </span>
                         <span class="dropdown action d-flex align-items-center">
@@ -32,7 +41,7 @@
                                     aria-haspopup="true"
                                     aria-expanded="false">
                                 <i class="mdi mdi-backup-restore ml-2"></i>
-                                <span type="button" class="ml-2">استعادة</span>
+                                <span type="button" class="sm-hide ml-2">استعادة</span>
                             </a>
                             <div class="dropdown-menu tx-right" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="#">
@@ -47,8 +56,8 @@
                         </span>
                         <span class="action action-delete d-flex align-items-center">
                             <a class="d-flex">
-                                <i class="mdi mdi-delete ml-2"></i>
-                                <span>حذف</span>
+                                <i class="mdi mdi-delete"></i>
+                                <span class="sm-hide mr-2">حذف</span>
                             </a>
                         </span>
                     </div>
