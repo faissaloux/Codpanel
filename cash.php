@@ -79,8 +79,8 @@
                                 <div class="col">
                                     <div class="form-group">
                                         <button class="btn btn-success mt-4 search-btn" type="submit">
-                                        </button>
                                             <i data-feather="search" class="search-icon"></i>
+                                        </button>
                                     </div>
                                 </div>
                             </form>
@@ -154,13 +154,13 @@
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
                                                     رؤية التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
                                                     تم استلام المبلغ
                                                 </a>
                                             </td>
@@ -184,13 +184,13 @@
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
                                                     رؤية التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
                                                     تم استلام المبلغ
                                                 </a>
                                             </td>
@@ -214,13 +214,13 @@
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button" 
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
                                                     رؤية التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
                                                     تم استلام المبلغ
                                                 </a>
                                             </td>
@@ -244,13 +244,13 @@
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
                                                     رؤية التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
                                                     تم استلام المبلغ
                                                 </a>
                                             </td>
@@ -274,13 +274,13 @@
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
                                                     رؤية التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
                                                     تم استلام المبلغ
                                                 </a>
                                             </td>
@@ -304,13 +304,13 @@
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
                                                     رؤية التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
                                                     تم استلام المبلغ
                                                 </a>
                                             </td>
@@ -334,13 +334,13 @@
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
                                                     رؤية التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
                                                     تم استلام المبلغ
                                                 </a>
                                             </td>
@@ -364,13 +364,13 @@
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button" 
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
                                                     رؤية التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
                                                     تم استلام المبلغ
                                                 </a>
                                             </td>
@@ -394,13 +394,13 @@
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
                                                     رؤية التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
                                                     تم استلام المبلغ
                                                 </a>
                                             </td>
@@ -424,13 +424,13 @@
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
                                                     رؤية التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded received">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
                                                     تم استلام المبلغ
                                                 </a>
                                             </td>
@@ -462,6 +462,7 @@
         <!-- Footer Script -->
         <!--================================-->
         <script src="assets/js/all.js"></script>
+        <script src="assets/js/custom.js"></script>
 
     </body>
 

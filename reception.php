@@ -463,6 +463,7 @@
         <!-- Footer Script -->
         <!--================================-->
         <script src="assets/js/all.js"></script>
+        <script src="assets/js/custom.js"></script>
 
     </body>
 

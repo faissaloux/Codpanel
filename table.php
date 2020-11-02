@@ -646,19 +646,19 @@
                                             </td>
                                             <td>
                                                 <a type="button" 
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
                                                     data-toggle="modal"
                                                     data-target="#detailsModalCenter">
                                                     التفاصيل
                                                 </a>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded history"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white history"
                                                     data-toggle="modal"
                                                     data-target="#historyModalCenter">
                                                     الأحداث
                                                 </a>
                                                 <a type="button"
-                                                        class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                        class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -742,19 +742,19 @@
                                             </td>
                                             <td>
                                                 <a type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
                                                     data-toggle="modal"
                                                     data-target="#detailsModalCenter">
                                                     التفاصيل
                                                 </a>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded history"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white history"
                                                     data-toggle="modal"
                                                     data-target="#historyModalCenter">
                                                     الأحداث
                                                 </a>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -838,19 +838,19 @@
                                             </td>
                                             <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
                                                     data-toggle="modal"
                                                     data-target="#detailsModalCenter">
                                                     التفاصيل
                                                 </a>
                                                 <a  type="button" 
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded history"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white history"
                                                     data-toggle="modal"
                                                     data-target="#historyModalCenter">
                                                     الأحداث
                                                 </a>
                                                 <a type="button" 
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -934,19 +934,19 @@
                                             </td>
                                             <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
                                                     data-toggle="modal"
                                                     data-target="#detailsModalCenter">
                                                     التفاصيل
                                                 </a>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded history"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white history"
                                                     data-toggle="modal"
                                                     data-target="#historyModalCenter">
                                                     الأحداث
                                                 </a>
                                                 <a type="button"
-                                                        class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                        class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -1030,19 +1030,19 @@
                                             </td>
                                             <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded details"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
                                                     data-toggle="modal"
                                                     data-target="#detailsModalCenter">
                                                     التفاصيل
                                                 </a>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded history"
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white history"
                                                     data-toggle="modal"
                                                     data-target="#historyModalCenter">
                                                     الأحداث
                                                 </a>
                                                 <a type="button"
-                                                        class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                        class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>

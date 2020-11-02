@@ -260,7 +260,7 @@
                                             </td>
                                             <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -284,7 +284,7 @@
                                             </td>
                                             <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -308,7 +308,7 @@
                                             </td>
                                             <td>
                                                 <a type="button" 
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -332,7 +332,7 @@
                                             </td>
                                             <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -356,7 +356,7 @@
                                             </td>
                                             <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -380,7 +380,7 @@
                                             </td>
                                             <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -404,7 +404,7 @@
                                             </td>
                                             <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -428,7 +428,7 @@
                                             </td>
                                             <td>
                                                 <a  type="button" 
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -452,7 +452,7 @@
                                             </td>
                                             <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -476,7 +476,7 @@
                                             </td>
                                             <td>
                                                 <a  type="button"
-                                                    class="btn btn-primary btn-lg border-none loadactions rounded edit">
+                                                    class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
                                                     تعديل
                                                 </a>
                                             </td>
@@ -508,6 +508,8 @@
         <!-- Footer Script -->
         <!--================================-->
         <script src="assets/js/all.js"></script>
+        <script src="assets/js/custom.js"></script>
+        
     </body>
 
 </html>

@@ -15,7 +15,6 @@ i > span{
     font-style: normal;
 }
 .rounded{
-    color: white !important;
     border-radius: 50px !important;
 }
 .border-none{
