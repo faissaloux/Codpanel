@@ -166,17 +166,7 @@
                 <!-- Page Inner Start -->
                 <!--================================-->
                 <div class="d-flex justify-content-between p-2 bg-white p-4">
-                    <h3>الأعضاء</h3>
-                    <div class="btn-group btn-top" role="group">
-                        <a href="#" class="btn btn-primary d-flex border-none">
-                            <span class="d-flex justify-content-center add-new-user-icon">
-                                <i class="mdi mdi-plus d-flex align-items-center text-white"></i>
-                            </span>
-                            <span class="add-new-user-text">
-                                إضافة عضو جديد
-                            </span>
-                        </a>
-                    </div>
+                    <h3>إضافة مستخدم جديد</h3>
                 </div>
                 <div class="page-inner mt-4">
                     <div class="d-flex flex-column">

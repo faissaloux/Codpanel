@@ -91,7 +91,7 @@
                 <div class="sidebar-footer">									
                     <div class="d-flex justify-content-around">
                         <a  class="pull-left"
-                            href="pages-profile.html"
+                            href="profile.php"
                             data-toggle="tooltip"
                             data-placement="top"
                             data-original-title="Profile">
