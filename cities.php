@@ -58,6 +58,12 @@
             .close-actions-menu{
                 cursor: pointer;
             }
+            @media(max-width: 600px){
+                .sm-hide{
+                    display: none;
+                }
+            }
+            
             .margin-top-60{
                 margin-top: 60px;;
             }

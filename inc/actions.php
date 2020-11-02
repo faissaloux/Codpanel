@@ -1,12 +1,3 @@
-<style>
-    @media(max-width: 600px){
-        .sm-hide{
-            display: none;
-        }
-    }
-
-</style>
-
 <div class="actions-menu">
     <div class="pt-3">
         <div class="d-flex">
