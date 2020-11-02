@@ -143,6 +143,16 @@
                 width: 200px;
                 overflow-y: scroll;
             }
+            @media(max-width: 1198px){
+                .sort-dropdown{
+                    left: -99px !important;
+                }
+            }
+            @media(max-width: 990px){
+                .sort-dropdown{
+                    left: -29px !important;
+                }
+            }
             .polaris-list{
                 list-style: none;
             }

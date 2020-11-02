@@ -339,8 +339,8 @@
                                             <div class="btn-filter mr-2">
                                                 <i class="mdi mdi-filter-variant"></i>
                                             </div>
-                                            <div class="limit-container-right mr-2">
-                                                <span class="m-2">حد:</span>
+                                            <div class="limit-container-right mr-2 d-flex">
+                                                <span class="m-2 col">حد:</span>
                                                 <select name="" id="" class="p-0 pagination-select">
                                                     <option value="25">25</option>
                                                     <option value="50">50</option>
@@ -772,7 +772,7 @@
                                             <th scope="col" data-type="workers">الموظفة و الموزع</th>
                                             <th scope="col" data-type="calls">محاولات الإتصال</th>
                                             <th scope="col">تعديل</th>
-                                            <th></th>
+                                            <th scope="col"></th>
                                         </tr>
                                     </thead>
                                     <tbody>
