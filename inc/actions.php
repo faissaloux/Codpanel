@@ -1,14 +1,14 @@
 <div class="actions-menu">
-    <div class="pl-5 pt-3">
+    <div class="pt-3">
         <div class="d-flex">
-            <div class="d-flex col-2 justify-content-center align-items-center">
+            <div class="d-flex col-2 justify-content-center align-items-center p-0">
                 <div>
-                    <span class="col-8">عدد العمليات:</span>
+                    <span class="col-8 px-0">عدد العمليات:</span>
                     <span class="col-2 actions-number">1</span>
                 </div>
             </div>
             <div class="d-flex col-9 justify-content-center align-items-center">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="d-flex justify-content-around">
                         <span class="action d-flex align-items-center">
                             <a  class="table-top-btn"
