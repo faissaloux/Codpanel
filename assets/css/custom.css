@@ -1,4 +1,4 @@
-/* General CSS */
+/* Common CSS */
 body{
     background-color: #F5F5F5;
 }
@@ -24,6 +24,38 @@ i > span{
 .custom-control-label{
     cursor: pointer;
 }
+.table-top-btn ~ .table-top-btn-icon{
+    position: absolute;
+    left: 26px;
+    top: 7px;
+    color: #FFF;
+}
+.header-right .user-profile-area{
+    height: 75px;
+}
+.quantity{
+    color: #FFF;
+    background: #666;
+    padding: 0 8px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+.navbar-menu{
+    color: #FFF;
+}
+.margin-top-60{
+    margin-top: 60px;;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+}
+.table-primary thead tr th{
+    font-size: 18px;
+    text-transform: none;
+}
+.edit{
+    background: linear-gradient(to right, #4f93b2, #66cfb5);
+}
 
 /* Actions CSS */
 .actions-menu{
@@ -35,8 +67,6 @@ i > span{
     background-color: #201F2B;
     color: #FFF;
 }
-
-
 .actions-number{
     background-color: #3C3B4C;
     border-radius: 20px;
@@ -62,13 +92,6 @@ i > span{
 }
 
 /* table CSS */
-.margin-top-60{
-    margin-top: 60px;;
-}
-input[type="checkbox"]{
-    cursor: pointer;
-}
-
 label{
     margin-bottom: 2px;
 }
@@ -78,10 +101,6 @@ label > b {
 .feather-search{
     width: 20px;
     height: 20px;
-}
-
-.header-right .user-profile-area{
-    height: 75px;
 }
 .search-form-panel{
     display: none;
@@ -101,18 +120,6 @@ label > b {
 textarea.notes{
     height: 100px;
 }
-
-.navbar-menu{
-    color: #FFF;
-}
-.quantity{
-    color: #FFF;
-    background: #666;
-    padding: 0 8px;
-    border-radius: 6px;
-    font-size: 12px;
-}
-
 .sort-container{
     background-color: #2D54EE;
     height: 36px;
@@ -144,15 +151,12 @@ textarea.notes{
 .Polaris-Choice__Label_2vd36{
     font-size: 14px;
 }
-
 .modal-large {
     max-width: 650px;
 }
-
 .nav-link{
     background-color: #FFF !important;
 }
-
 .nav-link.active{
     background-color: #F5F5F5 !important;
 }
@@ -167,11 +171,14 @@ textarea.notes{
     padding-left: 0;
     cursor: pointer;
 }
-.limit-container-right, .order-container-right, .show-columns-container{
+.limit-container-right,
+.order-container-right,
+.show-columns-container{
     background-color: #2D54EE;
     height: 36px;
 }
-.limit-container-right, .order-container-right > span{
+.limit-container-right,
+.order-container-right > span{
     color: #FFF;
 }
 .btn-filter, .btn-reload{
@@ -193,48 +200,27 @@ textarea.notes{
     padding: 0 10px;
     height: 36px;
 }
-
 .table-primary thead tr th{
     font-size: 18px;
 }
-
 .details{
     background: linear-gradient(to right, #8f94fb, #4e54c8);
 }
-
 .history{
     background: linear-gradient(to right, #ff5e62, #ff9966);
-}
-
-.edit{
-    background: linear-gradient(to right, #4f93b2, #66cfb5);
 }
 .modal-top{
     padding: 10px;
 }
-
 .ui-datepicker{
     z-index: 2000 !important;
 }
 
 /* Users CSS */
-
 .btn-top > a{
     font-size: 16px;
     width: 160px;
 }
-
-.margin-top-60{
-    margin-top: 60px;;
-}
-input[type="checkbox"]{
-    cursor: pointer;
-}
-
-.header-right .user-profile-area{
-    height: 75px;
-}
-
 .add-new-user-text{
     margin-left: 35px;
 }
@@ -247,41 +233,13 @@ input[type="checkbox"]{
     bottom: 0;
 }
 
-.navbar-menu{
-    color: #FFF;
-}
-.quantity{
-    color: #FFF;
-    background: #666;
-    padding: 0 8px;
-    border-radius: 6px;
-    font-size: 12px;
-}
-.table-top-btn ~ .table-top-btn-icon{
-    position: absolute;
-    left: 26px;
-    top: 7px;
-    color: #FFF;
-}
-
-.table-primary thead tr th{
-    font-size: 18px;
-}
-
-.edit{
-    background: linear-gradient(to right, #4f93b2, #66cfb5);
-}
-
 /* Reception CSS */
- 
-
 .btn-top{
     width: 49.8%;
 }
 .btn-top.b-primary{
     border: 1px #007bff solid;
 }
-
 .bg-grey{
     background-color: #FCFCFC;
 }
@@ -291,7 +249,6 @@ input[type="checkbox"]{
 .bb1{
     border-bottom: 1px #DDD solid;
 }
-
 .dropdown-city > button,
 .dropdown-product > button{
     background: transparent;
@@ -313,35 +270,6 @@ td.city{
 .by-product-dropdown{
     left: 8px !important;
 }
-
-.margin-top-60{
-    margin-top: 60px;;
-}
-input[type="checkbox"]{
-    cursor: pointer;
-}
-
-.header-right .user-profile-area{
-    height: 75px;
-}
-
-.navbar-menu{
-    color: #FFF;
-}
-.quantity{
-    color: #FFF;
-    background: #666;
-    padding: 0 8px;
-    border-radius: 6px;
-    font-size: 12px;
-}
-.table-top-btn ~ .table-top-btn-icon{
-    position: absolute;
-    left: 26px;
-    top: 7px;
-    color: #FFF;
-}
-
 .search-btn{
     width: 20px;
     height: 40px;
@@ -352,34 +280,15 @@ input[type="checkbox"]{
     top: 32px;
 }
 
-.table-primary thead tr th{
-    font-size: 18px;
-    text-transform: none;
-}
-
 /* Profile CSS */
-
 .btn-top > a{
     font-size: 16px;
     width: 160px;
 }
-
- 
-
 .form{
     border: 1px #BBB solid;
     background-color: #FFF;
     padding: 12px;
-}
-.margin-top-60{
-    margin-top: 60px;;
-}
-input[type="checkbox"]{
-    cursor: pointer;
-}
-
-.header-right .user-profile-area{
-    height: 75px;
 }
 
 .add-new-user-text{
@@ -394,33 +303,7 @@ input[type="checkbox"]{
     bottom: 0;
 }
 
-.navbar-menu{
-    color: #FFF;
-}
-.quantity{
-    color: #FFF;
-    background: #666;
-    padding: 0 8px;
-    border-radius: 6px;
-    font-size: 12px;
-}
-.table-top-btn ~ .table-top-btn-icon{
-    position: absolute;
-    left: 26px;
-    top: 7px;
-    color: #FFF;
-}
-
-.table-primary thead tr th{
-    font-size: 18px;
-}
-
-.edit{
-    background: linear-gradient(to right, #4f93b2, #66cfb5);
-}
-
 /* Products CSS */
-
 .btn-top > a{
     font-size: 16px;
     width: 160px;
@@ -431,18 +314,6 @@ input[type="checkbox"]{
     height: 50px;
     overflow: hidden;
 }
-
-.margin-top-60{
-    margin-top: 60px;;
-}
-input[type="checkbox"]{
-    cursor: pointer;
-}
-
-.header-right .user-profile-area{
-    height: 75px;
-}
-
 .add-new-product-text{
     margin-left: 35px;
 }
@@ -454,32 +325,6 @@ input[type="checkbox"]{
     top: 0;
     bottom: 0;
 }
-
-.navbar-menu{
-    color: #FFF;
-}
-.quantity{
-    color: #FFF;
-    background: #666;
-    padding: 0 8px;
-    border-radius: 6px;
-    font-size: 12px;
-}
-.table-top-btn ~ .table-top-btn-icon{
-    position: absolute;
-    left: 26px;
-    top: 7px;
-    color: #FFF;
-}
-
-.table-primary thead tr th{
-    font-size: 18px;
-}
-
-.edit{
-    background: linear-gradient(to right, #4f93b2, #66cfb5);
-}
-
 .sort-container{
     background-color: #2D54EE;
     height: 36px;
@@ -505,7 +350,6 @@ input[type="checkbox"]{
 .polaris-list{
     list-style: none;
 }
-
 .btn-container{
     position: relative;
     padding-left: 0;
@@ -530,22 +374,7 @@ input[type="checkbox"]{
     height: 36px;
 }
 
-/* Main CSS */
-.header-right .user-profile-area{
-    height: 75px;
-}
- 
-.quantity{
-    color: #FFF;
-    background: #666;
-    padding: 0 8px;
-    border-radius: 6px;
-    font-size: 12px;
-}
-
 /* Employees Stats CSS */
- 
-
 .btn-top{
     width: 49.8%;
 }
@@ -568,7 +397,6 @@ input[type="checkbox"]{
     border: none;
     cursor: pointer;
 }
-
 td.date{
     background-color: #3689ff;
     color: #FFF;
@@ -582,34 +410,6 @@ td.date{
     left: 8px !important;
 }
 
-.margin-top-60{
-    margin-top: 60px;;
-}
-input[type="checkbox"]{
-    cursor: pointer;
-}
-
-.header-right .user-profile-area{
-    height: 75px;
-}
-
-.navbar-menu{
-    color: #FFF;
-}
-.quantity{
-    color: #FFF;
-    background: #666;
-    padding: 0 8px;
-    border-radius: 6px;
-    font-size: 12px;
-}
-.table-top-btn ~ .table-top-btn-icon{
-    position: absolute;
-    left: 26px;
-    top: 7px;
-    color: #FFF;
-}
-
 .search-btn{
     width: 20px;
     height: 40px;
@@ -620,22 +420,7 @@ input[type="checkbox"]{
     top: 32px;
 }
 
-.table-primary thead tr th{
-    font-size: 18px;
-}
-
 /* Cities CSS */
-.margin-top-60{
-    margin-top: 60px;;
-}
-input[type="checkbox"]{
-    cursor: pointer;
-}
-
-.header-right .user-profile-area{
-    height: 75px;
-}
-
 .add-new-city-text{
     margin-left: 35px;
     font-size: 16px;
@@ -658,34 +443,7 @@ input[type="checkbox"]{
     border-right: 1px solid rgba(0,0,0,.2);
 }
 
-.navbar-menu{
-    color: #FFF;
-}
-.quantity{
-    color: #FFF;
-    background: #666;
-    padding: 0 8px;
-    border-radius: 6px;
-    font-size: 12px;
-}
-.table-top-btn ~ .table-top-btn-icon{
-    position: absolute;
-    left: 26px;
-    top: 7px;
-    color: #FFF;
-}
-
-.table-primary thead tr th{
-    font-size: 18px;
-}
-
-.edit{
-    background: linear-gradient(to right, #4f93b2, #66cfb5);
-}
-
 /* Cash CSS */
- 
-
 .btn-top{
     width: 49.8%;
 }
@@ -702,7 +460,6 @@ input[type="checkbox"]{
 .bb1{
     border-bottom: 1px #DDD solid;
 }
-
 .dropdown-provider > button{
     background: transparent;
     border: none;
@@ -712,39 +469,9 @@ td.provider{
     background-color: #3689ff;
     color: #FFF;
 }
-
 .by-vendor-dropdown{
     left: -76px !important;
 }
-
-.margin-top-60{
-    margin-top: 60px;;
-}
-input[type="checkbox"]{
-    cursor: pointer;
-}
-
-.header-right .user-profile-area{
-    height: 75px;
-}
-
-.navbar-menu{
-    color: #FFF;
-}
-.quantity{
-    color: #FFF;
-    background: #666;
-    padding: 0 8px;
-    border-radius: 6px;
-    font-size: 12px;
-}
-.table-top-btn ~ .table-top-btn-icon{
-    position: absolute;
-    left: 26px;
-    top: 7px;
-    color: #FFF;
-}
-
 .search-btn{
     width: 20px;
     height: 40px;
@@ -754,11 +481,6 @@ input[type="checkbox"]{
     left: -2px;
     top: 32px;
 }
-
-.table-primary thead tr th{
-    font-size: 18px;
-}
-
 .details{
     background: linear-gradient(to right, #8f94fb, #4e54c8);
 }
@@ -766,32 +488,16 @@ input[type="checkbox"]{
     background: linear-gradient(to right, #4f93b2, #66cfb5);
 }
 
-/* Add new user CSS */
-
+/* Add New User CSS */
 .btn-top > a{
     font-size: 16px;
     width: 160px;
 }
-
- 
-
 .form{
     border: 1px #BBB solid;
     background-color: #FFF;
     padding: 12px;
 }
-
-.margin-top-60{
-    margin-top: 60px;;
-}
-input[type="checkbox"]{
-    cursor: pointer;
-}
-
-.header-right .user-profile-area{
-    height: 75px;
-}
-
 .add-new-user-text{
     margin-left: 35px;
 }
@@ -802,29 +508,4 @@ input[type="checkbox"]{
     left: 0;
     top: 0;
     bottom: 0;
-}
-
-.navbar-menu{
-    color: #FFF;
-}
-.quantity{
-    color: #FFF;
-    background: #666;
-    padding: 0 8px;
-    border-radius: 6px;
-    font-size: 12px;
-}
-.table-top-btn ~ .table-top-btn-icon{
-    position: absolute;
-    left: 26px;
-    top: 7px;
-    color: #FFF;
-}
-
-.table-primary thead tr th{
-    font-size: 18px;
-}
-
-.edit{
-    background: linear-gradient(to right, #4f93b2, #66cfb5);
 }
