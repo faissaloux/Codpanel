@@ -55,6 +55,12 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="employeesStats.php" class="tx-right">
+                                    <i data-feather="trending-up"></i>
+                                    <span>احصائيات الموظفات</span>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="#" class="d-flex justify-content-between tx-right">
                                     <i>
                                         <i data-feather="archive"></i>
