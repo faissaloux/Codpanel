@@ -69,6 +69,12 @@
                                     <span>التكاليف</span>
                                 </a>
                             </li>
+                            <li>
+                                <a href="reception.php" class="tx-right">
+                                    <i data-feather="grid"></i>
+                                    <span>استقبال</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
