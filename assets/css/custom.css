@@ -89,6 +89,15 @@ label > b {
     background-color: #FFF;
     padding: 12px;
 }
+.deep-search{
+    display: none;
+}
+.btn-show-deep-search{
+    background-color: #2D54EE;
+    padding: 7px 8px;
+    color: #FFF;
+    cursor: pointer;
+}
 
 .navbar-menu{
     color: #FFF;

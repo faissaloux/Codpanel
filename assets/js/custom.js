@@ -7,6 +7,12 @@ $(() => {
             : searchForm.slideDown(200)
     })
 
+    $(".show-deep-search").click(()=>{
+        $(".deep-search").css("display") == "none"
+            ? $(".deep-search").slideDown(400)
+            : $(".deep-search").slideUp(200)
+    })
+
     const checkBox = $(".show-actions-menu");
     const getDown = $(".get-down");
     const actionsMenu = $(".actions-menu");
