@@ -55,8 +55,8 @@
                 <!--================================-->
                 <div class="d-flex justify-content-between p-2 bg-white p-4">
                     <h3>المنتجات</h3>
-                    <div class="btn-group btn-top" role="group">
-                        <a href="#" class="btn btn-primary d-flex border-none">
+                    <div class="btn-group btn-top d-flex justify-content-end" role="group">
+                        <a href="#" class="btn btn-primary d-flex col-4 border-none">
                             <span class="d-flex justify-content-center add-new-product-icon">
                                 <i class="mdi mdi-plus d-flex align-items-center text-white"></i>
                             </span>
