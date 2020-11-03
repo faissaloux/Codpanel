@@ -70,12 +70,12 @@
                                     <thead>
                                         <tr>
                                             <th scope="col"><input type="checkbox" class="show-actions-menu"/></th>
-                                            <th scope="col" data-type="reference">اسم المستخدم</th>
-                                            <th scope="col" data-type="email">الإميل</th>
-                                            <th scope="col" data-type="registration">تاريخ التسجيل</th>
-                                            <th scope="col" data-type="job">الوظيفة</th>
-                                            <th scope="col" data-type="phone">رقم الهاتف</th>
-                                            <th scope="col">تعديل</th>
+                                            <th scope="col" class="arabic" data-type="reference">اسم<br class="sm-break"> المستخدم</th>
+                                            <th scope="col" class="arabic" data-type="email">الإميل</th>
+                                            <th scope="col" class="arabic" data-type="registration">تاريخ<br class="sm-break"> التسجيل</th>
+                                            <th scope="col" class="arabic" data-type="job">الوظيفة</th>
+                                            <th scope="col" class="arabic" data-type="phone">رقم الهاتف</th>
+                                            <th scope="col" class="arabic">تعديل</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -88,7 +88,7 @@
                                                 <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <span>منذ أسبوعين</span>
+                                                <span>منذ<br class="sm-break"> أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-success text-white p-1">موظفة</span>
@@ -112,7 +112,7 @@
                                                 <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <span>منذ أسبوعين</span>
+                                                <span>منذ<br class="sm-break"> أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-success text-white p-1">موظفة</span>
@@ -136,7 +136,7 @@
                                                 <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <span>منذ أسبوعين</span>
+                                                <span>منذ<br class="sm-break"> أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-success text-white p-1">موظفة</span>
@@ -160,7 +160,7 @@
                                                 <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <span>منذ أسبوعين</span>
+                                                <span>منذ<br class="sm-break"> أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-primary text-white p-1">موزع</span>
@@ -184,7 +184,7 @@
                                                 <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <span>منذ أسبوعين</span>
+                                                <span>منذ<br class="sm-break"> أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-danger text-white p-1">مضيف بيانات</span>
@@ -208,7 +208,7 @@
                                                 <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <span>منذ أسبوعين</span>
+                                                <span>منذ<br class="sm-break"> أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-warning text-white p-1">لجنة المتابعة</span>
@@ -232,7 +232,7 @@
                                                 <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <span>منذ أسبوعين</span>
+                                                <span>منذ<br class="sm-break"> أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-primary text-white p-1">موزع</span>
@@ -256,7 +256,7 @@
                                                 <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <span>منذ أسبوعين</span>
+                                                <span>منذ<br class="sm-break"> أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-primary text-white p-1">موزع</span>
@@ -280,7 +280,7 @@
                                                 <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <span>منذ أسبوعين</span>
+                                                <span>منذ<br class="sm-break"> أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-danger text-white p-1">مضيف بيانات</span>
@@ -304,7 +304,7 @@
                                                 <span>example@email.com</span>
                                             </td>
                                             <td data-type="registration">
-                                                <span>منذ أسبوعين</span>
+                                                <span>منذ<br class="sm-break"> أسبوعين</span>
                                             </td>
                                             <td data-type="job">
                                                 <span class="bg-danger text-white p-1">مضيف بيانات</span>

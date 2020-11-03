@@ -119,24 +119,24 @@
                                     <thead>
                                         <tr>
                                             <th scope="col"><input type="checkbox" class="show-actions-menu"/></th>
-                                            <th scope="col" data-type="reference">Reference</th>
-                                            <th scope="col" data-type="productname">
+                                            <th scope="col" class="latin" data-type="reference">Reference</th>
+                                            <th scope="col" class="latin" data-type="productname">
                                                 Nom de<br class="sm-break">
                                                 produit
                                             </th>
-                                            <th scope="col" data-type="retour">Retour</th>
-                                            <th scope="col" data-type="received">Recue</th>
-                                            <th scope="col" data-type="real">Réel</th>
-                                            <th scope="col" data-type="delivered">Livré</th>
-                                            <th scope="col" data-type="physicalStock">
+                                            <th scope="col" class="latin" data-type="retour">Retour</th>
+                                            <th scope="col" class="latin" data-type="received">Recue</th>
+                                            <th scope="col" class="latin" data-type="real">Réel</th>
+                                            <th scope="col" class="latin" data-type="delivered">Livré</th>
+                                            <th scope="col" class="latin" data-type="physicalStock">
                                                 Stock<br class="sm-break">
                                                 physique
                                             </th>
-                                            <th scope="col" data-type="theoreticalStock">
+                                            <th scope="col" class="latin" data-type="theoreticalStock">
                                                 Stock<br class="sm-break">
                                                 theorique
                                             </th>
-                                            <th scope="col" data-type="currentStock">
+                                            <th scope="col" class="latin" data-type="currentStock">
                                                 Stock<br class="sm-break">
                                                 en<br class="sm-break">
                                                 cours

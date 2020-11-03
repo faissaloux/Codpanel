@@ -71,10 +71,10 @@
                                     <thead>
                                         <tr>
                                             <th scope="col"><input type="checkbox" class="show-actions-menu"/></th>
-                                            <th scope="col" data-type="city">المدينة</th>
-                                            <th scope="col" data-type="symbol">الرمز</th>
-                                            <th scope="col" data-type="provider">الموزع</th>
-                                            <th scope="col">تعديل</th>
+                                            <th scope="col" class="arabic" data-type="city">المدينة</th>
+                                            <th scope="col" class="arabic" data-type="symbol">الرمز</th>
+                                            <th scope="col" class="arabic" data-type="provider">الموزع</th>
+                                            <th scope="col" class="arabic">تعديل</th>
                                         </tr>
                                     </thead>
                                     <tbody>

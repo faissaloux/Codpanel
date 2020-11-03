@@ -234,10 +234,10 @@
                                         <tr>
                                             <th scope="col"><input type="checkbox" class="show-actions-menu"/></th>
                                             <th scope="col" data-type="image"></th>
-                                            <th scope="col" data-type="reference">Reference</th>
-                                            <th scope="col" data-type="product">اسم المنتوج</th>
-                                            <th scope="col" data-type="price">سعر الجملة</th>
-                                            <th scope="col">تعديل</th>
+                                            <th scope="col" class="arabic" data-type="reference">Reference</th>
+                                            <th scope="col" class="arabic" data-type="product">اسم المنتوج</th>
+                                            <th scope="col" class="arabic" data-type="price">سعر الجملة</th>
+                                            <th scope="col" class="arabic">تعديل</th>
                                         </tr>
                                     </thead>
                                     <tbody>

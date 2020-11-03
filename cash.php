@@ -120,13 +120,13 @@
                                     <thead>
                                         <tr>
                                             <th scope="col"><input type="checkbox" class="show-actions-menu"/></th>
-                                            <th scope="col" data-type="date">اليوم</th>
-                                            <th scope="col" data-type="requestsNum">عدد الطلبات</th>
-                                            <th scope="col" data-type="totalSells">مجموع المبيعات</th>
-                                            <th scope="col" data-type="deliveryPrice">سعر التوصيل</th>
-                                            <th scope="col" data-type="net">الصافي</th>
-                                            <th scope="col" data-type="details">رؤية التفاصيل</th>
-                                            <th scope="col" data-type="received">استلام الدفع</th>
+                                            <th scope="col" class="arabic" data-type="date">اليوم</th>
+                                            <th scope="col" class="arabic" data-type="requestsNum">عدد<br class="sm-break"> الطلبات</th>
+                                            <th scope="col" class="arabic" data-type="totalSells">مجموع <br class="sm-break">المبيعات</th>
+                                            <th scope="col" class="arabic" data-type="deliveryPrice">سعر<br class="sm-break"> التوصيل</th>
+                                            <th scope="col" class="arabic" data-type="net">الصافي</th>
+                                            <th scope="col" class="arabic" data-type="details">رؤية<br class="sm-break"> التفاصيل</th>
+                                            <th scope="col" class="arabic" data-type="received">استلام<br class="sm-break"> الدفع</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -144,24 +144,24 @@
                                                 <span>2</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <span>498 درهم</span>
+                                                <span>498<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
+                                                <span>50<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="net">
-                                                <span>448 درهم</span>
+                                                <span>448<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
-                                                    رؤية التفاصيل
+                                                    رؤية<br class="sm-break"> التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
-                                                    تم استلام المبلغ
+                                                    تم استلام<br class="sm-break"> المبلغ
                                                 </a>
                                             </td>
                                         </tr>
@@ -174,24 +174,24 @@
                                                 <span>4</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <span>498 درهم</span>
+                                                <span>498<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
+                                                <span>50<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="net">
-                                                <span>448 درهم</span>
+                                                <span>448<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
-                                                    رؤية التفاصيل
+                                                    رؤية<br class="sm-break"> التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
-                                                    تم استلام المبلغ
+                                                    تم استلام<br class="sm-break"> المبلغ
                                                 </a>
                                             </td>
                                         </tr>
@@ -204,24 +204,24 @@
                                                 <span>8</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <span>498 درهم</span>
+                                                <span>498<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
+                                                <span>50<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="net">
-                                                <span>448 درهم</span>
+                                                <span>448<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button" 
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
-                                                    رؤية التفاصيل
+                                                    رؤية<br class="sm-break"> التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
-                                                    تم استلام المبلغ
+                                                    تم استلام<br class="sm-break"> المبلغ
                                                 </a>
                                             </td>
                                         </tr>
@@ -234,24 +234,24 @@
                                                 <span>22</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <span>498 درهم</span>
+                                                <span>498<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
+                                                <span>50<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="net">
-                                                <span>448 درهم</span>
+                                                <span>448<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
-                                                    رؤية التفاصيل
+                                                    رؤية<br class="sm-break"> التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
-                                                    تم استلام المبلغ
+                                                    تم استلام<br class="sm-break"> المبلغ
                                                 </a>
                                             </td>
                                         </tr>
@@ -264,24 +264,24 @@
                                                 <span>21</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <span>498 درهم</span>
+                                                <span>498<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
+                                                <span>50<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="net">
-                                                <span>448 درهم</span>
+                                                <span>448<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
-                                                    رؤية التفاصيل
+                                                    رؤية<br class="sm-break"> التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
-                                                    تم استلام المبلغ
+                                                    تم استلام<br class="sm-break"> المبلغ
                                                 </a>
                                             </td>
                                         </tr>
@@ -294,24 +294,24 @@
                                                 <span>10</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <span>498 درهم</span>
+                                                <span>498<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
+                                                <span>50<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="net">
-                                                <span>448 درهم</span>
+                                                <span>448<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
-                                                    رؤية التفاصيل
+                                                    رؤية<br class="sm-break"> التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
-                                                    تم استلام المبلغ
+                                                    تم استلام<br class="sm-break"> المبلغ
                                                 </a>
                                             </td>
                                         </tr>
@@ -324,24 +324,24 @@
                                                 <span>4</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <span>498 درهم</span>
+                                                <span>498<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
+                                                <span>50<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="net">
-                                                <span>448 درهم</span>
+                                                <span>448<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
-                                                    رؤية التفاصيل
+                                                    رؤية<br class="sm-break"> التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
-                                                    تم استلام المبلغ
+                                                    تم استلام<br class="sm-break"> المبلغ
                                                 </a>
                                             </td>
                                         </tr>
@@ -354,24 +354,24 @@
                                                 <span>7</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <span>498 درهم</span>
+                                                <span>498<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
+                                                <span>50<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="net">
-                                                <span>448 درهم</span>
+                                                <span>448<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button" 
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
-                                                    رؤية التفاصيل
+                                                    رؤية<br class="sm-break"> التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
-                                                    تم استلام المبلغ
+                                                    تم استلام<br class="sm-break"> المبلغ
                                                 </a>
                                             </td>
                                         </tr>
@@ -384,24 +384,24 @@
                                                 <span>12</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <span>498 درهم</span>
+                                                <span>498<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
+                                                <span>50<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="net">
-                                                <span>448 درهم</span>
+                                                <span>448<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
-                                                    رؤية التفاصيل
+                                                    رؤية<br class="sm-break"> التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
-                                                    تم استلام المبلغ
+                                                    تم استلام<br class="sm-break"> المبلغ
                                                 </a>
                                             </td>
                                         </tr>
@@ -414,24 +414,24 @@
                                                 <span>4</span>
                                             </td>
                                             <td data-type="totalSells">
-                                                <span>498 درهم</span>
+                                                <span>498<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="deliveryPrice">
-                                                <span>50 درهم</span>
+                                                <span>50<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="net">
-                                                <span>448 درهم</span>
+                                                <span>448<br class="sm-break">درهم</span>
                                             </td>
                                             <td data-type="details">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white details">
-                                                    رؤية التفاصيل
+                                                    رؤية<br class="sm-break"> التفاصيل
                                                 </a>
                                             </td>
                                             <td data-type="received">
                                                 <a  type="button"
                                                     class="btn btn-primary btn-lg border-none loadactions rounded text-white received">
-                                                    تم استلام المبلغ
+                                                    تم استلام<br class="sm-break"> المبلغ
                                                 </a>
                                             </td>
                                         </tr>
