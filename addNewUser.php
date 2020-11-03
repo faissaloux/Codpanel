@@ -49,7 +49,7 @@
                 <!-- Page Inner Start -->
                 <!--================================-->
                 <div class="d-flex justify-content-between p-2 bg-white p-4">
-                    <h3>إضافة مستخدم جديد</h3>
+                    <h3 class="header-title">إضافة مستخدم جديد</h3>
                 </div>
                 <div class="page-inner mt-4">
                     <div class="d-flex flex-column">

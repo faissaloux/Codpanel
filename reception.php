@@ -51,7 +51,7 @@
                 <div class="d-flex flex-column bg-white pt-4">
                     <div class="d-flex justify-content-between align-items-center pr-4 pl-4">
                         <div class="d-flex">
-                            <h3>استقبال</h3>
+                            <h3 class="header-title">استقبال</h3>
                         </div>
                     </div>
                     <hr>
@@ -120,14 +120,27 @@
                                         <tr>
                                             <th scope="col"><input type="checkbox" class="show-actions-menu"/></th>
                                             <th scope="col" data-type="reference">Reference</th>
-                                            <th scope="col" data-type="productname">Nom de produit</th>
+                                            <th scope="col" data-type="productname">
+                                                Nom de<br class="sm-break">
+                                                produit
+                                            </th>
                                             <th scope="col" data-type="retour">Retour</th>
                                             <th scope="col" data-type="received">Recue</th>
                                             <th scope="col" data-type="real">Réel</th>
                                             <th scope="col" data-type="delivered">Livré</th>
-                                            <th scope="col" data-type="physicalStock">Stock physique</th>
-                                            <th scope="col" data-type="theoreticalStock">Stock theorique</th>
-                                            <th scope="col" data-type="currentStock">Stock en cours</th>
+                                            <th scope="col" data-type="physicalStock">
+                                                Stock<br class="sm-break">
+                                                physique
+                                            </th>
+                                            <th scope="col" data-type="theoreticalStock">
+                                                Stock<br class="sm-break">
+                                                theorique
+                                            </th>
+                                            <th scope="col" data-type="currentStock">
+                                                Stock<br class="sm-break">
+                                                en<br class="sm-break">
+                                                cours
+                                            </th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -142,7 +155,7 @@
                                                 <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <span>المفرمة الكهربائية صنع الماني</span>
+                                                <span>المفرمة الكهربائية <br class="sm-break">صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
                                                 <span>0</span>
@@ -172,7 +185,7 @@
                                                 <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <span>المفرمة الكهربائية صنع الماني</span>
+                                                <span>المفرمة الكهربائية <br class="sm-break">صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
                                                 <span>0</span>
@@ -202,7 +215,7 @@
                                                 <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <span>المفرمة الكهربائية صنع الماني</span>
+                                                <span>المفرمة الكهربائية <br class="sm-break">صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
                                                 <span>0</span>
@@ -232,7 +245,7 @@
                                                 <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <span>المفرمة الكهربائية صنع الماني</span>
+                                                <span>المفرمة الكهربائية <br class="sm-break">صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
                                                 <span>0</span>
@@ -262,7 +275,7 @@
                                                 <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <span>المفرمة الكهربائية صنع الماني</span>
+                                                <span>المفرمة الكهربائية <br class="sm-break">صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
                                                 <span>0</span>
@@ -292,7 +305,7 @@
                                                 <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <span>المفرمة الكهربائية صنع الماني</span>
+                                                <span>المفرمة الكهربائية <br class="sm-break">صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
                                                 <span>0</span>
@@ -322,7 +335,7 @@
                                                 <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <span>المفرمة الكهربائية صنع الماني</span>
+                                                <span>المفرمة الكهربائية <br class="sm-break">صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
                                                 <span>0</span>
@@ -352,7 +365,7 @@
                                                 <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <span>المفرمة الكهربائية صنع الماني</span>
+                                                <span>المفرمة الكهربائية <br class="sm-break">صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
                                                 <span>0</span>
@@ -382,7 +395,7 @@
                                                 <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <span>المفرمة الكهربائية صنع الماني</span>
+                                                <span>المفرمة الكهربائية <br class="sm-break">صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
                                                 <span>0</span>
@@ -412,7 +425,7 @@
                                                 <span>SN27</span>
                                             </td>
                                             <td data-type="productname">
-                                                <span>المفرمة الكهربائية صنع الماني</span>
+                                                <span>المفرمة الكهربائية <br class="sm-break">صنع الماني</span>
                                             </td>
                                             <td data-type="retour">
                                                 <span>0</span>
