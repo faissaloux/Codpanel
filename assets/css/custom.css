@@ -306,7 +306,7 @@ td.city{
     overflow-y: scroll;
 }
 .by-city-dropdown{
-    left: -76px !important;
+    left: 9px !important;
 }
 .by-product-dropdown{
     left: 8px !important;
