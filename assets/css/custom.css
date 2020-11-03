@@ -55,6 +55,10 @@ input[type="checkbox"]{
 .edit{
     background: linear-gradient(to right, #4f93b2, #66cfb5);
 }
+.input-group-text{
+    border-radius: 0 !important;
+    width: 40px;
+}
 
 /* Actions CSS */
 .actions-menu{

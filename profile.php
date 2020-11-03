@@ -70,7 +70,7 @@
                                                                         aria-label="Username"
                                                                         aria-describedby="basic-addon3">
                                                                 <div class="input-group-prepend">
-                                                                    <span class="input-group-text" id="basic-addon3">
+                                                                    <span class="input-group-text d-flex justify-content-center" id="basic-addon3">
                                                                         <i class="fa fa-user"></i>
                                                                     </span>
                                                                 </div>
@@ -83,7 +83,7 @@
                                                                         aria-label="Recipient's username"
                                                                         aria-describedby="basic-addon4">
                                                                 <div class="input-group-append">
-                                                                    <span class="input-group-text" id="basic-addon4">
+                                                                    <span class="input-group-text d-flex justify-content-center" id="basic-addon4">
                                                                         <i class="fa fa-envelope"></i>
                                                                     </span>
                                                                 </div>
@@ -96,7 +96,7 @@
                                                                         aria-label="Recipient's password"
                                                                         aria-describedby="basic-addon4">
                                                                 <div class="input-group-append">
-                                                                    <span class="input-group-text" id="basic-addon4">
+                                                                    <span class="input-group-text d-flex justify-content-center" id="basic-addon4">
                                                                         <i class="fa fa-key"></i>
                                                                     </span>
                                                                 </div>
@@ -109,7 +109,7 @@
                                                                         aria-label="Recipient's password"
                                                                         aria-describedby="basic-addon4">
                                                                 <div class="input-group-append">
-                                                                    <span class="input-group-text" id="basic-addon4">
+                                                                    <span class="input-group-text d-flex justify-content-center" id="basic-addon4">
                                                                         <i class="fa fa-phone"></i>
                                                                     </span>
                                                                 </div>
