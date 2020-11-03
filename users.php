@@ -53,10 +53,10 @@
                     <h3>الأعضاء</h3>
                     <div class="btn-group btn-top d-flex justify-content-end" role="group">
                         <a href="addNewUser.php" class="btn btn-primary d-flex col-4 border-none">
-                            <span class="d-flex justify-content-center add-new-user-icon">
+                            <span class="d-flex justify-content-center add-new-icon">
                                 <i class="mdi mdi-plus d-flex align-items-center text-white"></i>
                             </span>
-                            <span class="add-new-user-text">
+                            <span class="add-new-text">
                                 إضافة عضو جديد
                             </span>
                         </a>

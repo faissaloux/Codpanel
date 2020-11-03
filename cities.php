@@ -52,10 +52,10 @@
                     <h3>المدن والموزعين المكلفين بهم</h3>
                     <div class="btn-group btn-top d-flex justify-content-end" role="group">
                         <a href="#" class="btn btn-primary d-flex col-4 border-none">
-                            <span class="d-flex justify-content-center add-new-city-icon">
+                            <span class="d-flex justify-content-center add-new-icon">
                                 <i class="mdi mdi-plus d-flex align-items-center text-white"></i>
                             </span>
-                            <span   class="add-new-city-text"
+                            <span   class="add-new-text"
                                     data-toggle="modal"
                                     data-target="#addCityModalCenter">
                                 إضافة مدينة جديدة
