@@ -70,6 +70,17 @@ input[type="checkbox"]{
     top: 0;
     bottom: 0;
 }
+@media(max-width: 580px){
+    .header-title{
+        font-size: 20px;
+    }
+    .add-new-text{
+        display: none;
+    }
+    .add-new-icon{
+        width: 100%;
+    }
+}
 
 /* Actions CSS */
 .actions-menu{

@@ -49,7 +49,7 @@
                 <!-- Page Inner Start -->
                 <!--================================-->
                 <div class="d-flex justify-content-between p-2 bg-white p-4">
-                    <h3>المدن والموزعين المكلفين بهم</h3>
+                    <h3 class="header-title">المدن والموزعين المكلفين بهم</h3>
                     <div class="btn-group btn-top d-flex justify-content-end" role="group">
                         <a href="#" class="btn btn-primary d-flex col-4 border-none">
                             <span class="d-flex justify-content-center add-new-icon">
