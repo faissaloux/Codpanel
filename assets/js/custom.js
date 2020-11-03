@@ -38,13 +38,9 @@ $(() => {
     const hoverRow = $(".hoverRow");
 
     hoverRow.click(function(){
-        if($(this).prop("checked")){
-            $(this).addClass("active");
-            $(this).parent().parent().addClass("active");
-        }else{
-            $(this).removeClass("active");
-            $(this).parent().parent().removeClass("active");
-        }
+        $(this).prop("checked")
+            ? $(this).addClass("active").parent().parent().addClass("active")
+            : $(this).removeClass("active").parent().parent().removeClass("active");
     })
 
     $("tr.active").css("backgroundColor", "red");
