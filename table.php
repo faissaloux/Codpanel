@@ -528,30 +528,6 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                                <div class="form-group ">
-                                                                    <label for="from" class="float-right">
-                                                                        <b>من</b>
-                                                                    </label>
-                                                                    <input  type="date" 
-                                                                            class="form-control" 
-                                                                            name="from"  
-                                                                            placeholder="From"/>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label for="to" class="float-right">
-                                                                        <b>إلى</b>
-                                                                    </label>
-                                                                    <input  type="date" 
-                                                                            class="form-control" 
-                                                                            name="to"  
-                                                                            placeholder="To" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
