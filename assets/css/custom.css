@@ -275,6 +275,17 @@ textarea.notes{
 table.list_products tbody tr{
     background-color: transparent;
 }
+.table-primary.table-hover tbody tr:hover {
+    background-color: transparent;
+}
+.ui-icon-circle-triangle-w,
+.ui-icon-circle-triangle-e{
+    display: none;
+}
+.ui-datepicker-prev,
+.ui-datepicker-next{
+    cursor: pointer;
+}
 .details{
     background: linear-gradient(to right, #8f94fb, #4e54c8);
 }

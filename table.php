@@ -586,7 +586,7 @@
                                                 <i class="mdi mdi-truck"></i>
                                                 name
                                             </td>
-                                            <td data-type="calls">
+                                            <td data-type="calls" class="pb-5">
                                                 <div class="d-flex justify-content-center">
                                                     <div class="col-md-1">
                                                         <div class="custom-control custom-checkbox">
@@ -682,7 +682,7 @@
                                                 <i class="mdi mdi-truck"></i>
                                                 name
                                             </td>
-                                            <td data-type="calls">
+                                            <td data-type="calls" class="pb-5">
                                                 <div class="d-flex justify-content-center">
                                                     <div class="col-md-1">
                                                         <div class="custom-control custom-checkbox">
@@ -778,7 +778,7 @@
                                                 <i class="mdi mdi-truck"></i>
                                                 name
                                             </td>
-                                            <td data-type="calls">
+                                            <td data-type="calls" class="pb-5">
                                                 <div class="d-flex justify-content-center">
                                                     <div class="col-md-1">
                                                         <div class="custom-control custom-checkbox">
@@ -874,7 +874,7 @@
                                                 <i class="mdi mdi-truck"></i>
                                                 name
                                             </td>
-                                            <td data-type="calls">
+                                            <td data-type="calls" class="pb-5">
                                                 <div class="d-flex justify-content-center">
                                                     <div class="col-md-1">
                                                         <div class="custom-control custom-checkbox">
@@ -970,7 +970,7 @@
                                                 <i class="mdi mdi-truck"></i>
                                                 name
                                             </td>
-                                            <td data-type="calls">
+                                            <td data-type="calls" class="pb-5">
                                                 <div class="d-flex justify-content-center">
                                                     <div class="col-md-1">
                                                         <div class="custom-control custom-checkbox">
