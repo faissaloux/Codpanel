@@ -85,7 +85,7 @@
                                                 <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <span>example@email.com</span>
+                                                <a href="mailto:example@email.com">example@email.com</a>
                                             </td>
                                             <td data-type="registration">
                                                 <span>منذ<br class="sm-break"> أسبوعين</span>
@@ -94,7 +94,7 @@
                                                 <span class="bg-success text-white p-1">موظفة</span>
                                             </td>
                                             <td data-type="phone">
-                                                0# ## ## ## ##
+                                                <a href="tel: 06########"><a href="tel: 06########">0# ## ## ## ##</a></a>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -109,7 +109,7 @@
                                                 <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <span>example@email.com</span>
+                                                <a href="mailto:example@email.com">example@email.com</a>
                                             </td>
                                             <td data-type="registration">
                                                 <span>منذ<br class="sm-break"> أسبوعين</span>
@@ -118,7 +118,7 @@
                                                 <span class="bg-success text-white p-1">موظفة</span>
                                             </td>
                                             <td data-type="phone">
-                                                0# ## ## ## ##
+                                                <a href="tel: 06########">0# ## ## ## ##</a>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -133,7 +133,7 @@
                                                 <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <span>example@email.com</span>
+                                                <a href="mailto:example@email.com">example@email.com</a>
                                             </td>
                                             <td data-type="registration">
                                                 <span>منذ<br class="sm-break"> أسبوعين</span>
@@ -142,7 +142,7 @@
                                                 <span class="bg-success text-white p-1">موظفة</span>
                                             </td>
                                             <td data-type="phone">
-                                                0# ## ## ## ##
+                                                <a href="tel: 06########">0# ## ## ## ##</a>
                                             </td>
                                             <td>
                                                 <a type="button" 
@@ -157,7 +157,7 @@
                                                 <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <span>example@email.com</span>
+                                                <a href="mailto:example@email.com">example@email.com</a>
                                             </td>
                                             <td data-type="registration">
                                                 <span>منذ<br class="sm-break"> أسبوعين</span>
@@ -166,7 +166,7 @@
                                                 <span class="bg-primary text-white p-1">موزع</span>
                                             </td>
                                             <td data-type="phone">
-                                                0# ## ## ## ##
+                                                <a href="tel: 06########">0# ## ## ## ##</a>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -181,7 +181,7 @@
                                                 <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <span>example@email.com</span>
+                                                <a href="mailto:example@email.com">example@email.com</a>
                                             </td>
                                             <td data-type="registration">
                                                 <span>منذ<br class="sm-break"> أسبوعين</span>
@@ -190,7 +190,7 @@
                                                 <span class="bg-danger text-white p-1">مضيف بيانات</span>
                                             </td>
                                             <td data-type="phone">
-                                                0# ## ## ## ##
+                                                <a href="tel: 06########">0# ## ## ## ##</a>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -205,7 +205,7 @@
                                                 <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <span>example@email.com</span>
+                                                <a href="mailto:example@email.com">example@email.com</a>
                                             </td>
                                             <td data-type="registration">
                                                 <span>منذ<br class="sm-break"> أسبوعين</span>
@@ -214,7 +214,7 @@
                                                 <span class="bg-warning text-white p-1">لجنة المتابعة</span>
                                             </td>
                                             <td data-type="phone">
-                                                0# ## ## ## ##
+                                                <a href="tel: 06########">0# ## ## ## ##</a>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -229,7 +229,7 @@
                                                 <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <span>example@email.com</span>
+                                                <a href="mailto:example@email.com">example@email.com</a>
                                             </td>
                                             <td data-type="registration">
                                                 <span>منذ<br class="sm-break"> أسبوعين</span>
@@ -238,7 +238,7 @@
                                                 <span class="bg-primary text-white p-1">موزع</span>
                                             </td>
                                             <td data-type="phone">
-                                                0# ## ## ## ##
+                                                <a href="tel: 06########">0# ## ## ## ##</a>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -253,7 +253,7 @@
                                                 <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <span>example@email.com</span>
+                                                <a href="mailto:example@email.com">example@email.com</a>
                                             </td>
                                             <td data-type="registration">
                                                 <span>منذ<br class="sm-break"> أسبوعين</span>
@@ -262,7 +262,7 @@
                                                 <span class="bg-primary text-white p-1">موزع</span>
                                             </td>
                                             <td data-type="phone">
-                                                0# ## ## ## ##
+                                                <a href="tel: 06########">0# ## ## ## ##</a>
                                             </td>
                                             <td>
                                                 <a  type="button" 
@@ -277,7 +277,7 @@
                                                 <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <span>example@email.com</span>
+                                                <a href="mailto:example@email.com">example@email.com</a>
                                             </td>
                                             <td data-type="registration">
                                                 <span>منذ<br class="sm-break"> أسبوعين</span>
@@ -286,7 +286,7 @@
                                                 <span class="bg-danger text-white p-1">مضيف بيانات</span>
                                             </td>
                                             <td data-type="phone">
-                                                0# ## ## ## ##
+                                                <a href="tel: 06########">0# ## ## ## ##</a>
                                             </td>
                                             <td>
                                                 <a  type="button"
@@ -301,7 +301,7 @@
                                                 <span>SN62</span>
                                             </td>
                                             <td data-type="email">
-                                                <span>example@email.com</span>
+                                                <a href="mailto:example@email.com">example@email.com</a>
                                             </td>
                                             <td data-type="registration">
                                                 <span>منذ<br class="sm-break"> أسبوعين</span>
@@ -310,7 +310,7 @@
                                                 <span class="bg-danger text-white p-1">مضيف بيانات</span>
                                             </td>
                                             <td data-type="phone">
-                                                0# ## ## ## ##
+                                                <a href="tel: 06########">0# ## ## ## ##</a>
                                             </td>
                                             <td>
                                                 <a  type="button"
