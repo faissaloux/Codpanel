@@ -697,6 +697,7 @@
                         <b>نطاق التاريخ</b>
                     </label>
                     <select class="custom-select">
+                        <option value="">تحديد</option>
                         <option value="Today">اليوم</option>
                         <option value="Yesterday">أمس</option>
                         <option value="Last 7 days">آخر 7 أيام</option>
