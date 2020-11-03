@@ -272,6 +272,9 @@ textarea.notes{
 .table-primary thead tr th{
     font-size: 18px;
 }
+table.list_products tbody tr{
+    background-color: transparent;
+}
 .details{
     background: linear-gradient(to right, #8f94fb, #4e54c8);
 }

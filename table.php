@@ -567,7 +567,7 @@
                             </center>
                                 
                             <div class="card-body pd-0 tx-center">
-                                <table class="table table-primary">
+                                <table class="table table-primary table-hover">
                                     <thead>
                                         <tr>
                                             <th scope="col"><input type="checkbox" class="show-actions-menu"/></th>
