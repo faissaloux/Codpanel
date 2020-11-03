@@ -572,10 +572,31 @@
                             <thead>
                                 <tr>
                                     <th scope="col"><input type="checkbox" class="show-actions-menu"/></th>
-                                    <th scope="col" data-type="requestInfo">معلومات الطلب</th>
-                                    <th scope="col" data-type="nameAndPhone">الإسم و رقم الهاتف</th>
-                                    <th scope="col" data-type="products">المنتوجات</th>
-                                    <th scope="col" data-type="workers">الموظفة و الموزع</th>
+                                    <th scope="col" data-type="requestId">
+                                        <i class="mdi mdi-file"></i>
+                                        رقم الطلب
+                                    </th>
+                                    <th scope="col" data-type="requestDate">
+                                        <i class="mdi mdi-calendar"></i>
+                                        تاريخ الطلب
+                                    </th>
+                                    <th scope="col" data-type="requestStatus">
+                                        حالة الطلب
+                                    </th>
+                                    <th scope="col" data-type="name">الإسم</th>
+                                    <th scope="col" data-type="phone">
+                                        <i class="mdi mdi-phone-classic"></i>
+                                        الهاتف
+                                    </th>
+                                    <th scope="col" data-type="products">
+                                        <i class="mdi mdi-tag"></i>
+                                        المنتوجات
+                                    </th>
+                                    <th scope="col" data-type="employee">الموظفة</th>
+                                    <th scope="col" data-type="distributor">
+                                        <i class="mdi mdi-truck"></i>
+                                        الموزع
+                                    </th>
                                     <th scope="col" data-type="calls">محاولات الإتصال</th>
                                     <th scope="col">تعديل</th>
                                 </tr>
@@ -583,12 +604,19 @@
                             <tbody>
                                 <tr>
                                     <th scope="row"><input type="checkbox" class="hoverRow"/></th>
-                                    <td data-type="requestInfo" class="tx-right">
-                                        <i class="mdi mdi-file"></i>#13<br/>
-                                        <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
-                                        <i class="mdi mdi-tag"></i>قيد المعالجة<br/>
+                                    <td data-type="requestId" class="tx-right">
+                                        #13
                                     </td>
-                                    <td data-type="nameAndPhone">Full name<br/>
+                                    <td data-type="requestDate" class="tx-right">
+                                        2020-10-22 20:34:12
+                                    </td>
+                                    <td data-type="requestStatus" class="tx-right">
+                                        قيد المعالجة<br/>
+                                    </td>
+                                    <td data-type="name">
+                                        Full name
+                                    </td>
+                                    <td data-type="phone">
                                         <a href="tel: 06########">+212 ########</a>
                                     </td>
                                     <td data-type="products">
@@ -604,10 +632,10 @@
                                             </tbody>
                                         </table>
                                     </td>
-                                    <td data-type="workers">
-                                        <i class="mdi mdi-phone-classic"></i>
-                                        name<br/>
-                                        <i class="mdi mdi-truck"></i>
+                                    <td data-type="employee">
+                                        name
+                                    </td>
+                                    <td data-type="distributor">
                                         name
                                     </td>
                                     <td data-type="calls" class="pb-5">
@@ -646,334 +674,6 @@
                                     </td>
                                     <td>
                                         <a type="button" 
-                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
-                                            data-toggle="modal"
-                                            data-target="#detailsModalCenter">
-                                            التفاصيل
-                                        </a>
-                                        <a  type="button"
-                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white history"
-                                            data-toggle="modal"
-                                            data-target="#historyModalCenter">
-                                            الأحداث
-                                        </a>
-                                        <a type="button"
-                                                class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
-                                            تعديل
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><input type="checkbox" class="hoverRow"/></th>
-                                    <td data-type="requestInfo" class="tx-right">
-                                        <i class="mdi mdi-file"></i>#13<br/>
-                                        <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
-                                        <i class="mdi mdi-tag"></i>قيد المعالجة<br/>
-                                    </td>
-                                    <td  data-type="nameAndPhone">Full name<br/>
-                                        <a href="tel: 06########">+212 ########</a>
-                                    </td>
-                                    <td data-type="products">
-                                        <table class="list_products">
-                                            <tbody>
-                                                <tr>
-                                                    <td> 1 </td>
-                                                    <td> x كيطمات رائعة </td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="2">المجموع : 249 درهم</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                    <td data-type="workers">
-                                        <i class="mdi mdi-phone-classic"></i>
-                                        name<br/>
-                                        <i class="mdi mdi-truck"></i>
-                                        name
-                                    </td>
-                                    <td data-type="calls" class="pb-5">
-                                        <div class="d-flex justify-content-center">
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck6">
-                                                    <label class="custom-control-label" for="customCheck6"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck7">
-                                                    <label class="custom-control-label" for="customCheck7"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck8">
-                                                    <label class="custom-control-label" for="customCheck8"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck9">
-                                                    <label class="custom-control-label" for="customCheck9"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck10">
-                                                    <label class="custom-control-label" for="customCheck10"></label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <a type="button"
-                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
-                                            data-toggle="modal"
-                                            data-target="#detailsModalCenter">
-                                            التفاصيل
-                                        </a>
-                                        <a  type="button"
-                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white history"
-                                            data-toggle="modal"
-                                            data-target="#historyModalCenter">
-                                            الأحداث
-                                        </a>
-                                        <a  type="button"
-                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
-                                            تعديل
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><input type="checkbox" class="hoverRow"/></th>
-                                    <td data-type="requestInfo" class="tx-right">
-                                        <i class="mdi mdi-file"></i>#13<br/>
-                                        <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
-                                        <i class="mdi mdi-tag"></i>قيد المعالجة<br/>
-                                    </td>
-                                    <td data-type="nameAndPhone">Full name<br/>
-                                        <a href="tel: 06########">+212 ########</a>
-                                    </td>
-                                    <td data-type="products">
-                                        <table class="list_products">
-                                            <tbody>
-                                                <tr>
-                                                    <td> 1 </td>
-                                                    <td> x كيطمات رائعة </td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="2">المجموع : 249 درهم</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                    <td data-type="workers">
-                                        <i class="mdi mdi-phone-classic"></i>
-                                        name<br/>
-                                        <i class="mdi mdi-truck"></i>
-                                        name
-                                    </td>
-                                    <td data-type="calls" class="pb-5">
-                                        <div class="d-flex justify-content-center">
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck11">
-                                                    <label class="custom-control-label" for="customCheck11"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck12">
-                                                    <label class="custom-control-label" for="customCheck12"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck13">
-                                                    <label class="custom-control-label" for="customCheck13"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck14">
-                                                    <label class="custom-control-label" for="customCheck14"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck15">
-                                                    <label class="custom-control-label" for="customCheck15"></label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <a  type="button"
-                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
-                                            data-toggle="modal"
-                                            data-target="#detailsModalCenter">
-                                            التفاصيل
-                                        </a>
-                                        <a  type="button" 
-                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white history"
-                                            data-toggle="modal"
-                                            data-target="#historyModalCenter">
-                                            الأحداث
-                                        </a>
-                                        <a type="button" 
-                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
-                                            تعديل
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><input type="checkbox" class="hoverRow"/></th>
-                                    <td data-type="requestInfo" class="tx-right">
-                                        <i class="mdi mdi-file"></i>#13<br/>
-                                        <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
-                                        <i class="mdi mdi-tag"></i>قيد المعالجة<br/>
-                                    </td>
-                                    <td data-type="nameAndPhone">Full name<br/>
-                                        <a href="tel: 06########">+212 ########</a>
-                                    </td>
-                                    <td data-type="products">
-                                        <table class="list_products">
-                                            <tbody>
-                                                <tr>
-                                                    <td> 1 </td>
-                                                    <td> x كيطمات رائعة </td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="2">المجموع : 249 درهم</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                    <td data-type="workers">
-                                        <i class="mdi mdi-phone-classic"></i>
-                                        name<br/>
-                                        <i class="mdi mdi-truck"></i>
-                                        name
-                                    </td>
-                                    <td data-type="calls" class="pb-5">
-                                        <div class="d-flex justify-content-center">
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck16">
-                                                    <label class="custom-control-label" for="customCheck16"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck17">
-                                                    <label class="custom-control-label" for="customCheck17"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck18">
-                                                    <label class="custom-control-label" for="customCheck18"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck19">
-                                                    <label class="custom-control-label" for="customCheck19"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck20">
-                                                    <label class="custom-control-label" for="customCheck20"></label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <a  type="button"
-                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
-                                            data-toggle="modal"
-                                            data-target="#detailsModalCenter">
-                                            التفاصيل
-                                        </a>
-                                        <a  type="button"
-                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white history"
-                                            data-toggle="modal"
-                                            data-target="#historyModalCenter">
-                                            الأحداث
-                                        </a>
-                                        <a type="button"
-                                                class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
-                                            تعديل
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><input type="checkbox" class="hoverRow"/></th>
-                                    <td data-type="requestInfo" class="tx-right">
-                                        <i class="mdi mdi-file"></i>#13<br/>
-                                        <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
-                                        <i class="mdi mdi-tag"></i>قيد المعالجة<br/>
-                                    </td>
-                                    <td data-type="nameAndPhone">Full name<br/>
-                                        <a href="tel: 06########">+212 ########</a>
-                                    </td>
-                                    <td data-type="products">
-                                        <table class="list_products">
-                                            <tbody>
-                                                <tr>
-                                                    <td> 1 </td>
-                                                    <td> x كيطمات رائعة </td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="2">المجموع : 249 درهم</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </td>
-                                    <td data-type="workers">
-                                        <i class="mdi mdi-phone-classic"></i>
-                                        name<br/>
-                                        <i class="mdi mdi-truck"></i>
-                                        name
-                                    </td>
-                                    <td data-type="calls" class="pb-5">
-                                        <div class="d-flex justify-content-center">
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck21">
-                                                    <label class="custom-control-label" for="customCheck21"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck22">
-                                                    <label class="custom-control-label" for="customCheck22"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck23">
-                                                    <label class="custom-control-label" for="customCheck23"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck24">
-                                                    <label class="custom-control-label" for="customCheck24"></label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck25">
-                                                    <label class="custom-control-label" for="customCheck25"></label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <a  type="button"
                                             class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
                                             data-toggle="modal"
                                             data-target="#detailsModalCenter">
