@@ -24,7 +24,7 @@
                             <li>
                                 <a href="#" class="tx-right">
                                     <i data-feather="headphones"></i>
-                                    <span>مندوب الإتصال</span>
+                                    <span>عملاء الإتصال</span>
                                 </a>
                             </li>
                             <li>
