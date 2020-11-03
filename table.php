@@ -442,7 +442,7 @@
                                                             <div class="col-md-4">
                                                                 <div class="form-group ">
                                                                     <label for="employee_selector" class="float-right" >
-                                                                        <b>العامل</b>
+                                                                        <b>عميل الإتصال</b>
                                                                     </label>
                                                                     <select class="form-control" name="employee_selector">
                                                                         <option></option>
@@ -462,7 +462,7 @@
                                                             <div class="col-md-4">
                                                                 <div class="form-group">
                                                                     <label for="provider" class="float-right">
-                                                                        <b>المزود</b>
+                                                                        <b>مندوب التوصيل</b>
                                                                     </label>
                                                                     <select class="form-control" name="provider">
                                                                         <option></option>
@@ -486,7 +486,7 @@
                                                             <div class="col-md-6">
                                                                 <div class="form-group">
                                                                     <label for="product" class="float-right">
-                                                                        <b>المنتج</b>
+                                                                        <b>المنتوج</b>
                                                                     </label>
                                                                     <select class="form-control" name="product">
                                                                         <option></option>

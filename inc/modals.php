@@ -86,9 +86,7 @@
             <button type="button" class="btn btn-primary rounded">لا يجيب</button>
             <button type="button" class="btn btn-primary rounded">إعادة الإتصال</button>
             <button type="button" class="btn btn-primary rounded">ملغى</button>
-            <button type="button" class="btn btn-primary rounded">قبول الطلب</button>
-            <button type="button" class="btn btn-primary rounded">تعديل</button>
-            <button type="button" class="btn btn-primary rounded">حذف</button>
+            <button type="button" class="btn btn-primary rounded">تأكيد</button>
         </div>
         </div>
     </div>
