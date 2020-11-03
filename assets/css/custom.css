@@ -118,6 +118,9 @@ input[type="checkbox"]{
     .table-primary tbody td{
         font-size: 10px !important;
     }
+    .table-primary tbody td a{
+        font-size: 10px !important;
+    }
 }
 
 /* Actions CSS */
@@ -129,6 +132,9 @@ input[type="checkbox"]{
     height: 60px;
     background-color: #201F2B;
     color: #FFF;
+}
+.actions-menu > div{
+    padding-top: 12px;
 }
 .actions-number{
     background-color: #3C3B4C;

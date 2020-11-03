@@ -1,5 +1,5 @@
 <div class="actions-menu">
-    <div class="pt-3">
+    <div class="">
         <div class="d-flex">
             <div class="d-flex col-sm-2 justify-content-center align-items-center p-0">
                 <div>
@@ -9,8 +9,8 @@
             </div>
             <div class="d-flex col-8 justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-12">
-                    <div class="d-flex justify-content-around">
-                        <span class="action d-flex align-items-center">
+                    <div class="d-flex">
+                        <span class="action d-flex align-items-center ml-2">
                             <a  class="table-top-btn"
                                 style="color: white"
                                 data-toggle="modal"
@@ -19,13 +19,13 @@
                                 <span class="sm-hide mr-2">تصدير</span>
                             </a>
                         </span>
-                        <span class="action d-flex align-items-center">
+                        <span class="action d-flex align-items-center ml-2">
                             <a>
                                 <i class="mdi mdi-clipboard-check"></i>
                                 <span class="sm-hide mr-2">تعيين</span>
                             </a>
                         </span>
-                        <span class="dropdown action d-flex align-items-center">
+                        <span class="dropdown action d-flex align-items-center ml-2">
                             <a   class="dropdown-toggle d-flex align-items-center"
                                     id="dropdownMenuButton"
                                     data-toggle="dropdown"
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex col-1 justify-content-center align-items-center">
+            <div class="d-flex col-1 justify-content-end align-items-center">
                 <i class="mdi mdi-close close-actions-menu"></i>
             </div>
         </div>
