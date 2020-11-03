@@ -721,13 +721,13 @@
                         <label for="date" class="float-right">
                             <b>بدءا</b>
                         </label>
-                        <input type="text" id="dateFrom" class="form-control" placeholder="من">
+                        <input type="text" class="form-control" placeholder="من" id="datepicker1">
                     </div>
                     <div class="form-group col">
                         <label for="date" class="float-right">
                             <b>انتهاء</b>
                         </label>
-                        <input type="text" id="dateTo" class="form-control" placeholder="إلى">
+                        <input type="text" class="form-control" placeholder="إلى" id="datepicker2">
                     </div>
                 </div>
             </div>

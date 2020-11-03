@@ -54,6 +54,9 @@ $(() => {
 // Important script for Today Moday datepicker
 $(function(){
     'use strict'
+
+    $('#datepicker1').datepicker();
+    $('#datepicker2').datepicker();
     
     var dateFormat = 'mm/dd/yy',
     from = $('#dateFrom')

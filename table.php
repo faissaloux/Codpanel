@@ -641,14 +641,14 @@
                                             <td>
                                                 <div class="dropdown" data-toggle="dropdown">
                                                     <a href="#"><i class="ti-more-alt"></i></a>
-                                                    <div class="dropdown-menu dropdown-menu-right">
-                                                        <a href="#" class="dropdown-item"><i data-feather="info" class="wd-16 mr-2"></i>View Details</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="share" class="wd-16 mr-2"></i>Share</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="download" class="wd-16 mr-2"></i>Download</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="copy" class="wd-16 mr-2"></i>Copy to</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="folder" class="wd-16 mr-2"></i>Move to</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="edit" class="wd-16 mr-2"></i>Rename</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="trash" class="wd-16 mr-2"></i>Delete</a>
+                                                    <div class="dropdown-menu dropdown-menu-right tx-right more-dropdown">
+                                                        <a href="#" class="dropdown-item"><i data-feather="info" class="wd-16 ml-2"></i>عرض التفاصيل</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="share" class="wd-16 ml-2"></i>شارك</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="download" class="wd-16 ml-2"></i>تحميل</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="copy" class="wd-16 ml-2"></i>نسخ الى</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="folder" class="wd-16 ml-2"></i>نقل إلى</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="edit" class="wd-16 ml-2"></i>إعادة تسمية</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="trash" class="wd-16 ml-2"></i>حذف</a>
                                                     </div>
                                                  </div>
                                             </td>
@@ -737,14 +737,14 @@
                                             <td>
                                                 <div class="dropdown" data-toggle="dropdown">
                                                     <a href="#"><i class="ti-more-alt"></i></a>
-                                                    <div class="dropdown-menu dropdown-menu-right">
-                                                        <a href="#" class="dropdown-item"><i data-feather="info" class="wd-16 mr-2"></i>View Details</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="share" class="wd-16 mr-2"></i>Share</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="download" class="wd-16 mr-2"></i>Download</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="copy" class="wd-16 mr-2"></i>Copy to</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="folder" class="wd-16 mr-2"></i>Move to</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="edit" class="wd-16 mr-2"></i>Rename</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="trash" class="wd-16 mr-2"></i>Delete</a>
+                                                    <div class="dropdown-menu dropdown-menu-right tx-right more-dropdown">
+                                                        <a href="#" class="dropdown-item"><i data-feather="info" class="wd-16 ml-2"></i>عرض التفاصيل</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="share" class="wd-16 ml-2"></i>شارك</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="download" class="wd-16 ml-2"></i>تحميل</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="copy" class="wd-16 ml-2"></i>نسخ الى</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="folder" class="wd-16 ml-2"></i>نقل إلى</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="edit" class="wd-16 ml-2"></i>إعادة تسمية</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="trash" class="wd-16 ml-2"></i>حذف</a>
                                                     </div>
                                                  </div>
                                             </td>
@@ -833,14 +833,14 @@
                                             <td>
                                                 <div class="dropdown" data-toggle="dropdown">
                                                     <a href="#"><i class="ti-more-alt"></i></a>
-                                                    <div class="dropdown-menu dropdown-menu-right">
-                                                        <a href="#" class="dropdown-item"><i data-feather="info" class="wd-16 mr-2"></i>View Details</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="share" class="wd-16 mr-2"></i>Share</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="download" class="wd-16 mr-2"></i>Download</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="copy" class="wd-16 mr-2"></i>Copy to</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="folder" class="wd-16 mr-2"></i>Move to</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="edit" class="wd-16 mr-2"></i>Rename</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="trash" class="wd-16 mr-2"></i>Delete</a>
+                                                    <div class="dropdown-menu dropdown-menu-right tx-right more-dropdown">
+                                                        <a href="#" class="dropdown-item"><i data-feather="info" class="wd-16 ml-2"></i>عرض التفاصيل</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="share" class="wd-16 ml-2"></i>شارك</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="download" class="wd-16 ml-2"></i>تحميل</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="copy" class="wd-16 ml-2"></i>نسخ الى</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="folder" class="wd-16 ml-2"></i>نقل إلى</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="edit" class="wd-16 ml-2"></i>إعادة تسمية</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="trash" class="wd-16 ml-2"></i>حذف</a>
                                                     </div>
                                                  </div>
                                             </td>
@@ -929,14 +929,14 @@
                                             <td>
                                                 <div class="dropdown" data-toggle="dropdown">
                                                     <a href="#"><i class="ti-more-alt"></i></a>
-                                                    <div class="dropdown-menu dropdown-menu-right">
-                                                        <a href="#" class="dropdown-item"><i data-feather="info" class="wd-16 mr-2"></i>View Details</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="share" class="wd-16 mr-2"></i>Share</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="download" class="wd-16 mr-2"></i>Download</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="copy" class="wd-16 mr-2"></i>Copy to</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="folder" class="wd-16 mr-2"></i>Move to</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="edit" class="wd-16 mr-2"></i>Rename</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="trash" class="wd-16 mr-2"></i>Delete</a>
+                                                    <div class="dropdown-menu dropdown-menu-right tx-right more-dropdown">
+                                                        <a href="#" class="dropdown-item"><i data-feather="info" class="wd-16 ml-2"></i>عرض التفاصيل</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="share" class="wd-16 ml-2"></i>شارك</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="download" class="wd-16 ml-2"></i>تحميل</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="copy" class="wd-16 ml-2"></i>نسخ الى</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="folder" class="wd-16 ml-2"></i>نقل إلى</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="edit" class="wd-16 ml-2"></i>إعادة تسمية</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="trash" class="wd-16 ml-2"></i>حذف</a>
                                                     </div>
                                                  </div>
                                             </td>
@@ -1025,14 +1025,14 @@
                                             <td>
                                                 <div class="dropdown" data-toggle="dropdown">
                                                     <a href="#"><i class="ti-more-alt"></i></a>
-                                                    <div class="dropdown-menu dropdown-menu-right">
-                                                        <a href="#" class="dropdown-item"><i data-feather="info" class="wd-16 mr-2"></i>View Details</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="share" class="wd-16 mr-2"></i>Share</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="download" class="wd-16 mr-2"></i>Download</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="copy" class="wd-16 mr-2"></i>Copy to</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="folder" class="wd-16 mr-2"></i>Move to</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="edit" class="wd-16 mr-2"></i>Rename</a>
-                                                        <a href="#" class="dropdown-item"><i data-feather="trash" class="wd-16 mr-2"></i>Delete</a>
+                                                    <div class="dropdown-menu dropdown-menu-right tx-right more-dropdown">
+                                                        <a href="#" class="dropdown-item"><i data-feather="info" class="wd-16 ml-2"></i>عرض التفاصيل</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="share" class="wd-16 ml-2"></i>شارك</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="download" class="wd-16 ml-2"></i>تحميل</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="copy" class="wd-16 ml-2"></i>نسخ الى</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="folder" class="wd-16 ml-2"></i>نقل إلى</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="edit" class="wd-16 ml-2"></i>إعادة تسمية</a>
+                                                        <a href="#" class="dropdown-item"><i data-feather="trash" class="wd-16 ml-2"></i>حذف</a>
                                                     </div>
                                                  </div>
                                             </td>
