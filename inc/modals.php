@@ -699,21 +699,21 @@
                         <b>نطاق التاريخ</b>
                     </label>
                     <select class="custom-select">
-                        <option value="Today">Today</option>
-                        <option value="Yesterday">Yesterday</option>
-                        <option value="Last 7 days">Last 7 days</option>
-                        <option value="Last 30 days">Last 30 days</option>
-                        <option value="Last 90 days">Last 90 days</option>
-                        <option value="Last month">Last month</option>
-                        <option value="Last year">Last year</option>
-                        <option value="Week to date">Week to date</option>
-                        <option value="Month to date">Month to date</option>
-                        <option value="Quarter to date">Quarter to date</option>
-                        <option value="Year to date">Year to date</option>
-                        <option value="3rd Quarter (2020)">3rd Quarter (2020)</option>
-                        <option value="2nd Quarter (2020)">2nd Quarter (2020)</option>
-                        <option value="1st Quarter (2020)">1st Quarter (2020)</option>
-                        <option value="4th Quarter (2019)">4th Quarter (2019)</option>
+                        <option value="Today">اليوم</option>
+                        <option value="Yesterday">أمس</option>
+                        <option value="Last 7 days">آخر 7 أيام</option>
+                        <option value="Last 30 days">آخر 30 يوما</option>
+                        <option value="Last 90 days">آخر 90 يوما</option>
+                        <option value="Last month">الشهر الماضي</option>
+                        <option value="Last year">السنة الماضية</option>
+                        <option value="Week to date">أسبوع حتى الآن</option>
+                        <option value="Month to date">شهر حتى الآن</option>
+                        <option value="Quarter to date">ربع حتى الآن</option>
+                        <option value="Year to date">سنة حتى الآن</option>
+                        <option value="3rd Quarter (2020)">الربع الثالث (2020)</option>
+                        <option value="2nd Quarter (2020)">الربع الثاني (2020)</option>
+                        <option value="1st Quarter (2020)">الربع الأول (2020)</option>
+                        <option value="4th Quarter (2019)">الربع الرابع (2019)</option>
                     </select>
                 </div>
                 <div class="form-group d-flex">
