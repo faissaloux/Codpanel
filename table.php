@@ -409,7 +409,9 @@
                             <div class="col-6 pr-0">
                                 <div class="d-flex justify-content-end">
                                     <div class="btn-container ml-2">
-                                        <a class="btn-import table-top-btn d-flex align-items-center">
+                                        <a  class="btn-import table-top-btn d-flex align-items-center"
+                                            data-toggle="modal"
+                                            data-target="#importModalCenter">
                                             <i class="mdi mdi-download"></i>
                                             <span class="mr-2">استيراد</span>
                                         </a>

@@ -557,6 +557,48 @@
 <!--/ Add new order modal End -->
 
 <!--================================-->
+<!-- Import modal Start -->
+<!--================================-->
+<div    class="modal fade"
+        id="importModalCenter"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="importModalCenterTitle"
+        aria-hidden="true">
+    <div    class="modal-dialog modal-lg modal-dialog-centered"
+            role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="importModalCenterTitle">استيراد</h5>
+                <button type="button" class="close ml-0" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body d-flex flex-column">
+                <div class="modal-cont modal-top mb-3 float-right">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex mb-2">
+                            <div class="input-group mb-3">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="inputGroupFile01">
+                                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-success btn-block">استيراد</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/ Import modal End -->
+
+<!--================================-->
 <!-- Export modal Start -->
 <!--================================-->
 <div    class="modal fade"
