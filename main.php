@@ -23,7 +23,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
    </head>
-   <body dir="rtl">
+   <body dir="rtl" data-auth-id="" data-auth-type="">
       <!--================================-->
       <!-- Page Container Start -->
       <!--================================-->
