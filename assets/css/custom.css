@@ -64,7 +64,7 @@ input[type="checkbox"]{
     width: 40px;
 }
 .add-new-text{
-    margin-left: 35px;
+    margin-right: -14px;
 }
 .add-new-icon{
     width: 40px;
@@ -73,6 +73,10 @@ input[type="checkbox"]{
     left: 0;
     top: 0;
     bottom: 0;
+}
+.btn-top > a{
+    font-size: 16px;
+    width: 175px;
 }
 .sm-break{
     display: none;
@@ -268,11 +272,6 @@ table.list_products tbody tr{
 tr.active{
     background-color: #b6c7df !important;
 }
-/* Users CSS */
-.btn-top > a{
-    font-size: 16px;
-    width: 160px;
-}
 
 /* Reception CSS */
 .btn-top{
@@ -322,10 +321,6 @@ td.city{
 }
 
 /* Profile CSS */
-.btn-top > a{
-    font-size: 16px;
-    width: 160px;
-}
 .form{
     border: 1px #BBB solid;
     background-color: #FFF;
@@ -333,11 +328,6 @@ td.city{
 }
 
 /* Products CSS */
-.btn-top > a{
-    font-size: 16px;
-    width: 160px;
-}
-
 .img-cont{
     width: 50px;
     height: 50px;
@@ -504,10 +494,6 @@ td.provider{
 }
 
 /* Add New User CSS */
-.btn-top > a{
-    font-size: 16px;
-    width: 160px;
-}
 .form{
     border: 1px #BBB solid;
     background-color: #FFF;
