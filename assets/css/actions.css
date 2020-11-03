@@ -11,10 +11,19 @@
 .actions-menu > div{
     padding-top: 12px;
 }
-.actions-number{
-    background-color: #3C3B4C;
-    border-radius: 20px;
-    padding: 4px 12px;
+.actions-number {
+    background: white;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    display: inline-block !important;
+    border-radius: 0;
+    max-width: initial;
+    border-radius: 25px;
+    color: #2d353e;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 5px !important;
 }
 .action{
     background-color: #3C3B4C;
