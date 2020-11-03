@@ -582,7 +582,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
+                                            <th scope="row"><input type="checkbox" class="hoverRow"/></th>
                                             <td data-type="requestInfo" class="tx-right">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
@@ -678,7 +678,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
+                                            <th scope="row"><input type="checkbox" class="hoverRow"/></th>
                                             <td data-type="requestInfo" class="tx-right">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
@@ -774,7 +774,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
+                                            <th scope="row"><input type="checkbox" class="hoverRow"/></th>
                                             <td data-type="requestInfo" class="tx-right">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
@@ -870,7 +870,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
+                                            <th scope="row"><input type="checkbox" class="hoverRow"/></th>
                                             <td data-type="requestInfo" class="tx-right">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>
@@ -966,7 +966,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th scope="row"><input type="checkbox"/></th>
+                                            <th scope="row"><input type="checkbox" class="hoverRow"/></th>
                                             <td data-type="requestInfo" class="tx-right">
                                                 <i class="mdi mdi-file"></i>#13<br/>
                                                 <i class="mdi mdi-calendar"></i>2020-10-22 20:34:12<br/>

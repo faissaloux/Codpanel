@@ -287,6 +287,9 @@ table.list_products tbody tr{
 .ui-datepicker{
     z-index: 2000 !important;
 }
+tr.active{
+    background-color: #b6c7df !important;
+}
 
 /* Users CSS */
 .btn-top > a{

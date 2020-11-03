@@ -34,6 +34,20 @@ $(() => {
         getDown.removeClass("margin-top-60");
         actionsMenu.slideUp(600);
     })
+
+    const hoverRow = $(".hoverRow");
+
+    hoverRow.click(function(){
+        if($(this).prop("checked")){
+            $(this).addClass("active");
+            $(this).parent().parent().addClass("active");
+        }else{
+            $(this).removeClass("active");
+            $(this).parent().parent().removeClass("active");
+        }
+    })
+
+    $("tr.active").css("backgroundColor", "red");
 })
 
 
