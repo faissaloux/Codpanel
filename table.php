@@ -575,31 +575,28 @@
                                 <tr>
                                     <th scope="col"><input type="checkbox" class="show-actions-menu"/></th>
                                     <th scope="col" data-type="requestId">
-                                        <i class="mdi mdi-file"></i>
-                                        رقم الطلب
+                                        رقم
                                     </th>
                                     <th scope="col" data-type="requestDate">
-                                        <i class="mdi mdi-calendar"></i>
-                                        تاريخ الطلب
+                                        تاريخ الإنشاء
                                     </th>
                                     <th scope="col" data-type="requestStatus">
                                         حالة الطلب
                                     </th>
-                                    <th scope="col" data-type="name">الإسم</th>
+                                    <th scope="col" data-type="name">
+                                        الإسم
+                                    </th>
                                     <th scope="col" data-type="phone">
-                                        <i class="mdi mdi-phone-classic"></i>
                                         الهاتف
                                     </th>
                                     <th scope="col" data-type="products">
-                                        <i class="mdi mdi-tag"></i>
                                         المنتوجات
                                     </th>
-                                    <th scope="col" data-type="employee">الموظفة</th>
+                                    <th scope="col" data-type="employee">عميل <br>الإتصال</th>
                                     <th scope="col" data-type="distributor">
-                                        <i class="mdi mdi-truck"></i>
-                                        الموزع
+                                        مندوب<br> التوصيل
                                     </th>
-                                    <th scope="col" data-type="calls">محاولات الإتصال</th>
+                                    <th scope="col" data-type="calls">محاولات<br> الإتصال</th>
                                     <th scope="col">تعديل</th>
                                 </tr>
                             </thead>
@@ -640,33 +637,389 @@
                                     <td data-type="distributor">
                                         name
                                     </td>
-                                    <td data-type="calls" class="pb-5">
-                                        <div class="d-flex justify-content-center">
-                                            <div class="col-md-1">
+                                    <td data-type="calls" class="px-0 pb-5">
+                                        <div class="d-flex">
+                                            <div>
                                                 <div class="custom-control custom-checkbox">
                                                     <input type="checkbox" class="custom-control-input" id="customCheck1">
                                                     <label class="custom-control-label" for="customCheck1"></label>
                                                 </div>
                                             </div>
-                                            <div class="col-md-1">
+                                            <div>
                                                 <div class="custom-control custom-checkbox">
                                                     <input type="checkbox" class="custom-control-input" id="customCheck2">
                                                     <label class="custom-control-label" for="customCheck2"></label>
                                                 </div>
                                             </div>
-                                            <div class="col-md-1">
+                                            <div>
                                                 <div class="custom-control custom-checkbox">
                                                     <input type="checkbox" class="custom-control-input" id="customCheck3">
                                                     <label class="custom-control-label" for="customCheck3"></label>
                                                 </div>
                                             </div>
-                                            <div class="col-md-1">
+                                            <div>
                                                 <div class="custom-control custom-checkbox">
                                                     <input type="checkbox" class="custom-control-input" id="customCheck4">
                                                     <label class="custom-control-label" for="customCheck4"></label>
                                                 </div>
                                             </div>
-                                            <div class="col-md-1">
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                                    <label class="custom-control-label" for="customCheck5"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <a type="button" 
+                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
+                                            data-toggle="modal"
+                                            data-target="#detailsModalCenter">
+                                            التفاصيل
+                                        </a>
+                                        <a  type="button"
+                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white history"
+                                            data-toggle="modal"
+                                            data-target="#historyModalCenter">
+                                            الأحداث
+                                        </a>
+                                        <a type="button"
+                                                class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
+                                            تعديل
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox" class="hoverRow"/></th>
+                                    <td data-type="requestId" class="tx-right">
+                                        #13
+                                    </td>
+                                    <td data-type="requestDate" class="tx-right">
+                                        2020-10-22 20:34:12
+                                    </td>
+                                    <td data-type="requestStatus" class="tx-right">
+                                        قيد المعالجة<br/>
+                                    </td>
+                                    <td data-type="name">
+                                        Full name
+                                    </td>
+                                    <td data-type="phone">
+                                        <a href="tel: 06########">+212 ########</a>
+                                    </td>
+                                    <td data-type="products">
+                                        <table class="list_products">
+                                            <tbody>
+                                                <tr>
+                                                    <td> 1 </td>
+                                                    <td> x كيطمات رائعة </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">المجموع : 249 درهم</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td data-type="employee">
+                                        name
+                                    </td>
+                                    <td data-type="distributor">
+                                        name
+                                    </td>
+                                    <td data-type="calls" class="px-0 pb-5">
+                                        <div class="d-flex">
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                    <label class="custom-control-label" for="customCheck1"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                                    <label class="custom-control-label" for="customCheck2"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                                    <label class="custom-control-label" for="customCheck3"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                                    <label class="custom-control-label" for="customCheck4"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                                    <label class="custom-control-label" for="customCheck5"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <a type="button" 
+                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
+                                            data-toggle="modal"
+                                            data-target="#detailsModalCenter">
+                                            التفاصيل
+                                        </a>
+                                        <a  type="button"
+                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white history"
+                                            data-toggle="modal"
+                                            data-target="#historyModalCenter">
+                                            الأحداث
+                                        </a>
+                                        <a type="button"
+                                                class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
+                                            تعديل
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox" class="hoverRow"/></th>
+                                    <td data-type="requestId" class="tx-right">
+                                        #13
+                                    </td>
+                                    <td data-type="requestDate" class="tx-right">
+                                        2020-10-22 20:34:12
+                                    </td>
+                                    <td data-type="requestStatus" class="tx-right">
+                                        قيد المعالجة<br/>
+                                    </td>
+                                    <td data-type="name">
+                                        Full name
+                                    </td>
+                                    <td data-type="phone">
+                                        <a href="tel: 06########">+212 ########</a>
+                                    </td>
+                                    <td data-type="products">
+                                        <table class="list_products">
+                                            <tbody>
+                                                <tr>
+                                                    <td> 1 </td>
+                                                    <td> x كيطمات رائعة </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">المجموع : 249 درهم</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td data-type="employee">
+                                        name
+                                    </td>
+                                    <td data-type="distributor">
+                                        name
+                                    </td>
+                                    <td data-type="calls" class="px-0 pb-5">
+                                        <div class="d-flex">
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                    <label class="custom-control-label" for="customCheck1"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                                    <label class="custom-control-label" for="customCheck2"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                                    <label class="custom-control-label" for="customCheck3"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                                    <label class="custom-control-label" for="customCheck4"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                                    <label class="custom-control-label" for="customCheck5"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <a type="button" 
+                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
+                                            data-toggle="modal"
+                                            data-target="#detailsModalCenter">
+                                            التفاصيل
+                                        </a>
+                                        <a  type="button"
+                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white history"
+                                            data-toggle="modal"
+                                            data-target="#historyModalCenter">
+                                            الأحداث
+                                        </a>
+                                        <a type="button"
+                                                class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
+                                            تعديل
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox" class="hoverRow"/></th>
+                                    <td data-type="requestId" class="tx-right">
+                                        #13
+                                    </td>
+                                    <td data-type="requestDate" class="tx-right">
+                                        2020-10-22 20:34:12
+                                    </td>
+                                    <td data-type="requestStatus" class="tx-right">
+                                        قيد المعالجة<br/>
+                                    </td>
+                                    <td data-type="name">
+                                        Full name
+                                    </td>
+                                    <td data-type="phone">
+                                        <a href="tel: 06########">+212 ########</a>
+                                    </td>
+                                    <td data-type="products">
+                                        <table class="list_products">
+                                            <tbody>
+                                                <tr>
+                                                    <td> 1 </td>
+                                                    <td> x كيطمات رائعة </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">المجموع : 249 درهم</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td data-type="employee">
+                                        name
+                                    </td>
+                                    <td data-type="distributor">
+                                        name
+                                    </td>
+                                    <td data-type="calls" class="px-0 pb-5">
+                                        <div class="d-flex">
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                    <label class="custom-control-label" for="customCheck1"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                                    <label class="custom-control-label" for="customCheck2"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                                    <label class="custom-control-label" for="customCheck3"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                                    <label class="custom-control-label" for="customCheck4"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                                    <label class="custom-control-label" for="customCheck5"></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <a type="button" 
+                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white details"
+                                            data-toggle="modal"
+                                            data-target="#detailsModalCenter">
+                                            التفاصيل
+                                        </a>
+                                        <a  type="button"
+                                            class="btn btn-primary btn-lg border-none loadactions rounded text-white history"
+                                            data-toggle="modal"
+                                            data-target="#historyModalCenter">
+                                            الأحداث
+                                        </a>
+                                        <a type="button"
+                                                class="btn btn-primary btn-lg border-none loadactions rounded text-white edit">
+                                            تعديل
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox" class="hoverRow"/></th>
+                                    <td data-type="requestId" class="tx-right">
+                                        #13
+                                    </td>
+                                    <td data-type="requestDate" class="tx-right">
+                                        2020-10-22 20:34:12
+                                    </td>
+                                    <td data-type="requestStatus" class="tx-right">
+                                        قيد المعالجة<br/>
+                                    </td>
+                                    <td data-type="name">
+                                        Full name
+                                    </td>
+                                    <td data-type="phone">
+                                        <a href="tel: 06########">+212 ########</a>
+                                    </td>
+                                    <td data-type="products">
+                                        <table class="list_products">
+                                            <tbody>
+                                                <tr>
+                                                    <td> 1 </td>
+                                                    <td> x كيطمات رائعة </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">المجموع : 249 درهم</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td data-type="employee">
+                                        name
+                                    </td>
+                                    <td data-type="distributor">
+                                        name
+                                    </td>
+                                    <td data-type="calls" class="px-0 pb-5">
+                                        <div class="d-flex">
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                    <label class="custom-control-label" for="customCheck1"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                                    <label class="custom-control-label" for="customCheck2"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                                    <label class="custom-control-label" for="customCheck3"></label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                                    <label class="custom-control-label" for="customCheck4"></label>
+                                                </div>
+                                            </div>
+                                            <div>
                                                 <div class="custom-control custom-checkbox">
                                                     <input type="checkbox" class="custom-control-input" id="customCheck5">
                                                     <label class="custom-control-label" for="customCheck5"></label>

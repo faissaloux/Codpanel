@@ -1,7 +1,10 @@
 /* Common CSS */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
 body{
     background-color: #F5F5F5;
     overflow-x: hidden;
+    font-family: 'Tajawal';
 }
 a{
     font-weight: 400;
@@ -264,9 +267,6 @@ table.list_products tbody tr{
 }
 tr.active{
     background-color: #b6c7df !important;
-}
-.more-dropdown{
-    left: 45px !important;
 }
 /* Users CSS */
 .btn-top > a{
