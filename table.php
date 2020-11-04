@@ -145,9 +145,9 @@
                                     <div class="btn-filter btn btn-default-custom mr-2">
                                         <i class="mdi mdi-filter-variant"></i>
                                     </div>
-                                    <div class="limit-container-right col-2 pr-0 mr-2 d-flex">
+                                    <div class="limit-container-right btn btn-default-custom col-2 pr-0 mr-2 d-flex align-items-center">
                                         <span class="m-2 col text-right">حد:</span>
-                                        <select name="" id="" class="p-0 pagination-select btn btn-default-custom">
+                                        <select name="" id="" class="p-0 pagination-select">
                                             <option value="25">25</option>
                                             <option value="50">50</option>
                                             <option value="100">100</option>
@@ -308,7 +308,7 @@
                                         </div>
                                     </div>
                                     <div class="d-flex align-items-center btn-container show-columns-container mr-2">
-                                        <button class="btn btn-default-custom show-columns-container d-flex align-items-center border-none px-2"
+                                        <button class="btn btn-default-custom show-columns-container d-flex align-items-center px-2"
                                                 type="button"
                                                 id="showColumnsdropdownMenuButton"
                                                 data-toggle="dropdown"
@@ -610,7 +610,7 @@
                         </form>
                     </div>
 
-                    <center>
+                    <center class="mt-2">
                         <div class="spinner-border mb-2 text-primary" role="status">
                             <span class="sr-only">Loading...</span>
                         </div>
