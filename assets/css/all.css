@@ -1976,7 +1976,7 @@ body:not(.page-sidebar-fixed) .page-sidebar .slimScrollDiv {
 
 .page-sidebar-menu ul li a {
   display: block;
-  font-size: 13px;
+  font-size: 16px;
   padding: 7px 15px;
   color: #8695a7;
   line-height: 1.5 !important;

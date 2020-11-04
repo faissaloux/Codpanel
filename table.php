@@ -307,72 +307,144 @@
                                         </div>
                                     </div>
                                     <div class="d-flex align-items-center btn-container show-columns-container mr-2">
-                                        <button class="btn btn-secondary show-columns-container d-flex align-items-center border-none"
+                                        <button class="btn btn-secondary show-columns-container d-flex align-items-center border-none px-2"
                                                 type="button"
-                                                id="dropdownMenuButton"
+                                                id="showColumnsdropdownMenuButton"
                                                 data-toggle="dropdown"
                                                 aria-haspopup="true"
                                                 aria-expanded="false">
-                                            <i class="mdi mdi-sort text-white"></i>
+                                            <i data-feather="eye-off" class="show-columns-icon"></i>
                                             <span class="mr-2">عرض الأعمدة</span>
                                         </button>
                                         <div    class="dropdown-menu show-columns-dropdown mt-2"
-                                                aria-labelledby="dropdownMenuButton">
-                                            <div class="polaris-header tx-right pr-3 pb-2">
-                                                <span>عرض الأعمدة:</span>
+                                                aria-labelledby="showColumnsdropdownMenuButton">
+                                            <div class="columns-container">
+                                                <ul class="Polaris-ChoiceList__Choices_15o76 polaris-list tx-right px-2 mb-0">
+                                                    <li>
+                                                        <label class="Polaris-Choice_j5gzq d-flex justify-content-between" for="PolarisRadioButton67">
+                                                            <div>
+                                                                <i data-feather="info" class="show-columns-item-icon"></i>
+                                                                <span class="Polaris-Choice__Label_2vd36">رقم</span>
+                                                            </div>
+                                                            <span class="Polaris-Choice__Control_1u8vs">
+                                                                <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                    <input type="checkbox" class="toggle">
+                                                                </span>
+                                                            </span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="Polaris-Choice_j5gzq d-flex justify-content-between" for="PolarisRadioButton67">
+                                                            <div>
+                                                                <i data-feather="info" class="show-columns-item-icon"></i>
+                                                                <span class="Polaris-Choice__Label_2vd36">تاريخ الإنشاء</span>
+                                                            </div>
+                                                            <span class="Polaris-Choice__Control_1u8vs">
+                                                                <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                    <input type="checkbox" class="toggle">
+                                                                </span>
+                                                            </span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="Polaris-Choice_j5gzq d-flex justify-content-between" for="PolarisRadioButton67">
+                                                            <div>
+                                                                <i data-feather="info" class="show-columns-item-icon"></i>
+                                                                <span class="Polaris-Choice__Label_2vd36">حالة الطلب</span>
+                                                            </div>
+                                                            <span class="Polaris-Choice__Control_1u8vs">
+                                                                <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                    <input type="checkbox" class="toggle">
+                                                                </span>
+                                                            </span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="Polaris-Choice_j5gzq d-flex justify-content-between" for="PolarisRadioButton68">
+                                                            <div>
+                                                                <i data-feather="user" class="show-columns-item-icon"></i>
+                                                                <span class="Polaris-Choice__Label_2vd36">الإسم</span>
+                                                            </div>
+                                                            <span class="Polaris-Choice__Control_1u8vs">
+                                                                <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                    <input type="checkbox" class="toggle">
+                                                                </span>
+                                                            </span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="Polaris-Choice_j5gzq d-flex justify-content-between" for="PolarisRadioButton68">
+                                                            <div>
+                                                                <i data-feather="phone" class="show-columns-item-icon"></i>
+                                                                <span class="Polaris-Choice__Label_2vd36">الهاتف</span>
+                                                            </div>
+                                                            <span class="Polaris-Choice__Control_1u8vs">
+                                                                <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                    <input type="checkbox" class="toggle">
+                                                                </span>
+                                                            </span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="Polaris-Choice_j5gzq d-flex justify-content-between" for="PolarisRadioButton69">
+                                                            <div>
+                                                                <i data-feather="info" class="show-columns-item-icon"></i>
+                                                                <span class="Polaris-Choice__Label_2vd36">المنتوجات</span>
+                                                            </div>
+                                                            <span class="Polaris-Choice__Control_1u8vs">
+                                                                <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                    <input type="checkbox" class="toggle">
+                                                                </span>
+                                                            </span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="Polaris-Choice_j5gzq d-flex justify-content-between" for="PolarisRadioButton70">
+                                                            <div>
+                                                                <i data-feather="headphones" class="show-columns-item-icon"></i>    
+                                                                <span class="Polaris-Choice__Label_2vd36">عميل الإتصال</span>
+                                                            </div>
+                                                            <span class="Polaris-Choice__Control_1u8vs">
+                                                                <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                    <input type="checkbox" class="toggle">
+                                                                </span>
+                                                            </span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="Polaris-Choice_j5gzq d-flex justify-content-between" for="PolarisRadioButton70">
+                                                            <div>
+                                                                <i data-feather="truck" class="show-columns-item-icon"></i> 
+                                                                <span class="Polaris-Choice__Label_2vd36">مندوب التوصيل</span>
+                                                            </div>
+                                                            <span class="Polaris-Choice__Control_1u8vs">
+                                                                <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                    <input type="checkbox" class="toggle">
+                                                                </span>
+                                                            </span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="Polaris-Choice_j5gzq d-flex justify-content-between" for="PolarisRadioButton71">
+                                                            <div>
+                                                                <i data-feather="phone-call" class="show-columns-item-icon"></i> 
+                                                                <span class="Polaris-Choice__Label_2vd36">محاولات الإتصال</span>
+                                                            </div>
+                                                            <span class="Polaris-Choice__Control_1u8vs">
+                                                                <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
+                                                                    <input type="checkbox" class="toggle">
+                                                                </span>
+                                                            </span>
+                                                        </label>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                            <ul class="Polaris-ChoiceList__Choices_15o76 polaris-list tx-right pr-3 mb-0">
-                                                <li>
-                                                    <label class="Polaris-Choice_j5gzq" for="PolarisRadioButton67">
-                                                        <span class="Polaris-Choice__Control_1u8vs">
-                                                            <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
-                                                                <input type="checkbox"/>
-                                                            </span>
-                                                        </span>
-                                                        <span class="Polaris-Choice__Label_2vd36">معلومات الطلب</span>
-                                                    </label>
-                                                </li>
-                                                <li>
-                                                    <label class="Polaris-Choice_j5gzq" for="PolarisRadioButton68">
-                                                        <span class="Polaris-Choice__Control_1u8vs">
-                                                            <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
-                                                                <input type="checkbox"/>
-                                                            </span>
-                                                        </span>
-                                                        <span class="Polaris-Choice__Label_2vd36">الإسم و رقم الهاتف</span>
-                                                    </label>
-                                                </li>
-                                                <li>
-                                                    <label class="Polaris-Choice_j5gzq" for="PolarisRadioButton69">
-                                                        <span class="Polaris-Choice__Control_1u8vs">
-                                                            <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
-                                                                <input type="checkbox"/>
-                                                            </span>
-                                                        </span>
-                                                        <span class="Polaris-Choice__Label_2vd36">المنتوجات</span>
-                                                    </label>
-                                                </li>
-                                                <li>
-                                                    <label class="Polaris-Choice_j5gzq" for="PolarisRadioButton70">
-                                                        <span class="Polaris-Choice__Control_1u8vs">
-                                                            <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
-                                                                <input type="checkbox"/>
-                                                            </span>
-                                                        </span>
-                                                        <span class="Polaris-Choice__Label_2vd36">الموظفة و الموزع</span>
-                                                    </label>
-                                                </li>
-                                                <li>
-                                                    <label class="Polaris-Choice_j5gzq" for="PolarisRadioButton71">
-                                                        <span class="Polaris-Choice__Control_1u8vs">
-                                                            <span class="Polaris-RadioButton_bsatr Polaris-RadioButton--newDesignLanguage_1rik8">
-                                                                <input type="checkbox"/>
-                                                            </span>
-                                                        </span>
-                                                        <span class="Polaris-Choice__Label_2vd36">محاولات الإتصال</span>
-                                                    </label>
-                                                </li>
-                                            </ul>
+                                            <div class="show-columns-dropdown-footer pt-2 px-2">
+                                                <div class="d-flex justify-content-between" style="cursor: auto">
+                                                    <button>إظهار الكل</button>
+                                                    <button>إخفاء الكل</button>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="dropdown mr-2">

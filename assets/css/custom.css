@@ -1,6 +1,11 @@
 /* Common CSS */
 @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
 
+
+::-webkit-scrollbar{
+    background: #CCC;
+    width: 6px;
+}
 body{
     background-color: #F5F5F5;
     overflow-x: hidden;
@@ -172,8 +177,31 @@ textarea.notes{
     width: 200px;
     overflow-y: scroll;
 }
+.show-columns-icon{
+    width: 16px;
+    height: 16px;
+}
+.show-columns-item-icon{
+    width: 16px;
+    height: 16px;
+}
 .show-columns-dropdown{
-    left: -34px !important;
+    left: -55px !important;
+    width: 180px !important;
+}
+.columns-container{
+    overflow-x: hidden;
+}
+.show-columns-dropdown-footer{
+    border-top: 1px #CCC solid;
+}
+.show-columns-dropdown-footer div button{
+    border: 1px #CCC solid;
+    color: #AAA;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 13px;
 }
 .polaris-header > span{
     font-size: 14px;
@@ -501,12 +529,46 @@ td.provider{
 }
 
 /* Sidebar CSS */
-
-.page-sidebar-menu ul li a{
-    font-size: 16px;
-}
-.page-sidebar-fixed .page-sidebar,
-.page-header-fixed .page-sidebar,
-.page-sidebar-fixed.page-header-fixed .page-sidebar{
-    padding-top: 10px;
-}
+  
+  input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+  }
+  input[type="checkbox"]:focus {
+    outline: 0;
+  }
+  
+  .toggle {
+    height: 18px;
+    width: 30px;
+    border-radius: 16px;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    border: 2px solid #AAA;
+    background: #CCC;
+    transition: all 0.2s ease;
+  }
+  .toggle:after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FFF;
+    box-shadow: 0 1px 2px rgba(44, 44, 44, 0.2);
+    transition: all 0.2s cubic-bezier(0.5, 0.1, 0.75, 1.35);
+  }
+  .toggle:checked {
+    border-color: #666;
+    background-color: #000;
+  }
+  .toggle:checked:after {
+    transform: translatex(10px);
+  }
+  
