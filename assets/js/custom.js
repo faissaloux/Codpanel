@@ -45,41 +45,49 @@ $(() => {
     })
 
     $("tr.active").css("backgroundColor", "red");
-})
 
 
-// Important script for Today Moday datepicker
-$(function(){
-    'use strict'
 
-    $('#datepicker1').datepicker();
-    $('#datepicker2').datepicker();
-    
-    var dateFormat = 'mm/dd/yy',
-    from = $('#dateFrom')
-    .datepicker({
-        defaultDate: '+1w',
-        numberOfMonths: 2
-    })
-    .on('change', function() {
-        to.datepicker('option','minDate', getDate( this ) );
-    }),
-    to = $('#dateTo').datepicker({
-        defaultDate: '+1w',
-        numberOfMonths: 2
-    })
-    .on('change', function() {
-        from.datepicker('option','maxDate', getDate( this ) );
+
+    // Important for Today datepicker
+    $(function() {
+        var isRtl = $('body').attr('dir') === 'rtl' || $('html').attr('dir') === 'rtl';
+        
+        // Button         
+        var start = moment().subtract(29, 'days');
+        var end = moment();
+        
+        function cb(start, end) {
+        $('#dashboardDate').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+        }         
+        $('#dashboardDate').daterangepicker({
+        startDate: start,
+        endDate: end,
+        ranges: {
+        'Today': [moment(), moment()],
+        'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+        'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+        'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+        'This Month': [moment().startOf('month'), moment().endOf('month')],
+        'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+        },
+        opens: (isRtl ? 'left' : 'right')
+        }, cb);         
+        cb(start, end);         
+        
+        // Replace icons         
+        $('#dashboardDate').each(function() {
+        var obj = $(this).data('daterangepicker');
+        var _updateCalendars = obj.updateCalendars;         
+        obj.updateCalendars = function() {
+        // Call original function
+        _updateCalendars.call(obj)         
+        // Replace icons
+        obj.container.find('.prev > i').each(function() { this.className = 'ion ion-ios-arrow-back' });
+        obj.container.find('.next > i').each(function() { this.className = 'ion ion-ios-arrow-forward' });
+        obj.container.find('.daterangepicker_input > i').each(function() { this.className = 'ion ion-md-calendar' });
+        obj.container.find('.calendar-time > i').each(function() { this.className = 'ion ion-md-time' });
+        };
+        });
     });
-    
-    function getDate( element ) {
-        var date;
-        try {
-        date = $.datepicker.parseDate( dateFormat, element.value );
-        } catch( error ) {
-        date = null;
-        }
-    
-        return date;
-    }
-});
+})

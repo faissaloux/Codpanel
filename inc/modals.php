@@ -722,69 +722,6 @@
 <!--/ Export modal End -->
 
 <!--================================-->
-<!-- Today modal Start -->
-<!--================================-->
-<div    class="modal fade"
-        id="todayModalCenter"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="todayModalCenterTitle"
-        aria-hidden="true">
-    <div    class="modal-dialog modal-dialog-centered modal-large"
-            role="document">
-        <div class="modal-content">
-            <div class="pb-2 pt-4">
-                <div class="form-group col-12">
-                    <label for="date" class="float-right">
-                        <b>نطاق التاريخ</b>
-                    </label>
-                    <select class="custom-select">
-                        <option value="">تحديد</option>
-                        <option value="Today">اليوم</option>
-                        <option value="Yesterday">أمس</option>
-                        <option value="Last 7 days">آخر 7 أيام</option>
-                        <option value="Last 30 days">آخر 30 يوما</option>
-                        <option value="Last 90 days">آخر 90 يوما</option>
-                        <option value="Last month">الشهر الماضي</option>
-                        <option value="Last year">السنة الماضية</option>
-                        <option value="Week to date">أسبوع حتى الآن</option>
-                        <option value="Month to date">شهر حتى الآن</option>
-                        <option value="Quarter to date">ربع حتى الآن</option>
-                        <option value="Year to date">سنة حتى الآن</option>
-                        <option value="3rd Quarter (2020)">الربع الثالث (2020)</option>
-                        <option value="2nd Quarter (2020)">الربع الثاني (2020)</option>
-                        <option value="1st Quarter (2020)">الربع الأول (2020)</option>
-                        <option value="4th Quarter (2019)">الربع الرابع (2019)</option>
-                    </select>
-                </div>
-                <div class="form-group d-flex">
-                    <div class="form-group col">
-                        <label for="date" class="float-right">
-                            <b>بدءا</b>
-                        </label>
-                        <input type="text" class="form-control" placeholder="من" id="datepicker1">
-                    </div>
-                    <div class="form-group col">
-                        <label for="date" class="float-right">
-                            <b>انتهاء</b>
-                        </label>
-                        <input type="text" class="form-control" placeholder="إلى" id="datepicker2">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer justify-content-start">
-                <button type="submit" class="btn btn-success">تطبيق</button>
-                <button type="button" class="btn btn-default mr-2" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">إلغاء</span>
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--/ Today modal End -->
-
-<!--================================-->
 <!-- Add new city modal Start -->
 <!--================================-->
 <div    class="modal fade"

@@ -28,6 +28,7 @@
                 <!-- Page Inner Start -->
                 <!--================================-->
                 <div class="page-inner mt-4">
+
                     <ul class="nav nav-tabs type-list" id="myTab" role="tablist">
                         <li class="nav-item">
                             <a  class="nav-link active"
@@ -448,12 +449,7 @@
                                         </div>
                                     </div>
                                     <div class="dropdown mr-2">
-                                        <a  class="table-top-btn col btn btn-default-custom sort-container d-flex align-items-center"
-                                            data-toggle="modal"
-                                            data-target="#todayModalCenter">
-                                            <i class="mdi mdi-calendar-today"></i>
-                                            <span class="mr-2">اليوم</span>
-                                        </a>
+                                        <button id="dashboardDate" class="btn btn-default dropdown-toggle mr-2 d-none d-md-block pd-y-8-force"></button>
                                     </div>
                                 </div>
                             </div>
