@@ -117,22 +117,22 @@
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active pd-15" id="all" role="tabpanel" aria-labelledby="all-tab">
-                            dlewl
+                            <!-- all goes here -->
                         </div>
                         <div class="tab-pane fade pd-15" id="new" role="tabpanel" aria-labelledby="new-tab">
-                            Nulla est ullamco ut irure incididunt nulla Lorem Lorem minim irure officia enim reprehenderit. Magna duis labore cillum sint adipisicing exercitation ipsum. Nostrud ut anim non exercitation velit laboris fugiat cupidatat. Commodo esse dolore fugiat sint velit ullamco magna consequat voluptate minim amet aliquip ipsum aute laboris nisi. Labore labore veniam irure irure ipsum pariatur mollit magna in cupidatat dolore magna irure esse tempor ad mollit. Dolore commodo nulla minim amet ipsum officia consectetur amet ullamco voluptate nisi commodo ea sit eu.
+                            <!-- new goes here -->
                         </div>
                         <div class="tab-pane fade pd-15" id="canceled" role="tabpanel" aria-labelledby="canceled-tab">
-                            Sint sit mollit irure quis est nostrud cillum consequat Lorem esse do quis dolor esse fugiat sunt do. Eu ex commodo veniam Lorem aliquip laborum occaecat qui Lorem esse mollit dolore anim cupidatat. Deserunt officia id Lorem nostrud aute id commodo elit eiusmod enim irure amet eiusmod qui reprehenderit nostrud tempor. Fugiat ipsum excepteur in aliqua non et quis aliquip ad irure in labore cillum elit enim. Consequat aliquip incididunt ipsum et minim laborum laborum laborum et cillum labore. Deserunt adipisicing cillum id nulla minim nostrud labore eiusmod et amet. Laboris consequat consequat commodo non ut non aliquip reprehenderit nulla anim occaecat. Sunt sit ullamco reprehenderit irure ea ullamco Lorem aute nostrud magna.
+                            <!-- Canceled goes here -->
                         </div>
                         <div class="tab-pane fade pd-15" id="unanswered" role="tabpanel" aria-labelledby="unanswered-tab">
-                            Unanswered goes here
+                            <!-- Unanswered goes here -->
                         </div>
                         <div class="tab-pane fade pd-15" id="confirmation" role="tabpanel" aria-labelledby="confirmation-tab">
-                            Confirmation goes here
+                            <!-- Confirmation goes here -->
                         </div>
                         <div class="tab-pane fade pd-15" id="recall" role="tabpanel" aria-labelledby="recall-tab">
-                            Recall goes here
+                            <!-- Recall goes here -->
                         </div>
                     </div>
                     <div>
@@ -500,7 +500,7 @@
                                             </div>
                                             <div class="deep-search">
                                                 <div class="row">
-                                                    <div class="col-md-4">
+                                                    <div class="col-md-3">
                                                         <div class="form-group ">
                                                             <label for="city_selector" class="float-right">
                                                                 <b>المدينة</b>
@@ -513,7 +513,7 @@
                                                             </select>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-4">
+                                                    <div class="col-md-3">
                                                         <div class="form-group ">
                                                             <label for="employee_selector" class="float-right" >
                                                                 <b>عميل الإتصال</b>
@@ -533,7 +533,7 @@
                                                             </select>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-4">
+                                                    <div class="col-md-3">
                                                         <div class="form-group">
                                                             <label for="provider" class="float-right">
                                                                 <b>مندوب التوصيل</b>
@@ -555,36 +555,12 @@
                                                             </select>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-md-6">
+                                                    <div class="col-md-3">
                                                         <div class="form-group">
                                                             <label for="product" class="float-right">
                                                                 <b>المنتوج</b>
                                                             </label>
                                                             <select class="form-control" name="product">
-                                                                <option></option>
-                                                                <option value="Axa assurance maroc">Axa assurance maroc</option>
-                                                                <option value="Allianz">Allianz</option>
-                                                                <option value="Saham assurance">Saham assurance</option>
-                                                                <option value="Sanad">Sanad</option>
-                                                                <option value="Mamda">Mamda</option>
-                                                                <option value="Mcma">Mcma</option>
-                                                                <option value="Matu">Matu</option>
-                                                                <option value="Cat">Cat</option>
-                                                                <option value="Atlanta">Atlanta</option>
-                                                                <option value="wafa assurence">wafa assurence</option>
-                                                                <option value="JUDICIARE">JUDICIARE</option>
-                                                                <option value="CAE">CAE</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <label for="status" class="float-right">
-                                                                <b>الحالة</b>
-                                                            </label>
-                                                            <select class="form-control" name="status">
                                                                 <option></option>
                                                                 <option value="Axa assurance maroc">Axa assurance maroc</option>
                                                                 <option value="Allianz">Allianz</option>
