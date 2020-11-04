@@ -773,7 +773,11 @@
                         </div>
                         <div class="d-flex justify-content-center mt-4">
                             <p class="row col p-0">
-                                <button type="submit" class="btn btn-success btn-block">إضافة مدينة جديدة</button>
+                                <button type="submit" 
+                                        class="btn btn-success btn-block add-new-city-submit"
+                                >
+                                    إضافة مدينة جديدة
+                                </button>
                             </p>
                         </div>
                     </div>

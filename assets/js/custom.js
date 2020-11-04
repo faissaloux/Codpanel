@@ -46,7 +46,10 @@ $(() => {
 
     $("tr.active").css("backgroundColor", "red");
 
-
+    $(".add-new-city-submit").click(()=>{
+        UIkit.notification({message: 'City added successfully', pos: 'bottom-left'});
+        $(".uk-notification").css("z-index", "2000");
+    })
 
 
     // Important for Today datepicker
