@@ -1,7 +1,4 @@
 $(() => {
-    $(".show-columns-container").click(()=>{
-        $(".show-columns-icon").css("color", "#007bff");
-    })
 
     const searchForm = $(".search-form-panel");
     const deepSearch = $(".deep-search");

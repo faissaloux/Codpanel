@@ -528,6 +528,10 @@ td.provider{
   input[type="checkbox"]:focus {
     outline: 0;
   }
+
+  div.show-columns-container.show button .show-columns-icon{
+    color: #007bff;
+  }
   
   .toggle {
     height: 18px;
