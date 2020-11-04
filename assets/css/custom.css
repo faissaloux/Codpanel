@@ -14,6 +14,13 @@ body{
 a{
     font-weight: 400;
 }
+.btn-default-custom{
+    padding: 8px 20px;
+    background: #FFF;
+    color: #4E5155;
+    border-radius: 2px;
+    border: 1px solid rgba(70, 95, 145, 0.2);
+}
 select{
     cursor: pointer;
 }
@@ -82,6 +89,17 @@ input[type="checkbox"]{
 .btn-top > a{
     font-size: 16px;
     width: 175px;
+}
+.sort-container{
+    height: 36px;
+    border: none;
+    border-radius: 0;
+}
+.sort-dropdown{
+    left: -117px !important;
+    height: 200px;
+    width: 200px;
+    overflow-y: scroll;
 }
 .sm-break{
     display: none;
@@ -165,18 +183,6 @@ label > b {
 textarea.notes{
     height: 100px;
 }
-.sort-container{
-    background-color: #2D54EE;
-    height: 36px;
-    border: none;
-    border-radius: 0;
-}
-.sort-dropdown{
-    left: -117px !important;
-    height: 200px;
-    width: 200px;
-    overflow-y: scroll;
-}
 .show-columns-icon{
     width: 16px;
     height: 16px;
@@ -229,8 +235,9 @@ textarea.notes{
     background-color: #F5F5F5 !important;
 }
 .pagination-select{
-    background-color: #2D54EE;
-    color: #FFF;
+    position: absolute;
+    left: 0;
+    top: 0;
     border: none;
     outline: none;
     height: 36px;
@@ -239,32 +246,25 @@ textarea.notes{
     padding-left: 0;
     cursor: pointer;
 }
+.limit-container-right{
+    position: relative;
+    background-color: #FFF;
+}
 .limit-container-right,
 .order-container-right,
 .show-columns-container{
-    background-color: #2D54EE;
     height: 36px;
-}
-.limit-container-right,
-.order-container-right > span{
-    color: #FFF;
 }
 .btn-filter, .btn-reload{
     padding: 5px 8px;
     height: 36px;
-    background-color: #2D54EE;
-    color: #FFF;
     cursor: pointer;
 }
 .btn-add-order{
-    background-color: #221ECC;
-    color: #FFF !important;
     padding: 0 10px;
     height: 36px;
 }
 .btn-import{
-    background-color: #2D54EE;
-    color: #FFF !important;
     padding: 0 10px;
     height: 36px;
 }
@@ -360,18 +360,6 @@ td.city{
     width: 50px;
     height: 50px;
     overflow: hidden;
-}
-.sort-container{
-    background-color: #2D54EE;
-    height: 36px;
-    border: none;
-    border-radius: 0;
-}
-.sort-dropdown{
-    left: -117px !important;
-    height: 200px;
-    width: 200px;
-    overflow-y: scroll;
 }
 @media(max-width: 1198px){
     .sort-dropdown{
@@ -530,7 +518,7 @@ td.provider{
 
 /* Sidebar CSS */
   
-  input[type="checkbox"] {
+  input[type="checkbox"].toggle {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -548,14 +536,13 @@ td.provider{
     display: inline-block;
     position: relative;
     margin: 0;
-    border: 2px solid #AAA;
     background: #CCC;
     transition: all 0.2s ease;
   }
   .toggle:after {
     content: "";
     position: absolute;
-    top: 2px;
+    top: 3px;
     left: 2px;
     width: 10px;
     height: 10px;
@@ -566,7 +553,7 @@ td.provider{
   }
   .toggle:checked {
     border-color: #666;
-    background-color: #000;
+    background-color: #007bff;
   }
   .toggle:checked:after {
     transform: translatex(10px);

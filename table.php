@@ -138,15 +138,15 @@
                         <div class="d-flex justify-content-between">
                             <div class="col-6 pl-0">
                                 <div class="d-flex align-items-center limit-container">
-                                    <div class="btn-reload mr-2">
+                                    <div class="btn-reload btn btn-default-custom mr-2">
                                         <i class="mdi mdi-reload"></i>
                                     </div>
-                                    <div class="btn-filter mr-2">
+                                    <div class="btn-filter btn btn-default-custom mr-2">
                                         <i class="mdi mdi-filter-variant"></i>
                                     </div>
-                                    <div class="limit-container-right mr-2 d-flex">
-                                        <span class="m-2 col">حد:</span>
-                                        <select name="" id="" class="p-0 pagination-select">
+                                    <div class="limit-container-right col-2 pr-0 mr-2 d-flex">
+                                        <span class="m-2 col text-right">حد:</span>
+                                        <select name="" id="" class="p-0 pagination-select btn btn-default-custom">
                                             <option value="25">25</option>
                                             <option value="50">50</option>
                                             <option value="100">100</option>
@@ -156,13 +156,13 @@
                                         </select>
                                     </div>
                                     <div class="dropdown mr-2">
-                                        <button class="btn btn-secondary sort-container d-flex align-items-center"
+                                        <button class="btn btn-default-custom sort-container d-flex align-items-center"
                                                 type="button"
                                                 id="dropdownMenuButton"
                                                 data-toggle="dropdown"
                                                 aria-haspopup="true"
                                                 aria-expanded="false">
-                                            <i class="mdi mdi-sort text-white"></i>
+                                            <i class="mdi mdi-sort text-dark"></i>
                                             <span class="mr-2">فرز</span>
                                         </button>
                                         <div    class="dropdown-menu sort-dropdown mt-2"
@@ -307,7 +307,7 @@
                                         </div>
                                     </div>
                                     <div class="d-flex align-items-center btn-container show-columns-container mr-2">
-                                        <button class="btn btn-secondary show-columns-container d-flex align-items-center border-none px-2"
+                                        <button class="btn btn-default-custom show-columns-container d-flex align-items-center border-none px-2"
                                                 type="button"
                                                 id="showColumnsdropdownMenuButton"
                                                 data-toggle="dropdown"
@@ -448,8 +448,7 @@
                                         </div>
                                     </div>
                                     <div class="dropdown mr-2">
-                                        <a  class="table-top-btn col btn btn-secondary sort-container d-flex align-items-center"
-                                            style="color: white"
+                                        <a  class="table-top-btn col btn btn-default-custom sort-container d-flex align-items-center"
                                             data-toggle="modal"
                                             data-target="#todayModalCenter">
                                             <i class="mdi mdi-calendar-today"></i>
@@ -461,7 +460,7 @@
                             <div class="col-6 pr-0">
                                 <div class="d-flex justify-content-end">
                                     <div class="btn-container ml-2">
-                                        <a  class="btn-import table-top-btn d-flex align-items-center"
+                                        <a  class="btn-import table-top-btn btn btn-default-custom d-flex align-items-center"
                                             data-toggle="modal"
                                             data-target="#importModalCenter">
                                             <i class="mdi mdi-download"></i>
@@ -469,7 +468,7 @@
                                         </a>
                                     </div>
                                     <div class="btn-container">
-                                        <a  class="btn-add-order table-top-btn d-flex align-items-center"
+                                        <a  class="btn-add-order table-top-btn btn btn-default-custom d-flex align-items-center"
                                             data-toggle="modal"
                                             data-target="#addOrderModalCenter">
                                             <i class="mdi mdi-plus"></i>
